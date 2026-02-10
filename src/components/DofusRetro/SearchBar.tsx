@@ -20,14 +20,16 @@ export default function SearchBar({
 	const [shaking, setShaking] = useState(false);
 	const inputRef = useRef<HTMLInputElement>(null);
 
+	const available = monsters
+		.filter((m) => !usedIds.has(m.id))
+		.sort((a, b) => a.name.localeCompare(b.name));
+
 	const filtered =
 		query.length > 0
-			? monsters.filter(
-					(m) =>
-						!usedIds.has(m.id) &&
-						m.name.toLowerCase().includes(query.toLowerCase()),
+			? available.filter((m) =>
+					m.name.toLowerCase().includes(query.toLowerCase()),
 				)
-			: [];
+			: available;
 
 	useEffect(() => {
 		setHighlightIndex(0);
@@ -135,7 +137,7 @@ export default function SearchBar({
 			</div>
 			{showDropdown && filtered.length > 0 && (
 				<ul className="search-dropdown">
-					{filtered.slice(0, 8).map((m, i) => (
+					{filtered.map((m, i) => (
 						<li
 							key={m.id}
 							className={i === highlightIndex ? "highlighted" : ""}
