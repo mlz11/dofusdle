@@ -291,6 +291,16 @@ body::before {
 	cursor: pointer;
 	text-align: left;
 	transition: background 0.15s;
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.search-dropdown-img {
+	width: 28px;
+	height: 28px;
+	object-fit: contain;
+	flex-shrink: 0;
 }
 
 .search-dropdown li:hover,
@@ -343,6 +353,7 @@ body::before {
 	min-width: 110px;
 	max-width: 110px;
 	display: flex;
+	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 	font-weight: 700;
@@ -350,6 +361,13 @@ body::before {
 	background: var(--bg-card);
 	border-radius: 6px;
 	padding: 8px 6px;
+	gap: 4px;
+}
+
+.guess-monster-img {
+	width: 36px;
+	height: 36px;
+	object-fit: contain;
 	word-break: break-word;
 }
 
@@ -617,6 +635,16 @@ body::before {
 		min-width: 70px;
 		max-width: 70px;
 		font-size: 0.7rem;
+	}
+
+	.guess-monster-img {
+		width: 26px;
+		height: 26px;
+	}
+
+	.search-dropdown-img {
+		width: 22px;
+		height: 22px;
 	}
 
 	.attribute-cell {

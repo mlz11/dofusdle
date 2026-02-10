@@ -142,6 +142,9 @@ export default function SearchBar({
 							onMouseDown={() => handleSelect(m)}
 							onMouseEnter={() => setHighlightIndex(i)}
 						>
+							{m.image && (
+								<img src={m.image} alt="" className="search-dropdown-img" />
+							)}
 							{m.name}
 						</li>
 					))}

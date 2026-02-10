@@ -8,7 +8,7 @@
 		"niveau_max": 6,
 		"pv_min": 10,
 		"pv_max": 30,
-		"image": "https://solomonk.fr/img/monsters/artworks/1563.svg",
+		"image": "/img/monsters/1563.svg",
 		"couleur": "Bleu"
 	},
 	{
@@ -20,7 +20,7 @@
 		"niveau_max": 10,
 		"pv_min": 20,
 		"pv_max": 80,
-		"image": "https://solomonk.fr/img/monsters/artworks/1568.svg",
+		"image": "/img/monsters/1568.svg",
 		"couleur": "Vert"
 	},
 	{
@@ -32,7 +32,7 @@
 		"niveau_max": 12,
 		"pv_min": 40,
 		"pv_max": 60,
-		"image": "https://solomonk.fr/img/monsters/artworks/1567.svg",
+		"image": "/img/monsters/1567.svg",
 		"couleur": "Orange"
 	},
 	{
@@ -44,7 +44,7 @@
 		"niveau_max": 39,
 		"pv_min": 200,
 		"pv_max": 400,
-		"image": "https://solomonk.fr/img/monsters/artworks/1001.svg",
+		"image": "/img/monsters/1001.svg",
 		"couleur": "Marron"
 	},
 	{
@@ -56,7 +56,7 @@
 		"niveau_max": 15,
 		"pv_min": 80,
 		"pv_max": 140,
-		"image": "https://solomonk.fr/img/monsters/artworks/1569.svg",
+		"image": "/img/monsters/1569.svg",
 		"couleur": "Marron / Jaune"
 	},
 	{
@@ -68,7 +68,7 @@
 		"niveau_max": 3,
 		"pv_min": 10,
 		"pv_max": 40,
-		"image": "https://solomonk.fr/img/monsters/artworks/1564.svg",
+		"image": "/img/monsters/1564.svg",
 		"couleur": "Noir"
 	},
 	{
@@ -80,7 +80,7 @@
 		"niveau_max": 35,
 		"pv_min": 150,
 		"pv_max": 250,
-		"image": "https://solomonk.fr/img/monsters/artworks/1012.svg",
+		"image": "/img/monsters/1012.svg",
 		"couleur": "Vert / Violet"
 	},
 	{
@@ -92,7 +92,7 @@
 		"niveau_max": 40,
 		"pv_min": 200,
 		"pv_max": 320,
-		"image": "https://solomonk.fr/img/monsters/artworks/1014.svg",
+		"image": "/img/monsters/1014.svg",
 		"couleur": "Blanc"
 	},
 	{
@@ -104,7 +104,7 @@
 		"niveau_max": 9,
 		"pv_min": 15,
 		"pv_max": 60,
-		"image": "https://solomonk.fr/img/monsters/artworks/1062.svg",
+		"image": "/img/monsters/1062.svg",
 		"couleur": "Bleu"
 	},
 	{
@@ -116,7 +116,7 @@
 		"niveau_max": 14,
 		"pv_min": 60,
 		"pv_max": 140,
-		"image": "https://solomonk.fr/img/monsters/artworks/1064.svg",
+		"image": "/img/monsters/1064.svg",
 		"couleur": "Menthe"
 	},
 	{
@@ -128,7 +128,7 @@
 		"niveau_max": 30,
 		"pv_min": 180,
 		"pv_max": 300,
-		"image": "https://solomonk.fr/img/monsters/artworks/1066.svg",
+		"image": "/img/monsters/1066.svg",
 		"couleur": "Fraise"
 	},
 	{
@@ -140,7 +140,7 @@
 		"niveau_max": 58,
 		"pv_min": 1000,
 		"pv_max": 1400,
-		"image": "https://solomonk.fr/img/monsters/artworks/1061.svg",
+		"image": "/img/monsters/1061.svg",
 		"couleur": "Bleu"
 	},
 	{
@@ -152,7 +152,7 @@
 		"niveau_max": 7,
 		"pv_min": 30,
 		"pv_max": 60,
-		"image": "https://solomonk.fr/img/monsters/artworks/1565.svg",
+		"image": "/img/monsters/1565.svg",
 		"couleur": "Rouge"
 	},
 	{
@@ -164,7 +164,7 @@
 		"niveau_max": 2,
 		"pv_min": 10,
 		"pv_max": 42,
-		"image": "https://solomonk.fr/img/monsters/artworks/1572.svg",
+		"image": "/img/monsters/1572.svg",
 		"couleur": "Orange / Bleu"
 	},
 	{
@@ -176,7 +176,7 @@
 		"niveau_max": 20,
 		"pv_min": 70,
 		"pv_max": 110,
-		"image": "https://solomonk.fr/img/monsters/artworks/1007.svg",
+		"image": "/img/monsters/1007.svg",
 		"couleur": "Blanc"
 	},
 	{
@@ -188,7 +188,7 @@
 		"niveau_max": 20,
 		"pv_min": 120,
 		"pv_max": 160,
-		"image": "https://solomonk.fr/img/monsters/artworks/1050.svg",
+		"image": "/img/monsters/1050.svg",
 		"couleur": "Beige / Blanc"
 	},
 	{
@@ -200,7 +200,7 @@
 		"niveau_max": 25,
 		"pv_min": 120,
 		"pv_max": 140,
-		"image": "https://solomonk.fr/img/monsters/artworks/1051.svg",
+		"image": "/img/monsters/1051.svg",
 		"couleur": "Noir"
 	},
 	{
@@ -212,7 +212,7 @@
 		"niveau_max": 13,
 		"pv_min": 75,
 		"pv_max": 95,
-		"image": "https://solomonk.fr/img/monsters/artworks/1054.svg",
+		"image": "/img/monsters/1054.svg",
 		"couleur": "Noir"
 	},
 	{
@@ -224,8 +224,7 @@
 		"niveau_max": 43,
 		"pv_min": 170,
 		"pv_max": 490,
-		"image": "https://solomonk.fr/img/monsters/artworks/1509.svg",
-		"couleur": ""
+		"image": "/img/monsters/1509.svg"
 	},
 	{
 		"id": 72,
@@ -236,7 +235,7 @@
 		"niveau_max": 13,
 		"pv_min": 55,
 		"pv_max": 75,
-		"image": "https://solomonk.fr/img/monsters/artworks/1055.svg",
+		"image": "/img/monsters/1055.svg",
 		"couleur": "Bleu"
 	},
 	{
@@ -248,7 +247,7 @@
 		"niveau_max": 31,
 		"pv_min": 120,
 		"pv_max": 220,
-		"image": "https://solomonk.fr/img/monsters/artworks/1004.svg",
+		"image": "/img/monsters/1004.svg",
 		"couleur": "Vert / Marron"
 	},
 	{
@@ -260,7 +259,7 @@
 		"niveau_max": 58,
 		"pv_min": 400,
 		"pv_max": 800,
-		"image": "https://solomonk.fr/img/monsters/artworks/1025.svg",
+		"image": "/img/monsters/1025.svg",
 		"couleur": "Jaune"
 	},
 	{
@@ -272,7 +271,7 @@
 		"niveau_max": 68,
 		"pv_min": 400,
 		"pv_max": 600,
-		"image": "https://solomonk.fr/img/monsters/artworks/1032.svg",
+		"image": "/img/monsters/1032.svg",
 		"couleur": "Blanc"
 	},
 	{
@@ -284,7 +283,7 @@
 		"niveau_max": 8,
 		"pv_min": 20,
 		"pv_max": 60,
-		"image": "https://solomonk.fr/img/monsters/artworks/1561.svg",
+		"image": "/img/monsters/1561.svg",
 		"couleur": "Blanc / Rouge"
 	},
 	{
@@ -296,7 +295,7 @@
 		"niveau_max": 9,
 		"pv_min": 25,
 		"pv_max": 55,
-		"image": "https://solomonk.fr/img/monsters/artworks/1560.svg",
+		"image": "/img/monsters/1560.svg",
 		"couleur": "Jaune / Blanc"
 	},
 	{
@@ -308,7 +307,7 @@
 		"niveau_max": 30,
 		"pv_min": 120,
 		"pv_max": 240,
-		"image": "https://solomonk.fr/img/monsters/artworks/1041.svg",
+		"image": "/img/monsters/1041.svg",
 		"couleur": "Blanc / Jaune"
 	},
 	{
@@ -320,7 +319,7 @@
 		"niveau_max": 58,
 		"pv_min": 400,
 		"pv_max": 800,
-		"image": "https://solomonk.fr/img/monsters/artworks/1026.svg",
+		"image": "/img/monsters/1026.svg",
 		"couleur": "Noir"
 	},
 	{
@@ -332,7 +331,7 @@
 		"niveau_max": 30,
 		"pv_min": 120,
 		"pv_max": 240,
-		"image": "https://solomonk.fr/img/monsters/artworks/1042.svg",
+		"image": "/img/monsters/1042.svg",
 		"couleur": "Rouge"
 	},
 	{
@@ -344,7 +343,7 @@
 		"niveau_max": 30,
 		"pv_min": 120,
 		"pv_max": 240,
-		"image": "https://solomonk.fr/img/monsters/artworks/1043.svg",
+		"image": "/img/monsters/1043.svg",
 		"couleur": "Bleu"
 	},
 	{
@@ -356,7 +355,7 @@
 		"niveau_max": 120,
 		"pv_min": 1250,
 		"pv_max": 1650,
-		"image": "https://solomonk.fr/img/monsters/artworks/1063.svg",
+		"image": "/img/monsters/1063.svg",
 		"couleur": "Vert"
 	},
 	{
@@ -368,7 +367,7 @@
 		"niveau_max": 170,
 		"pv_min": 1500,
 		"pv_max": 1900,
-		"image": "https://solomonk.fr/img/monsters/artworks/1065.svg",
+		"image": "/img/monsters/1065.svg",
 		"couleur": "Rouge"
 	},
 	{
@@ -380,7 +379,7 @@
 		"niveau_max": 68,
 		"pv_min": 400,
 		"pv_max": 600,
-		"image": "https://solomonk.fr/img/monsters/artworks/1029.svg",
+		"image": "/img/monsters/1029.svg",
 		"couleur": "Jaune"
 	},
 	{
@@ -392,7 +391,7 @@
 		"niveau_max": 68,
 		"pv_min": 400,
 		"pv_max": 600,
-		"image": "https://solomonk.fr/img/monsters/artworks/1031.svg",
+		"image": "/img/monsters/1031.svg",
 		"couleur": "Bleu"
 	},
 	{
@@ -404,7 +403,7 @@
 		"niveau_max": 68,
 		"pv_min": 400,
 		"pv_max": 600,
-		"image": "https://solomonk.fr/img/monsters/artworks/1030.svg",
+		"image": "/img/monsters/1030.svg",
 		"couleur": "Noir"
 	},
 	{
@@ -416,7 +415,7 @@
 		"niveau_max": 58,
 		"pv_min": 400,
 		"pv_max": 800,
-		"image": "https://solomonk.fr/img/monsters/artworks/1028.svg",
+		"image": "/img/monsters/1028.svg",
 		"couleur": "Blanc"
 	},
 	{
@@ -428,7 +427,7 @@
 		"niveau_max": 78,
 		"pv_min": 800,
 		"pv_max": 1000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1034.svg",
+		"image": "/img/monsters/1034.svg",
 		"couleur": "Noir"
 	},
 	{
@@ -440,7 +439,7 @@
 		"niveau_max": 78,
 		"pv_min": 800,
 		"pv_max": 1000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1036.svg",
+		"image": "/img/monsters/1036.svg",
 		"couleur": "Blanc"
 	},
 	{
@@ -452,7 +451,7 @@
 		"niveau_max": 78,
 		"pv_min": 800,
 		"pv_max": 1000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1033.svg",
+		"image": "/img/monsters/1033.svg",
 		"couleur": "Jaune"
 	},
 	{
@@ -464,7 +463,7 @@
 		"niveau_max": 78,
 		"pv_min": 800,
 		"pv_max": 1000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1035.svg",
+		"image": "/img/monsters/1035.svg",
 		"couleur": "Bleu"
 	},
 	{
@@ -476,7 +475,7 @@
 		"niveau_max": 13,
 		"pv_min": 100,
 		"pv_max": 120,
-		"image": "https://solomonk.fr/img/monsters/artworks/1053.svg",
+		"image": "/img/monsters/1053.svg",
 		"couleur": "Marron"
 	},
 	{
@@ -488,7 +487,7 @@
 		"niveau_max": 43,
 		"pv_min": 300,
 		"pv_max": 500,
-		"image": "https://solomonk.fr/img/monsters/artworks/1052.svg",
+		"image": "/img/monsters/1052.svg",
 		"couleur": "Beige / Blanc"
 	},
 	{
@@ -500,7 +499,7 @@
 		"niveau_max": 6,
 		"pv_min": 8,
 		"pv_max": 24,
-		"image": "https://solomonk.fr/img/monsters/artworks/1558.svg",
+		"image": "/img/monsters/1558.svg",
 		"couleur": "Jaune"
 	},
 	{
@@ -512,7 +511,7 @@
 		"niveau_max": 43,
 		"pv_min": 700,
 		"pv_max": 780,
-		"image": "https://solomonk.fr/img/monsters/artworks/1056.svg",
+		"image": "/img/monsters/1056.svg",
 		"couleur": "Blanc / Bleu"
 	},
 	{
@@ -524,7 +523,7 @@
 		"niveau_max": 15,
 		"pv_min": 60,
 		"pv_max": 120,
-		"image": "https://solomonk.fr/img/monsters/artworks/1566.svg",
+		"image": "/img/monsters/1566.svg",
 		"couleur": "Blanc"
 	},
 	{
@@ -536,7 +535,7 @@
 		"niveau_max": 80,
 		"pv_min": 700,
 		"pv_max": 1200,
-		"image": "https://solomonk.fr/img/monsters/artworks/1069.svg",
+		"image": "/img/monsters/1069.svg",
 		"couleur": "Marron"
 	},
 	{
@@ -548,7 +547,7 @@
 		"niveau_max": 24,
 		"pv_min": 60,
 		"pv_max": 120,
-		"image": "https://solomonk.fr/img/monsters/artworks/1020.svg",
+		"image": "/img/monsters/1020.svg",
 		"couleur": "Orange"
 	},
 	{
@@ -560,7 +559,7 @@
 		"niveau_max": 18,
 		"pv_min": 120,
 		"pv_max": 200,
-		"image": "https://solomonk.fr/img/monsters/artworks/1562.svg",
+		"image": "/img/monsters/1562.svg",
 		"couleur": "Marron"
 	},
 	{
@@ -572,7 +571,7 @@
 		"niveau_max": 37,
 		"pv_min": 300,
 		"pv_max": 500,
-		"image": "https://solomonk.fr/img/monsters/artworks/1008.svg",
+		"image": "/img/monsters/1008.svg",
 		"couleur": "Gris"
 	},
 	{
@@ -584,7 +583,7 @@
 		"niveau_max": 140,
 		"pv_min": 5000,
 		"pv_max": 7000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1071.svg",
+		"image": "/img/monsters/1071.svg",
 		"couleur": "Blanc / Violet"
 	},
 	{
@@ -596,7 +595,7 @@
 		"niveau_max": 42,
 		"pv_min": 200,
 		"pv_max": 400,
-		"image": "https://solomonk.fr/img/monsters/artworks/1068.svg",
+		"image": "/img/monsters/1068.svg",
 		"couleur": "Blanc"
 	},
 	{
@@ -608,7 +607,7 @@
 		"niveau_max": 37,
 		"pv_min": 200,
 		"pv_max": 400,
-		"image": "https://solomonk.fr/img/monsters/artworks/1047.svg",
+		"image": "/img/monsters/1047.svg",
 		"couleur": "Blanc"
 	},
 	{
@@ -620,7 +619,7 @@
 		"niveau_max": 3,
 		"pv_min": 35,
 		"pv_max": 55,
-		"image": "https://solomonk.fr/img/monsters/artworks/1072.svg",
+		"image": "/img/monsters/1072.svg",
 		"couleur": "Blanc"
 	},
 	{
@@ -632,7 +631,7 @@
 		"niveau_max": 19,
 		"pv_min": 99,
 		"pv_max": 177,
-		"image": "https://solomonk.fr/img/monsters/artworks/1067.svg",
+		"image": "/img/monsters/1067.svg",
 		"couleur": "Marron"
 	},
 	{
@@ -644,7 +643,7 @@
 		"niveau_max": 120,
 		"pv_min": 2250,
 		"pv_max": 2650,
-		"image": "https://solomonk.fr/img/monsters/artworks/1037.svg",
+		"image": "/img/monsters/1037.svg",
 		"couleur": "Blanc"
 	},
 	{
@@ -656,7 +655,7 @@
 		"niveau_max": 31,
 		"pv_min": 100,
 		"pv_max": 180,
-		"image": "https://solomonk.fr/img/monsters/artworks/1073.svg",
+		"image": "/img/monsters/1073.svg",
 		"couleur": "Marron / Blanc"
 	},
 	{
@@ -668,7 +667,7 @@
 		"niveau_max": 48,
 		"pv_min": 120,
 		"pv_max": 300,
-		"image": "https://solomonk.fr/img/monsters/artworks/1074.svg",
+		"image": "/img/monsters/1074.svg",
 		"couleur": "Marron / Bleu"
 	},
 	{
@@ -680,7 +679,7 @@
 		"niveau_max": 133,
 		"pv_min": 6400,
 		"pv_max": 6800,
-		"image": "https://solomonk.fr/img/monsters/artworks/1088.svg",
+		"image": "/img/monsters/1088.svg",
 		"couleur": "Marron / Orange"
 	},
 	{
@@ -692,7 +691,7 @@
 		"niveau_max": 20,
 		"pv_min": 110,
 		"pv_max": 190,
-		"image": "https://solomonk.fr/img/monsters/artworks/1060.svg",
+		"image": "/img/monsters/1060.svg",
 		"couleur": "Blanc"
 	},
 	{
@@ -704,7 +703,7 @@
 		"niveau_max": 26,
 		"pv_min": 100,
 		"pv_max": 180,
-		"image": "https://solomonk.fr/img/monsters/artworks/1078.svg",
+		"image": "/img/monsters/1078.svg",
 		"couleur": "Rouge"
 	},
 	{
@@ -716,7 +715,7 @@
 		"niveau_max": 1,
 		"pv_min": 5,
 		"pv_max": 17,
-		"image": "https://solomonk.fr/img/monsters/artworks/1084.svg",
+		"image": "/img/monsters/1084.svg",
 		"couleur": "Gris"
 	},
 	{
@@ -728,7 +727,7 @@
 		"niveau_max": 21,
 		"pv_min": 70,
 		"pv_max": 150,
-		"image": "https://solomonk.fr/img/monsters/artworks/1077.svg",
+		"image": "/img/monsters/1077.svg",
 		"couleur": "Rouge"
 	},
 	{
@@ -740,7 +739,7 @@
 		"niveau_max": 3,
 		"pv_min": 15,
 		"pv_max": 27,
-		"image": "https://solomonk.fr/img/monsters/artworks/1570.svg",
+		"image": "/img/monsters/1570.svg",
 		"couleur": "Blanc"
 	},
 	{
@@ -752,7 +751,7 @@
 		"niveau_max": 43,
 		"pv_min": 500,
 		"pv_max": 700,
-		"image": "https://solomonk.fr/img/monsters/artworks/1574.svg",
+		"image": "/img/monsters/1574.svg",
 		"couleur": "Blanc"
 	},
 	{
@@ -764,7 +763,7 @@
 		"niveau_max": 23,
 		"pv_min": 150,
 		"pv_max": 270,
-		"image": "https://solomonk.fr/img/monsters/artworks/1573.svg",
+		"image": "/img/monsters/1573.svg",
 		"couleur": "Blanc"
 	},
 	{
@@ -776,7 +775,7 @@
 		"niveau_max": 3,
 		"pv_min": 15,
 		"pv_max": 27,
-		"image": "https://solomonk.fr/img/monsters/artworks/1571.svg",
+		"image": "/img/monsters/1571.svg",
 		"couleur": "Noir"
 	},
 	{
@@ -788,7 +787,7 @@
 		"niveau_max": 17,
 		"pv_min": 50,
 		"pv_max": 150,
-		"image": "https://solomonk.fr/img/monsters/artworks/1075.svg",
+		"image": "/img/monsters/1075.svg",
 		"couleur": "Blanc / Bleu"
 	},
 	{
@@ -800,7 +799,7 @@
 		"niveau_max": 12,
 		"pv_min": 40,
 		"pv_max": 90,
-		"image": "https://solomonk.fr/img/monsters/artworks/1081.svg",
+		"image": "/img/monsters/1081.svg",
 		"couleur": "Blanc"
 	},
 	{
@@ -812,7 +811,7 @@
 		"niveau_max": 16,
 		"pv_min": 60,
 		"pv_max": 100,
-		"image": "https://solomonk.fr/img/monsters/artworks/1095.svg",
+		"image": "/img/monsters/1095.svg",
 		"couleur": "Marron / Blanc"
 	},
 	{
@@ -824,7 +823,7 @@
 		"niveau_max": 1,
 		"pv_min": 1000,
 		"pv_max": 1000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1096.svg",
+		"image": "/img/monsters/1096.svg",
 		"couleur": "Blanc"
 	},
 	{
@@ -836,7 +835,7 @@
 		"niveau_max": 26,
 		"pv_min": 130,
 		"pv_max": 250,
-		"image": "https://solomonk.fr/img/monsters/artworks/1107.svg",
+		"image": "/img/monsters/1107.svg",
 		"couleur": "Marron"
 	},
 	{
@@ -848,8 +847,7 @@
 		"niveau_max": 100,
 		"pv_min": 200,
 		"pv_max": 1000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1097.svg",
-		"couleur": ""
+		"image": "/img/monsters/1097.svg"
 	},
 	{
 		"id": 161,
@@ -860,8 +858,7 @@
 		"niveau_max": 100,
 		"pv_min": 200,
 		"pv_max": 1000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1098.svg",
-		"couleur": ""
+		"image": "/img/monsters/1098.svg"
 	},
 	{
 		"id": 162,
@@ -872,8 +869,7 @@
 		"niveau_max": 100,
 		"pv_min": 200,
 		"pv_max": 1000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1099.svg",
-		"couleur": ""
+		"image": "/img/monsters/1099.svg"
 	},
 	{
 		"id": 163,
@@ -884,8 +880,7 @@
 		"niveau_max": 100,
 		"pv_min": 200,
 		"pv_max": 1000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1100.svg",
-		"couleur": ""
+		"image": "/img/monsters/1100.svg"
 	},
 	{
 		"id": 164,
@@ -896,8 +891,7 @@
 		"niveau_max": 100,
 		"pv_min": 200,
 		"pv_max": 1000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1101.svg",
-		"couleur": ""
+		"image": "/img/monsters/1101.svg"
 	},
 	{
 		"id": 165,
@@ -908,8 +902,7 @@
 		"niveau_max": 100,
 		"pv_min": 200,
 		"pv_max": 1000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1102.svg",
-		"couleur": ""
+		"image": "/img/monsters/1102.svg"
 	},
 	{
 		"id": 166,
@@ -920,8 +913,7 @@
 		"niveau_max": 100,
 		"pv_min": 200,
 		"pv_max": 1000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1103.svg",
-		"couleur": ""
+		"image": "/img/monsters/1103.svg"
 	},
 	{
 		"id": 167,
@@ -932,8 +924,7 @@
 		"niveau_max": 100,
 		"pv_min": 200,
 		"pv_max": 1000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1104.svg",
-		"couleur": ""
+		"image": "/img/monsters/1104.svg"
 	},
 	{
 		"id": 168,
@@ -944,8 +935,7 @@
 		"niveau_max": 100,
 		"pv_min": 200,
 		"pv_max": 1000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1105.svg",
-		"couleur": ""
+		"image": "/img/monsters/1105.svg"
 	},
 	{
 		"id": 169,
@@ -956,8 +946,7 @@
 		"niveau_max": 100,
 		"pv_min": 200,
 		"pv_max": 1000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1106.svg",
-		"couleur": ""
+		"image": "/img/monsters/1106.svg"
 	},
 	{
 		"id": 170,
@@ -968,7 +957,7 @@
 		"niveau_max": 58,
 		"pv_min": 400,
 		"pv_max": 800,
-		"image": "https://solomonk.fr/img/monsters/artworks/1027.svg",
+		"image": "/img/monsters/1027.svg",
 		"couleur": "Bleu"
 	},
 	{
@@ -980,7 +969,7 @@
 		"niveau_max": 29,
 		"pv_min": 55,
 		"pv_max": 75,
-		"image": "https://solomonk.fr/img/monsters/artworks/1108.svg",
+		"image": "/img/monsters/1108.svg",
 		"couleur": "Blanc"
 	},
 	{
@@ -992,7 +981,7 @@
 		"niveau_max": 14,
 		"pv_min": 70,
 		"pv_max": 90,
-		"image": "https://solomonk.fr/img/monsters/artworks/1076.svg",
+		"image": "/img/monsters/1076.svg",
 		"couleur": "Gris"
 	},
 	{
@@ -1004,7 +993,7 @@
 		"niveau_max": 32,
 		"pv_min": 190,
 		"pv_max": 230,
-		"image": "https://solomonk.fr/img/monsters/artworks/1057.svg",
+		"image": "/img/monsters/1057.svg",
 		"couleur": "Blanc"
 	},
 	{
@@ -1016,7 +1005,7 @@
 		"niveau_max": 200,
 		"pv_min": 5000,
 		"pv_max": 5800,
-		"image": "https://solomonk.fr/img/monsters/artworks/1109.svg",
+		"image": "/img/monsters/1109.svg",
 		"couleur": "Orange / Blanc"
 	},
 	{
@@ -1028,7 +1017,7 @@
 		"niveau_max": 53,
 		"pv_min": 1600,
 		"pv_max": 2000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1058.svg",
+		"image": "/img/monsters/1058.svg",
 		"couleur": "Blanc"
 	},
 	{
@@ -1040,7 +1029,7 @@
 		"niveau_max": 80,
 		"pv_min": 700,
 		"pv_max": 1100,
-		"image": "https://solomonk.fr/img/monsters/artworks/1059.svg",
+		"image": "/img/monsters/1059.svg",
 		"couleur": "Blanc"
 	},
 	{
@@ -1052,7 +1041,7 @@
 		"niveau_max": 36,
 		"pv_min": 250,
 		"pv_max": 410,
-		"image": "https://solomonk.fr/img/monsters/artworks/1136.svg",
+		"image": "/img/monsters/1136.svg",
 		"couleur": "Rouge"
 	},
 	{
@@ -1064,7 +1053,7 @@
 		"niveau_max": 36,
 		"pv_min": 250,
 		"pv_max": 410,
-		"image": "https://solomonk.fr/img/monsters/artworks/1135.svg",
+		"image": "/img/monsters/1135.svg",
 		"couleur": "Bleu"
 	},
 	{
@@ -1076,7 +1065,7 @@
 		"niveau_max": 39,
 		"pv_min": 80,
 		"pv_max": 100,
-		"image": "https://solomonk.fr/img/monsters/artworks/1108.svg",
+		"image": "/img/monsters/1108.svg",
 		"couleur": "Orange"
 	},
 	{
@@ -1088,7 +1077,7 @@
 		"niveau_max": 14,
 		"pv_min": 70,
 		"pv_max": 90,
-		"image": "https://solomonk.fr/img/monsters/artworks/1118.svg",
+		"image": "/img/monsters/1118.svg",
 		"couleur": "Marron / Vert"
 	},
 	{
@@ -1100,7 +1089,7 @@
 		"niveau_max": 44,
 		"pv_min": 300,
 		"pv_max": 380,
-		"image": "https://solomonk.fr/img/monsters/artworks/1116.svg",
+		"image": "/img/monsters/1116.svg",
 		"couleur": "Marron / Vert"
 	},
 	{
@@ -1112,7 +1101,7 @@
 		"niveau_max": 51,
 		"pv_min": 500,
 		"pv_max": 580,
-		"image": "https://solomonk.fr/img/monsters/artworks/1115.svg",
+		"image": "/img/monsters/1115.svg",
 		"couleur": "Rouge"
 	},
 	{
@@ -1124,7 +1113,7 @@
 		"niveau_max": 51,
 		"pv_min": 500,
 		"pv_max": 580,
-		"image": "https://solomonk.fr/img/monsters/artworks/1113.svg",
+		"image": "/img/monsters/1113.svg",
 		"couleur": "Vert"
 	},
 	{
@@ -1136,7 +1125,7 @@
 		"niveau_max": 51,
 		"pv_min": 500,
 		"pv_max": 580,
-		"image": "https://solomonk.fr/img/monsters/artworks/1114.svg",
+		"image": "/img/monsters/1114.svg",
 		"couleur": "Bleu"
 	},
 	{
@@ -1148,7 +1137,7 @@
 		"niveau_max": 51,
 		"pv_min": 700,
 		"pv_max": 780,
-		"image": "https://solomonk.fr/img/monsters/artworks/1112.svg",
+		"image": "/img/monsters/1112.svg",
 		"couleur": "Jaune"
 	},
 	{
@@ -1160,7 +1149,7 @@
 		"niveau_max": 14,
 		"pv_min": 100,
 		"pv_max": 140,
-		"image": "https://solomonk.fr/img/monsters/artworks/1121.svg",
+		"image": "/img/monsters/1121.svg",
 		"couleur": "Rose / Vert"
 	},
 	{
@@ -1172,7 +1161,7 @@
 		"niveau_max": 88,
 		"pv_min": 1100,
 		"pv_max": 1500,
-		"image": "https://solomonk.fr/img/monsters/artworks/1122.svg",
+		"image": "/img/monsters/1122.svg",
 		"couleur": "Vert"
 	},
 	{
@@ -1184,7 +1173,7 @@
 		"niveau_max": 24,
 		"pv_min": 150,
 		"pv_max": 250,
-		"image": "https://solomonk.fr/img/monsters/artworks/1119.svg",
+		"image": "/img/monsters/1119.svg",
 		"couleur": "Vert"
 	},
 	{
@@ -1196,7 +1185,7 @@
 		"niveau_max": 14,
 		"pv_min": 100,
 		"pv_max": 180,
-		"image": "https://solomonk.fr/img/monsters/artworks/1120.svg",
+		"image": "/img/monsters/1120.svg",
 		"couleur": "Marron"
 	},
 	{
@@ -1208,7 +1197,7 @@
 		"niveau_max": 22,
 		"pv_min": 140,
 		"pv_max": 180,
-		"image": "https://solomonk.fr/img/monsters/artworks/1125.svg",
+		"image": "/img/monsters/1125.svg",
 		"couleur": "Rouge"
 	},
 	{
@@ -1220,7 +1209,7 @@
 		"niveau_max": 21,
 		"pv_min": 130,
 		"pv_max": 170,
-		"image": "https://solomonk.fr/img/monsters/artworks/1126.svg",
+		"image": "/img/monsters/1126.svg",
 		"couleur": "Bleu"
 	},
 	{
@@ -1232,7 +1221,7 @@
 		"niveau_max": 24,
 		"pv_min": 160,
 		"pv_max": 200,
-		"image": "https://solomonk.fr/img/monsters/artworks/1127.svg",
+		"image": "/img/monsters/1127.svg",
 		"couleur": "Verte"
 	},
 	{
@@ -1244,7 +1233,7 @@
 		"niveau_max": 20,
 		"pv_min": 120,
 		"pv_max": 160,
-		"image": "https://solomonk.fr/img/monsters/artworks/1128.svg",
+		"image": "/img/monsters/1128.svg",
 		"couleur": "Jaune"
 	},
 	{
@@ -1256,7 +1245,7 @@
 		"niveau_max": 220,
 		"pv_min": 8000,
 		"pv_max": 10000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1130.svg",
+		"image": "/img/monsters/1130.svg",
 		"couleur": "Noir"
 	},
 	{
@@ -1268,7 +1257,7 @@
 		"niveau_max": 200,
 		"pv_min": 9000,
 		"pv_max": 9000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1129.svg",
+		"image": "/img/monsters/1129.svg",
 		"couleur": "Marron"
 	},
 	{
@@ -1280,7 +1269,7 @@
 		"niveau_max": 38,
 		"pv_min": 500,
 		"pv_max": 700,
-		"image": "https://solomonk.fr/img/monsters/artworks/1133.svg",
+		"image": "/img/monsters/1133.svg",
 		"couleur": "Blanc"
 	},
 	{
@@ -1292,7 +1281,7 @@
 		"niveau_max": 75,
 		"pv_min": 500,
 		"pv_max": 980,
-		"image": "https://solomonk.fr/img/monsters/artworks/1132.svg",
+		"image": "/img/monsters/1132.svg",
 		"couleur": "Blanc"
 	},
 	{
@@ -1304,7 +1293,7 @@
 		"niveau_max": 94,
 		"pv_min": 5000,
 		"pv_max": 7000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1124.svg",
+		"image": "/img/monsters/1124.svg",
 		"couleur": "Rouge / Blanc"
 	},
 	{
@@ -1316,7 +1305,7 @@
 		"niveau_max": 75,
 		"pv_min": 500,
 		"pv_max": 940,
-		"image": "https://solomonk.fr/img/monsters/artworks/1123.svg",
+		"image": "/img/monsters/1123.svg",
 		"couleur": "Noir"
 	},
 	{
@@ -1328,7 +1317,7 @@
 		"niveau_max": 198,
 		"pv_min": 10000,
 		"pv_max": 12000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1134.svg",
+		"image": "/img/monsters/1134.svg",
 		"couleur": "Blanc / Violet"
 	},
 	{
@@ -1340,7 +1329,7 @@
 		"niveau_max": 125,
 		"pv_min": 6000,
 		"pv_max": 10000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1131.svg",
+		"image": "/img/monsters/1131.svg",
 		"couleur": "Marron"
 	},
 	{
@@ -1352,7 +1341,7 @@
 		"niveau_max": 30,
 		"pv_min": 120,
 		"pv_max": 200,
-		"image": "https://solomonk.fr/img/monsters/artworks/1149.svg",
+		"image": "/img/monsters/1149.svg",
 		"couleur": "Vert"
 	},
 	{
@@ -1364,7 +1353,7 @@
 		"niveau_max": 5,
 		"pv_min": 10,
 		"pv_max": 18,
-		"image": "https://solomonk.fr/img/monsters/artworks/9206.svg",
+		"image": "/img/monsters/9206.svg",
 		"couleur": "Violet"
 	},
 	{
@@ -1376,7 +1365,7 @@
 		"niveau_max": 36,
 		"pv_min": 250,
 		"pv_max": 410,
-		"image": "https://solomonk.fr/img/monsters/artworks/1137.svg",
+		"image": "/img/monsters/1137.svg",
 		"couleur": "Vert"
 	},
 	{
@@ -1388,7 +1377,7 @@
 		"niveau_max": 36,
 		"pv_min": 250,
 		"pv_max": 410,
-		"image": "https://solomonk.fr/img/monsters/artworks/1138.svg",
+		"image": "/img/monsters/1138.svg",
 		"couleur": "Blanc"
 	},
 	{
@@ -1400,7 +1389,7 @@
 		"niveau_max": 5,
 		"pv_min": 10,
 		"pv_max": 18,
-		"image": "https://solomonk.fr/img/monsters/artworks/1145.svg",
+		"image": "/img/monsters/1145.svg",
 		"couleur": "Rouge"
 	},
 	{
@@ -1412,7 +1401,7 @@
 		"niveau_max": 5,
 		"pv_min": 10,
 		"pv_max": 18,
-		"image": "https://solomonk.fr/img/monsters/artworks/1146.svg",
+		"image": "/img/monsters/1146.svg",
 		"couleur": "Bleu"
 	},
 	{
@@ -1424,7 +1413,7 @@
 		"niveau_max": 5,
 		"pv_min": 10,
 		"pv_max": 18,
-		"image": "https://solomonk.fr/img/monsters/artworks/1147.svg",
+		"image": "/img/monsters/1147.svg",
 		"couleur": "Vert"
 	},
 	{
@@ -1436,7 +1425,7 @@
 		"niveau_max": 5,
 		"pv_min": 10,
 		"pv_max": 18,
-		"image": "https://solomonk.fr/img/monsters/artworks/1148.svg",
+		"image": "/img/monsters/1148.svg",
 		"couleur": "Jaune"
 	},
 	{
@@ -1448,8 +1437,7 @@
 		"niveau_max": 48,
 		"pv_min": 200,
 		"pv_max": 400,
-		"image": "https://solomonk.fr/img/monsters/artworks/1150.svg",
-		"couleur": ""
+		"image": "/img/monsters/1150.svg"
 	},
 	{
 		"id": 251,
@@ -1460,8 +1448,7 @@
 		"niveau_max": 200,
 		"pv_min": 10000,
 		"pv_max": 10000,
-		"image": "https://solomonk.fr/img/monsters/artworks/8003.svg",
-		"couleur": ""
+		"image": "/img/monsters/8003.svg"
 	},
 	{
 		"id": 254,
@@ -1472,7 +1459,7 @@
 		"niveau_max": 49,
 		"pv_min": 450,
 		"pv_max": 570,
-		"image": "https://solomonk.fr/img/monsters/artworks/1001.svg",
+		"image": "/img/monsters/1001.svg",
 		"couleur": "Marron"
 	},
 	{
@@ -1484,7 +1471,7 @@
 		"niveau_max": 8,
 		"pv_min": 50,
 		"pv_max": 90,
-		"image": "https://solomonk.fr/img/monsters/artworks/1564.svg",
+		"image": "/img/monsters/1564.svg",
 		"couleur": "Noir"
 	},
 	{
@@ -1496,7 +1483,7 @@
 		"niveau_max": 45,
 		"pv_min": 200,
 		"pv_max": 400,
-		"image": "https://solomonk.fr/img/monsters/artworks/1160.svg",
+		"image": "/img/monsters/1160.svg",
 		"couleur": "Marron"
 	},
 	{
@@ -1508,7 +1495,7 @@
 		"niveau_max": 43,
 		"pv_min": 250,
 		"pv_max": 350,
-		"image": "https://solomonk.fr/img/monsters/artworks/1161.svg",
+		"image": "/img/monsters/1161.svg",
 		"couleur": "Noir"
 	},
 	{
@@ -1520,7 +1507,7 @@
 		"niveau_max": 40,
 		"pv_min": 200,
 		"pv_max": 320,
-		"image": "https://solomonk.fr/img/monsters/artworks/1159.svg",
+		"image": "/img/monsters/1159.svg",
 		"couleur": "Vert"
 	},
 	{
@@ -1532,7 +1519,7 @@
 		"niveau_max": 77,
 		"pv_min": 900,
 		"pv_max": 1100,
-		"image": "https://solomonk.fr/img/monsters/artworks/1162.svg",
+		"image": "/img/monsters/1162.svg",
 		"couleur": "Vert"
 	},
 	{
@@ -1544,7 +1531,7 @@
 		"niveau_max": 20,
 		"pv_min": 100,
 		"pv_max": 100,
-		"image": "https://solomonk.fr/img/monsters/artworks/1166.svg",
+		"image": "/img/monsters/1166.svg",
 		"couleur": "Rouge"
 	},
 	{
@@ -1556,7 +1543,7 @@
 		"niveau_max": 20,
 		"pv_min": 100,
 		"pv_max": 100,
-		"image": "https://solomonk.fr/img/monsters/artworks/1168.svg",
+		"image": "/img/monsters/1168.svg",
 		"couleur": "Vert"
 	},
 	{
@@ -1568,7 +1555,7 @@
 		"niveau_max": 20,
 		"pv_min": 100,
 		"pv_max": 100,
-		"image": "https://solomonk.fr/img/monsters/artworks/1169.svg",
+		"image": "/img/monsters/1169.svg",
 		"couleur": "Blanc"
 	},
 	{
@@ -1580,7 +1567,7 @@
 		"niveau_max": 20,
 		"pv_min": 100,
 		"pv_max": 100,
-		"image": "https://solomonk.fr/img/monsters/artworks/1167.svg",
+		"image": "/img/monsters/1167.svg",
 		"couleur": "Bleu"
 	},
 	{
@@ -1592,7 +1579,7 @@
 		"niveau_max": 40,
 		"pv_min": 350,
 		"pv_max": 350,
-		"image": "https://solomonk.fr/img/monsters/artworks/1042.svg",
+		"image": "/img/monsters/1042.svg",
 		"couleur": "Rouge"
 	},
 	{
@@ -1604,7 +1591,7 @@
 		"niveau_max": 40,
 		"pv_min": 350,
 		"pv_max": 350,
-		"image": "https://solomonk.fr/img/monsters/artworks/1149.svg",
+		"image": "/img/monsters/1149.svg",
 		"couleur": "Vert"
 	},
 	{
@@ -1616,7 +1603,7 @@
 		"niveau_max": 40,
 		"pv_min": 350,
 		"pv_max": 350,
-		"image": "https://solomonk.fr/img/monsters/artworks/1043.svg",
+		"image": "/img/monsters/1043.svg",
 		"couleur": "Bleu"
 	},
 	{
@@ -1628,7 +1615,7 @@
 		"niveau_max": 40,
 		"pv_min": 350,
 		"pv_max": 350,
-		"image": "https://solomonk.fr/img/monsters/artworks/1041.svg",
+		"image": "/img/monsters/1041.svg",
 		"couleur": "Blanc"
 	},
 	{
@@ -1640,7 +1627,7 @@
 		"niveau_max": 38,
 		"pv_min": 330,
 		"pv_max": 338,
-		"image": "https://solomonk.fr/img/monsters/artworks/1174.svg",
+		"image": "/img/monsters/1174.svg",
 		"couleur": "Jaune"
 	},
 	{
@@ -1652,7 +1639,7 @@
 		"niveau_max": 38,
 		"pv_min": 330,
 		"pv_max": 338,
-		"image": "https://solomonk.fr/img/monsters/artworks/1171.svg",
+		"image": "/img/monsters/1171.svg",
 		"couleur": "Bleu"
 	},
 	{
@@ -1664,7 +1651,7 @@
 		"niveau_max": 38,
 		"pv_min": 330,
 		"pv_max": 338,
-		"image": "https://solomonk.fr/img/monsters/artworks/1172.svg",
+		"image": "/img/monsters/1172.svg",
 		"couleur": "Rouge"
 	},
 	{
@@ -1676,7 +1663,7 @@
 		"niveau_max": 38,
 		"pv_min": 330,
 		"pv_max": 338,
-		"image": "https://solomonk.fr/img/monsters/artworks/1173.svg",
+		"image": "/img/monsters/1173.svg",
 		"couleur": "Vert"
 	},
 	{
@@ -1688,7 +1675,7 @@
 		"niveau_max": 18,
 		"pv_min": 84,
 		"pv_max": 128,
-		"image": "https://solomonk.fr/img/monsters/artworks/1175.svg",
+		"image": "/img/monsters/1175.svg",
 		"couleur": "Bleu"
 	},
 	{
@@ -1700,7 +1687,7 @@
 		"niveau_max": 18,
 		"pv_min": 84,
 		"pv_max": 128,
-		"image": "https://solomonk.fr/img/monsters/artworks/1178.svg",
+		"image": "/img/monsters/1178.svg",
 		"couleur": "Jaune"
 	},
 	{
@@ -1712,7 +1699,7 @@
 		"niveau_max": 18,
 		"pv_min": 84,
 		"pv_max": 128,
-		"image": "https://solomonk.fr/img/monsters/artworks/1176.svg",
+		"image": "/img/monsters/1176.svg",
 		"couleur": "Rouge"
 	},
 	{
@@ -1724,7 +1711,7 @@
 		"niveau_max": 18,
 		"pv_min": 84,
 		"pv_max": 128,
-		"image": "https://solomonk.fr/img/monsters/artworks/1177.svg",
+		"image": "/img/monsters/1177.svg",
 		"couleur": "Vert"
 	},
 	{
@@ -1736,7 +1723,7 @@
 		"niveau_max": 26,
 		"pv_min": 80,
 		"pv_max": 200,
-		"image": "https://solomonk.fr/img/monsters/artworks/1179.svg",
+		"image": "/img/monsters/1179.svg",
 		"couleur": "Noir"
 	},
 	{
@@ -1748,8 +1735,7 @@
 		"niveau_max": 1,
 		"pv_min": 3000,
 		"pv_max": 3000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1200.svg",
-		"couleur": ""
+		"image": "/img/monsters/1200.svg"
 	},
 	{
 		"id": 287,
@@ -1760,7 +1746,7 @@
 		"niveau_max": 80,
 		"pv_min": 700,
 		"pv_max": 1100,
-		"image": "https://solomonk.fr/img/monsters/artworks/1039.svg",
+		"image": "/img/monsters/1039.svg",
 		"couleur": "Jaune"
 	},
 	{
@@ -1772,7 +1758,7 @@
 		"niveau_max": 14,
 		"pv_min": 25,
 		"pv_max": 45,
-		"image": "https://solomonk.fr/img/monsters/artworks/1013.svg",
+		"image": "/img/monsters/1013.svg",
 		"couleur": "Vert"
 	},
 	{
@@ -1784,7 +1770,7 @@
 		"niveau_max": 200,
 		"pv_min": 4500,
 		"pv_max": 6500,
-		"image": "https://solomonk.fr/img/monsters/artworks/1186.svg",
+		"image": "/img/monsters/1186.svg",
 		"couleur": "Noir"
 	},
 	{
@@ -1796,7 +1782,7 @@
 		"niveau_max": 48,
 		"pv_min": 390,
 		"pv_max": 470,
-		"image": "https://solomonk.fr/img/monsters/artworks/1189.svg",
+		"image": "/img/monsters/1189.svg",
 		"couleur": "Blanc / Orange"
 	},
 	{
@@ -1808,7 +1794,7 @@
 		"niveau_max": 48,
 		"pv_min": 300,
 		"pv_max": 360,
-		"image": "https://solomonk.fr/img/monsters/artworks/1190.svg",
+		"image": "/img/monsters/1190.svg",
 		"couleur": "Blanc / Marron"
 	},
 	{
@@ -1820,7 +1806,7 @@
 		"niveau_max": 52,
 		"pv_min": 400,
 		"pv_max": 600,
-		"image": "https://solomonk.fr/img/monsters/artworks/1048.svg",
+		"image": "/img/monsters/1048.svg",
 		"couleur": "Blanc / Rouge"
 	},
 	{
@@ -1832,7 +1818,7 @@
 		"niveau_max": 51,
 		"pv_min": 360,
 		"pv_max": 540,
-		"image": "https://solomonk.fr/img/monsters/artworks/1049.svg",
+		"image": "/img/monsters/1049.svg",
 		"couleur": "Beige / Gris"
 	},
 	{
@@ -1844,7 +1830,7 @@
 		"niveau_max": 1,
 		"pv_min": 50,
 		"pv_max": 50,
-		"image": "https://solomonk.fr/img/monsters/artworks/1086.svg",
+		"image": "/img/monsters/1086.svg",
 		"couleur": "Vert"
 	},
 	{
@@ -1856,8 +1842,7 @@
 		"niveau_max": 140,
 		"pv_min": 4000,
 		"pv_max": 8000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1152.svg",
-		"couleur": ""
+		"image": "/img/monsters/1152.svg"
 	},
 	{
 		"id": 296,
@@ -1868,8 +1853,7 @@
 		"niveau_max": 100,
 		"pv_min": 300,
 		"pv_max": 1200,
-		"image": "https://solomonk.fr/img/monsters/artworks/1192.svg",
-		"couleur": ""
+		"image": "/img/monsters/1192.svg"
 	},
 	{
 		"id": 297,
@@ -1880,7 +1864,7 @@
 		"niveau_max": 48,
 		"pv_min": 500,
 		"pv_max": 580,
-		"image": "https://solomonk.fr/img/monsters/artworks/1070.svg",
+		"image": "/img/monsters/1070.svg",
 		"couleur": "Marron"
 	},
 	{
@@ -1892,7 +1876,7 @@
 		"niveau_max": 42,
 		"pv_min": 250,
 		"pv_max": 330,
-		"image": "https://solomonk.fr/img/monsters/artworks/1198.svg",
+		"image": "/img/monsters/1198.svg",
 		"couleur": "Blanc"
 	},
 	{
@@ -1904,7 +1888,7 @@
 		"niveau_max": 23,
 		"pv_min": 150,
 		"pv_max": 230,
-		"image": "https://solomonk.fr/img/monsters/artworks/1201.svg",
+		"image": "/img/monsters/1201.svg",
 		"couleur": "Blanc"
 	},
 	{
@@ -1916,7 +1900,7 @@
 		"niveau_max": 13,
 		"pv_min": 50,
 		"pv_max": 90,
-		"image": "https://solomonk.fr/img/monsters/artworks/1085.svg",
+		"image": "/img/monsters/1085.svg",
 		"couleur": "Marron"
 	},
 	{
@@ -1928,7 +1912,7 @@
 		"niveau_max": 57,
 		"pv_min": 350,
 		"pv_max": 550,
-		"image": "https://solomonk.fr/img/monsters/artworks/1196.svg",
+		"image": "/img/monsters/1196.svg",
 		"couleur": "Gris"
 	},
 	{
@@ -1940,8 +1924,7 @@
 		"niveau_max": 47,
 		"pv_min": 300,
 		"pv_max": 480,
-		"image": "https://solomonk.fr/img/monsters/artworks/1105.svg",
-		"couleur": ""
+		"image": "/img/monsters/1105.svg"
 	},
 	{
 		"id": 304,
@@ -1952,8 +1935,7 @@
 		"niveau_max": 47,
 		"pv_min": 300,
 		"pv_max": 480,
-		"image": "https://solomonk.fr/img/monsters/artworks/1105.svg",
-		"couleur": ""
+		"image": "/img/monsters/1105.svg"
 	},
 	{
 		"id": 305,
@@ -1964,8 +1946,7 @@
 		"niveau_max": 47,
 		"pv_min": 350,
 		"pv_max": 550,
-		"image": "https://solomonk.fr/img/monsters/artworks/1104.svg",
-		"couleur": ""
+		"image": "/img/monsters/1104.svg"
 	},
 	{
 		"id": 306,
@@ -1976,8 +1957,7 @@
 		"niveau_max": 47,
 		"pv_min": 350,
 		"pv_max": 550,
-		"image": "https://solomonk.fr/img/monsters/artworks/1104.svg",
-		"couleur": ""
+		"image": "/img/monsters/1104.svg"
 	},
 	{
 		"id": 308,
@@ -1988,8 +1968,7 @@
 		"niveau_max": 47,
 		"pv_min": 280,
 		"pv_max": 480,
-		"image": "https://solomonk.fr/img/monsters/artworks/1099.svg",
-		"couleur": ""
+		"image": "/img/monsters/1099.svg"
 	},
 	{
 		"id": 310,
@@ -2000,8 +1979,7 @@
 		"niveau_max": 47,
 		"pv_min": 280,
 		"pv_max": 480,
-		"image": "https://solomonk.fr/img/monsters/artworks/1099.svg",
-		"couleur": ""
+		"image": "/img/monsters/1099.svg"
 	},
 	{
 		"id": 337,
@@ -2012,8 +1990,7 @@
 		"niveau_max": 47,
 		"pv_min": 190,
 		"pv_max": 350,
-		"image": "https://solomonk.fr/img/monsters/artworks/1100.svg",
-		"couleur": ""
+		"image": "/img/monsters/1100.svg"
 	},
 	{
 		"id": 345,
@@ -2024,8 +2001,7 @@
 		"niveau_max": 47,
 		"pv_min": 270,
 		"pv_max": 470,
-		"image": "https://solomonk.fr/img/monsters/artworks/1102.svg",
-		"couleur": ""
+		"image": "/img/monsters/1102.svg"
 	},
 	{
 		"id": 346,
@@ -2036,8 +2012,7 @@
 		"niveau_max": 47,
 		"pv_min": 270,
 		"pv_max": 470,
-		"image": "https://solomonk.fr/img/monsters/artworks/1102.svg",
-		"couleur": ""
+		"image": "/img/monsters/1102.svg"
 	},
 	{
 		"id": 347,
@@ -2048,8 +2023,7 @@
 		"niveau_max": 47,
 		"pv_min": 180,
 		"pv_max": 420,
-		"image": "https://solomonk.fr/img/monsters/artworks/1097.svg",
-		"couleur": ""
+		"image": "/img/monsters/1097.svg"
 	},
 	{
 		"id": 348,
@@ -2060,8 +2034,7 @@
 		"niveau_max": 47,
 		"pv_min": 180,
 		"pv_max": 420,
-		"image": "https://solomonk.fr/img/monsters/artworks/1097.svg",
-		"couleur": ""
+		"image": "/img/monsters/1097.svg"
 	},
 	{
 		"id": 349,
@@ -2072,8 +2045,7 @@
 		"niveau_max": 47,
 		"pv_min": 230,
 		"pv_max": 390,
-		"image": "https://solomonk.fr/img/monsters/artworks/1101.svg",
-		"couleur": ""
+		"image": "/img/monsters/1101.svg"
 	},
 	{
 		"id": 350,
@@ -2084,8 +2056,7 @@
 		"niveau_max": 47,
 		"pv_min": 230,
 		"pv_max": 390,
-		"image": "https://solomonk.fr/img/monsters/artworks/1101.svg",
-		"couleur": ""
+		"image": "/img/monsters/1101.svg"
 	},
 	{
 		"id": 351,
@@ -2096,8 +2067,7 @@
 		"niveau_max": 47,
 		"pv_min": 190,
 		"pv_max": 350,
-		"image": "https://solomonk.fr/img/monsters/artworks/1100.svg",
-		"couleur": ""
+		"image": "/img/monsters/1100.svg"
 	},
 	{
 		"id": 353,
@@ -2108,8 +2078,7 @@
 		"niveau_max": 47,
 		"pv_min": 200,
 		"pv_max": 360,
-		"image": "https://solomonk.fr/img/monsters/artworks/1098.svg",
-		"couleur": ""
+		"image": "/img/monsters/1098.svg"
 	},
 	{
 		"id": 355,
@@ -2120,8 +2089,7 @@
 		"niveau_max": 47,
 		"pv_min": 200,
 		"pv_max": 360,
-		"image": "https://solomonk.fr/img/monsters/artworks/1098.svg",
-		"couleur": ""
+		"image": "/img/monsters/1098.svg"
 	},
 	{
 		"id": 356,
@@ -2132,8 +2100,7 @@
 		"niveau_max": 47,
 		"pv_min": 250,
 		"pv_max": 410,
-		"image": "https://solomonk.fr/img/monsters/artworks/1106.svg",
-		"couleur": ""
+		"image": "/img/monsters/1106.svg"
 	},
 	{
 		"id": 357,
@@ -2144,8 +2111,7 @@
 		"niveau_max": 47,
 		"pv_min": 250,
 		"pv_max": 410,
-		"image": "https://solomonk.fr/img/monsters/artworks/1106.svg",
-		"couleur": ""
+		"image": "/img/monsters/1106.svg"
 	},
 	{
 		"id": 359,
@@ -2156,8 +2122,7 @@
 		"niveau_max": 47,
 		"pv_min": 200,
 		"pv_max": 400,
-		"image": "https://solomonk.fr/img/monsters/artworks/1103.svg",
-		"couleur": ""
+		"image": "/img/monsters/1103.svg"
 	},
 	{
 		"id": 360,
@@ -2168,8 +2133,7 @@
 		"niveau_max": 47,
 		"pv_min": 200,
 		"pv_max": 400,
-		"image": "https://solomonk.fr/img/monsters/artworks/1103.svg",
-		"couleur": ""
+		"image": "/img/monsters/1103.svg"
 	},
 	{
 		"id": 363,
@@ -2180,8 +2144,7 @@
 		"niveau_max": 1,
 		"pv_min": 3000,
 		"pv_max": 3000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1200.svg",
-		"couleur": ""
+		"image": "/img/monsters/1200.svg"
 	},
 	{
 		"id": 366,
@@ -2192,8 +2155,7 @@
 		"niveau_max": 48,
 		"pv_min": 1000,
 		"pv_max": 1000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1070.svg",
-		"couleur": ""
+		"image": "/img/monsters/1070.svg"
 	},
 	{
 		"id": 369,
@@ -2204,8 +2166,7 @@
 		"niveau_max": 12,
 		"pv_min": 100,
 		"pv_max": 100,
-		"image": "https://solomonk.fr/img/monsters/artworks/1014.svg",
-		"couleur": ""
+		"image": "/img/monsters/1014.svg"
 	},
 	{
 		"id": 370,
@@ -2216,8 +2177,7 @@
 		"niveau_max": 12,
 		"pv_min": 200,
 		"pv_max": 200,
-		"image": "https://solomonk.fr/img/monsters/artworks/1188.svg",
-		"couleur": ""
+		"image": "/img/monsters/1188.svg"
 	},
 	{
 		"id": 371,
@@ -2228,7 +2188,7 @@
 		"niveau_max": 54,
 		"pv_min": 180,
 		"pv_max": 280,
-		"image": "https://solomonk.fr/img/monsters/artworks/1209.svg",
+		"image": "/img/monsters/1209.svg",
 		"couleur": "Blanc / Marron"
 	},
 	{
@@ -2240,8 +2200,7 @@
 		"niveau_max": 100,
 		"pv_min": 300,
 		"pv_max": 1200,
-		"image": "https://solomonk.fr/img/monsters/artworks/1205.svg",
-		"couleur": ""
+		"image": "/img/monsters/1205.svg"
 	},
 	{
 		"id": 373,
@@ -2252,8 +2211,7 @@
 		"niveau_max": 160,
 		"pv_min": 36525,
 		"pv_max": 36525,
-		"image": "https://solomonk.fr/img/monsters/artworks/1046.svg",
-		"couleur": ""
+		"image": "/img/monsters/1046.svg"
 	},
 	{
 		"id": 374,
@@ -2264,8 +2222,7 @@
 		"niveau_max": 120,
 		"pv_min": 7200,
 		"pv_max": 8000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1202.svg",
-		"couleur": ""
+		"image": "/img/monsters/1202.svg"
 	},
 	{
 		"id": 375,
@@ -2276,8 +2233,7 @@
 		"niveau_max": 120,
 		"pv_min": 5000,
 		"pv_max": 5400,
-		"image": "https://solomonk.fr/img/monsters/artworks/1204.svg",
-		"couleur": ""
+		"image": "/img/monsters/1204.svg"
 	},
 	{
 		"id": 377,
@@ -2288,8 +2244,7 @@
 		"niveau_max": 120,
 		"pv_min": 18000,
 		"pv_max": 22000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1203.svg",
-		"couleur": ""
+		"image": "/img/monsters/1203.svg"
 	},
 	{
 		"id": 378,
@@ -2300,7 +2255,7 @@
 		"niveau_max": 73,
 		"pv_min": 350,
 		"pv_max": 750,
-		"image": "https://solomonk.fr/img/monsters/artworks/1193.svg",
+		"image": "/img/monsters/1193.svg",
 		"couleur": "Blanc"
 	},
 	{
@@ -2312,8 +2267,7 @@
 		"niveau_max": 73,
 		"pv_min": 350,
 		"pv_max": 550,
-		"image": "https://solomonk.fr/img/monsters/artworks/1195.svg",
-		"couleur": ""
+		"image": "/img/monsters/1195.svg"
 	},
 	{
 		"id": 380,
@@ -2324,8 +2278,7 @@
 		"niveau_max": 73,
 		"pv_min": 290,
 		"pv_max": 490,
-		"image": "https://solomonk.fr/img/monsters/artworks/1194.svg",
-		"couleur": ""
+		"image": "/img/monsters/1194.svg"
 	},
 	{
 		"id": 382,
@@ -2336,7 +2289,7 @@
 		"niveau_max": 120,
 		"pv_min": 4600,
 		"pv_max": 5000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1151.svg",
+		"image": "/img/monsters/1151.svg",
 		"couleur": "Jaune"
 	},
 	{
@@ -2348,8 +2301,7 @@
 		"niveau_max": 47,
 		"pv_min": 200,
 		"pv_max": 360,
-		"image": "https://solomonk.fr/img/monsters/artworks/1098.svg",
-		"couleur": ""
+		"image": "/img/monsters/1098.svg"
 	},
 	{
 		"id": 385,
@@ -2360,8 +2312,7 @@
 		"niveau_max": 47,
 		"pv_min": 180,
 		"pv_max": 420,
-		"image": "https://solomonk.fr/img/monsters/artworks/1097.svg",
-		"couleur": ""
+		"image": "/img/monsters/1097.svg"
 	},
 	{
 		"id": 386,
@@ -2372,8 +2323,7 @@
 		"niveau_max": 47,
 		"pv_min": 200,
 		"pv_max": 400,
-		"image": "https://solomonk.fr/img/monsters/artworks/1103.svg",
-		"couleur": ""
+		"image": "/img/monsters/1103.svg"
 	},
 	{
 		"id": 387,
@@ -2384,8 +2334,7 @@
 		"niveau_max": 47,
 		"pv_min": 250,
 		"pv_max": 410,
-		"image": "https://solomonk.fr/img/monsters/artworks/1106.svg",
-		"couleur": ""
+		"image": "/img/monsters/1106.svg"
 	},
 	{
 		"id": 388,
@@ -2396,8 +2345,7 @@
 		"niveau_max": 47,
 		"pv_min": 270,
 		"pv_max": 470,
-		"image": "https://solomonk.fr/img/monsters/artworks/1102.svg",
-		"couleur": ""
+		"image": "/img/monsters/1102.svg"
 	},
 	{
 		"id": 389,
@@ -2408,8 +2356,7 @@
 		"niveau_max": 47,
 		"pv_min": 300,
 		"pv_max": 480,
-		"image": "https://solomonk.fr/img/monsters/artworks/1105.svg",
-		"couleur": ""
+		"image": "/img/monsters/1105.svg"
 	},
 	{
 		"id": 390,
@@ -2420,8 +2367,7 @@
 		"niveau_max": 47,
 		"pv_min": 230,
 		"pv_max": 390,
-		"image": "https://solomonk.fr/img/monsters/artworks/1101.svg",
-		"couleur": ""
+		"image": "/img/monsters/1101.svg"
 	},
 	{
 		"id": 391,
@@ -2432,8 +2378,7 @@
 		"niveau_max": 47,
 		"pv_min": 190,
 		"pv_max": 350,
-		"image": "https://solomonk.fr/img/monsters/artworks/1100.svg",
-		"couleur": ""
+		"image": "/img/monsters/1100.svg"
 	},
 	{
 		"id": 392,
@@ -2444,8 +2389,7 @@
 		"niveau_max": 47,
 		"pv_min": 280,
 		"pv_max": 480,
-		"image": "https://solomonk.fr/img/monsters/artworks/1099.svg",
-		"couleur": ""
+		"image": "/img/monsters/1099.svg"
 	},
 	{
 		"id": 393,
@@ -2456,8 +2400,7 @@
 		"niveau_max": 47,
 		"pv_min": 350,
 		"pv_max": 550,
-		"image": "https://solomonk.fr/img/monsters/artworks/1104.svg",
-		"couleur": ""
+		"image": "/img/monsters/1104.svg"
 	},
 	{
 		"id": 394,
@@ -2468,8 +2411,7 @@
 		"niveau_max": 170,
 		"pv_min": 500,
 		"pv_max": 1200,
-		"image": "https://solomonk.fr/img/monsters/artworks/9019.svg",
-		"couleur": ""
+		"image": "/img/monsters/9019.svg"
 	},
 	{
 		"id": 395,
@@ -2480,8 +2422,7 @@
 		"niveau_max": 1,
 		"pv_min": 100,
 		"pv_max": 100,
-		"image": "https://solomonk.fr/img/monsters/artworks/1046.svg",
-		"couleur": ""
+		"image": "/img/monsters/1046.svg"
 	},
 	{
 		"id": 396,
@@ -2492,7 +2433,7 @@
 		"niveau_max": 39,
 		"pv_min": 280,
 		"pv_max": 400,
-		"image": "https://solomonk.fr/img/monsters/artworks/1188.svg",
+		"image": "/img/monsters/1188.svg",
 		"couleur": "Blanc / Bleu"
 	},
 	{
@@ -2504,8 +2445,7 @@
 		"niveau_max": 23,
 		"pv_min": 230,
 		"pv_max": 230,
-		"image": "https://solomonk.fr/img/monsters/artworks/1201.svg",
-		"couleur": ""
+		"image": "/img/monsters/1201.svg"
 	},
 	{
 		"id": 403,
@@ -2516,8 +2456,7 @@
 		"niveau_max": 23,
 		"pv_min": 200,
 		"pv_max": 200,
-		"image": "https://solomonk.fr/img/monsters/artworks/1001.svg",
-		"couleur": ""
+		"image": "/img/monsters/1001.svg"
 	},
 	{
 		"id": 404,
@@ -2528,8 +2467,7 @@
 		"niveau_max": 145,
 		"pv_min": 18000,
 		"pv_max": 26000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1199.svg",
-		"couleur": ""
+		"image": "/img/monsters/1199.svg"
 	},
 	{
 		"id": 408,
@@ -2540,8 +2478,7 @@
 		"niveau_max": 10,
 		"pv_min": 1000,
 		"pv_max": 1000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1096.svg",
-		"couleur": ""
+		"image": "/img/monsters/1096.svg"
 	},
 	{
 		"id": 412,
@@ -2552,7 +2489,7 @@
 		"niveau_max": 19,
 		"pv_min": 120,
 		"pv_max": 160,
-		"image": "https://solomonk.fr/img/monsters/artworks/1580.svg",
+		"image": "/img/monsters/1580.svg",
 		"couleur": "Bleu"
 	},
 	{
@@ -2564,7 +2501,7 @@
 		"niveau_max": 43,
 		"pv_min": 300,
 		"pv_max": 500,
-		"image": "https://solomonk.fr/img/monsters/artworks/1579.svg",
+		"image": "/img/monsters/1579.svg",
 		"couleur": "Rouge"
 	},
 	{
@@ -2576,7 +2513,7 @@
 		"niveau_max": 23,
 		"pv_min": 200,
 		"pv_max": 320,
-		"image": "https://solomonk.fr/img/monsters/artworks/1578.svg",
+		"image": "/img/monsters/1578.svg",
 		"couleur": "Vert"
 	},
 	{
@@ -2588,8 +2525,7 @@
 		"niveau_max": 100,
 		"pv_min": 150,
 		"pv_max": 300,
-		"image": "https://solomonk.fr/img/monsters/artworks/1190.svg",
-		"couleur": ""
+		"image": "/img/monsters/1190.svg"
 	},
 	{
 		"id": 416,
@@ -2600,8 +2536,7 @@
 		"niveau_max": 100,
 		"pv_min": 300,
 		"pv_max": 300,
-		"image": "https://solomonk.fr/img/monsters/artworks/61.svg",
-		"couleur": ""
+		"image": "/img/monsters/61.svg"
 	},
 	{
 		"id": 417,
@@ -2612,8 +2547,7 @@
 		"niveau_max": 100,
 		"pv_min": 250,
 		"pv_max": 250,
-		"image": "https://solomonk.fr/img/monsters/artworks/10.svg",
-		"couleur": ""
+		"image": "/img/monsters/10.svg"
 	},
 	{
 		"id": 418,
@@ -2624,8 +2558,7 @@
 		"niveau_max": 100,
 		"pv_min": 250,
 		"pv_max": 250,
-		"image": "https://solomonk.fr/img/monsters/artworks/20.svg",
-		"couleur": ""
+		"image": "/img/monsters/20.svg"
 	},
 	{
 		"id": 419,
@@ -2636,8 +2569,7 @@
 		"niveau_max": 100,
 		"pv_min": 250,
 		"pv_max": 250,
-		"image": "https://solomonk.fr/img/monsters/artworks/20.svg",
-		"couleur": ""
+		"image": "/img/monsters/20.svg"
 	},
 	{
 		"id": 420,
@@ -2648,8 +2580,7 @@
 		"niveau_max": 100,
 		"pv_min": 300,
 		"pv_max": 300,
-		"image": "https://solomonk.fr/img/monsters/artworks/110.svg",
-		"couleur": ""
+		"image": "/img/monsters/110.svg"
 	},
 	{
 		"id": 421,
@@ -2660,8 +2591,7 @@
 		"niveau_max": 100,
 		"pv_min": 250,
 		"pv_max": 250,
-		"image": "https://solomonk.fr/img/monsters/artworks/100.svg",
-		"couleur": ""
+		"image": "/img/monsters/100.svg"
 	},
 	{
 		"id": 423,
@@ -2672,7 +2602,7 @@
 		"niveau_max": 1640,
 		"pv_min": 4600,
 		"pv_max": 5000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1635.svg",
+		"image": "/img/monsters/1635.svg",
 		"couleur": "Beige"
 	},
 	{
@@ -2684,7 +2614,7 @@
 		"niveau_max": 133,
 		"pv_min": 200,
 		"pv_max": 240,
-		"image": "https://solomonk.fr/img/monsters/artworks/1632.svg",
+		"image": "/img/monsters/1632.svg",
 		"couleur": "Beige"
 	},
 	{
@@ -2696,8 +2626,7 @@
 		"niveau_max": 10,
 		"pv_min": 250,
 		"pv_max": 250,
-		"image": "https://solomonk.fr/img/monsters/artworks/1217.svg",
-		"couleur": ""
+		"image": "/img/monsters/1217.svg"
 	},
 	{
 		"id": 429,
@@ -2708,7 +2637,7 @@
 		"niveau_max": 49,
 		"pv_min": 310,
 		"pv_max": 410,
-		"image": "https://solomonk.fr/img/monsters/artworks/1221.svg",
+		"image": "/img/monsters/1221.svg",
 		"couleur": "Jaune"
 	},
 	{
@@ -2720,7 +2649,7 @@
 		"niveau_max": 280,
 		"pv_min": 2500,
 		"pv_max": 3300,
-		"image": "https://solomonk.fr/img/monsters/artworks/1222.svg",
+		"image": "/img/monsters/1222.svg",
 		"couleur": "Jaune"
 	},
 	{
@@ -2732,8 +2661,7 @@
 		"niveau_max": 48,
 		"pv_min": 200,
 		"pv_max": 400,
-		"image": "https://solomonk.fr/img/monsters/artworks/1155.svg",
-		"couleur": ""
+		"image": "/img/monsters/1155.svg"
 	},
 	{
 		"id": 439,
@@ -2744,8 +2672,7 @@
 		"niveau_max": 20,
 		"pv_min": 1000,
 		"pv_max": 1000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1223.svg",
-		"couleur": ""
+		"image": "/img/monsters/1223.svg"
 	},
 	{
 		"id": 440,
@@ -2756,8 +2683,7 @@
 		"niveau_max": 30,
 		"pv_min": 1000,
 		"pv_max": 1000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1220.svg",
-		"couleur": ""
+		"image": "/img/monsters/1220.svg"
 	},
 	{
 		"id": 441,
@@ -2768,8 +2694,7 @@
 		"niveau_max": 20,
 		"pv_min": 100,
 		"pv_max": 140,
-		"image": "https://solomonk.fr/img/monsters/artworks/1155.svg",
-		"couleur": ""
+		"image": "/img/monsters/1155.svg"
 	},
 	{
 		"id": 442,
@@ -2780,7 +2705,7 @@
 		"niveau_max": 58,
 		"pv_min": 300,
 		"pv_max": 380,
-		"image": "https://solomonk.fr/img/monsters/artworks/1226.svg",
+		"image": "/img/monsters/1226.svg",
 		"couleur": "Marron"
 	},
 	{
@@ -2792,7 +2717,7 @@
 		"niveau_max": 50,
 		"pv_min": 2000,
 		"pv_max": 2000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1228.svg",
+		"image": "/img/monsters/1228.svg",
 		"couleur": "Marron"
 	},
 	{
@@ -2804,7 +2729,7 @@
 		"niveau_max": 48,
 		"pv_min": 270,
 		"pv_max": 310,
-		"image": "https://solomonk.fr/img/monsters/artworks/1227.svg",
+		"image": "/img/monsters/1227.svg",
 		"couleur": "Marron / Blanc"
 	},
 	{
@@ -2816,7 +2741,7 @@
 		"niveau_max": 68,
 		"pv_min": 750,
 		"pv_max": 950,
-		"image": "https://solomonk.fr/img/monsters/artworks/1226.svg",
+		"image": "/img/monsters/1226.svg",
 		"couleur": "Vert"
 	},
 	{
@@ -2828,7 +2753,7 @@
 		"niveau_max": 165,
 		"pv_min": 6000,
 		"pv_max": 8000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1232.svg",
+		"image": "/img/monsters/1232.svg",
 		"couleur": "Marron"
 	},
 	{
@@ -2840,7 +2765,7 @@
 		"niveau_max": 29,
 		"pv_min": 250,
 		"pv_max": 350,
-		"image": "https://solomonk.fr/img/monsters/artworks/9003.svg",
+		"image": "/img/monsters/9003.svg",
 		"couleur": "Marron"
 	},
 	{
@@ -2852,7 +2777,7 @@
 		"niveau_max": 19,
 		"pv_min": 70,
 		"pv_max": 86,
-		"image": "https://solomonk.fr/img/monsters/artworks/1239.svg",
+		"image": "/img/monsters/1239.svg",
 		"couleur": "Marron"
 	},
 	{
@@ -2864,8 +2789,7 @@
 		"niveau_max": 100,
 		"pv_min": 400,
 		"pv_max": 1600,
-		"image": "https://solomonk.fr/img/monsters/artworks/1240.svg",
-		"couleur": ""
+		"image": "/img/monsters/1240.svg"
 	},
 	{
 		"id": 456,
@@ -2876,7 +2800,7 @@
 		"niveau_max": 36,
 		"pv_min": 120,
 		"pv_max": 200,
-		"image": "https://solomonk.fr/img/monsters/artworks/1577.svg",
+		"image": "/img/monsters/1577.svg",
 		"couleur": "Jaune"
 	},
 	{
@@ -2888,7 +2812,7 @@
 		"niveau_max": 68,
 		"pv_min": 2000,
 		"pv_max": 2400,
-		"image": "https://solomonk.fr/img/monsters/artworks/1231.svg",
+		"image": "/img/monsters/1231.svg",
 		"couleur": "Blanc"
 	},
 	{
@@ -2900,7 +2824,7 @@
 		"niveau_max": 126,
 		"pv_min": 3000,
 		"pv_max": 3000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1246.svg",
+		"image": "/img/monsters/1246.svg",
 		"couleur": "Jaune / Marron"
 	},
 	{
@@ -2912,7 +2836,7 @@
 		"niveau_max": 20,
 		"pv_min": 140,
 		"pv_max": 140,
-		"image": "https://solomonk.fr/img/monsters/artworks/1247.svg",
+		"image": "/img/monsters/1247.svg",
 		"couleur": "Noir"
 	},
 	{
@@ -2924,8 +2848,7 @@
 		"niveau_max": 50,
 		"pv_min": 250,
 		"pv_max": 250,
-		"image": "https://solomonk.fr/img/monsters/artworks/50.svg",
-		"couleur": ""
+		"image": "/img/monsters/50.svg"
 	},
 	{
 		"id": 462,
@@ -2936,7 +2859,7 @@
 		"niveau_max": 50,
 		"pv_min": 300,
 		"pv_max": 300,
-		"image": "https://solomonk.fr/img/monsters/artworks/1245.svg",
+		"image": "/img/monsters/1245.svg",
 		"couleur": "Noir"
 	},
 	{
@@ -2948,7 +2871,7 @@
 		"niveau_max": 5,
 		"pv_min": 50,
 		"pv_max": 50,
-		"image": "https://solomonk.fr/img/monsters/artworks/1249.svg",
+		"image": "/img/monsters/1249.svg",
 		"couleur": "Orange"
 	},
 	{
@@ -2960,7 +2883,7 @@
 		"niveau_max": 42,
 		"pv_min": 300,
 		"pv_max": 300,
-		"image": "https://solomonk.fr/img/monsters/artworks/1226.svg",
+		"image": "/img/monsters/1226.svg",
 		"couleur": "Marron"
 	},
 	{
@@ -2972,7 +2895,7 @@
 		"niveau_max": 9,
 		"pv_min": 25,
 		"pv_max": 53,
-		"image": "https://solomonk.fr/img/monsters/artworks/1095.svg",
+		"image": "/img/monsters/1095.svg",
 		"couleur": "Marron / Blanc"
 	},
 	{
@@ -2984,7 +2907,7 @@
 		"niveau_max": 27,
 		"pv_min": 190,
 		"pv_max": 270,
-		"image": "https://solomonk.fr/img/monsters/artworks/1044.svg",
+		"image": "/img/monsters/1044.svg",
 		"couleur": "Noir"
 	},
 	{
@@ -2996,7 +2919,7 @@
 		"niveau_max": 6,
 		"pv_min": 8,
 		"pv_max": 24,
-		"image": "https://solomonk.fr/img/monsters/artworks/1019.svg",
+		"image": "/img/monsters/1019.svg",
 		"couleur": "Jaune"
 	},
 	{
@@ -3008,7 +2931,7 @@
 		"niveau_max": 5,
 		"pv_min": 10,
 		"pv_max": 40,
-		"image": "https://solomonk.fr/img/monsters/artworks/1564.svg",
+		"image": "/img/monsters/1564.svg",
 		"couleur": "Noir"
 	},
 	{
@@ -3020,8 +2943,7 @@
 		"niveau_max": 22,
 		"pv_min": 100,
 		"pv_max": 220,
-		"image": "https://solomonk.fr/img/monsters/artworks/1226.svg",
-		"couleur": ""
+		"image": "/img/monsters/1226.svg"
 	},
 	{
 		"id": 478,
@@ -3032,7 +2954,7 @@
 		"niveau_max": 440,
 		"pv_min": 11000,
 		"pv_max": 15000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1242.svg",
+		"image": "/img/monsters/1242.svg",
 		"couleur": "Vert"
 	},
 	{
@@ -3044,7 +2966,7 @@
 		"niveau_max": 98,
 		"pv_min": 1500,
 		"pv_max": 1900,
-		"image": "https://solomonk.fr/img/monsters/artworks/1241.svg",
+		"image": "/img/monsters/1241.svg",
 		"couleur": "Vert"
 	},
 	{
@@ -3056,7 +2978,7 @@
 		"niveau_max": 1,
 		"pv_min": 25,
 		"pv_max": 25,
-		"image": "https://solomonk.fr/img/monsters/artworks/1085.svg",
+		"image": "/img/monsters/1085.svg",
 		"couleur": "Gris"
 	},
 	{
@@ -3068,7 +2990,7 @@
 		"niveau_max": 62,
 		"pv_min": 660,
 		"pv_max": 660,
-		"image": "https://solomonk.fr/img/monsters/artworks/1250.svg",
+		"image": "/img/monsters/1250.svg",
 		"couleur": "Vert"
 	},
 	{
@@ -3080,7 +3002,7 @@
 		"niveau_max": 28,
 		"pv_min": 190,
 		"pv_max": 270,
-		"image": "https://solomonk.fr/img/monsters/artworks/1248.svg",
+		"image": "/img/monsters/1248.svg",
 		"couleur": "Gris"
 	},
 	{
@@ -3092,7 +3014,7 @@
 		"niveau_max": 133,
 		"pv_min": 3000,
 		"pv_max": 3400,
-		"image": "https://solomonk.fr/img/monsters/artworks/1244.svg",
+		"image": "/img/monsters/1244.svg",
 		"couleur": "Rouge"
 	},
 	{
@@ -3104,7 +3026,7 @@
 		"niveau_max": 133,
 		"pv_min": 3000,
 		"pv_max": 3400,
-		"image": "https://solomonk.fr/img/monsters/artworks/1244.svg",
+		"image": "/img/monsters/1244.svg",
 		"couleur": "Bleu"
 	},
 	{
@@ -3116,7 +3038,7 @@
 		"niveau_max": 133,
 		"pv_min": 3000,
 		"pv_max": 3400,
-		"image": "https://solomonk.fr/img/monsters/artworks/1244.svg",
+		"image": "/img/monsters/1244.svg",
 		"couleur": "Blanc"
 	},
 	{
@@ -3128,7 +3050,7 @@
 		"niveau_max": 133,
 		"pv_min": 3000,
 		"pv_max": 3400,
-		"image": "https://solomonk.fr/img/monsters/artworks/1244.svg",
+		"image": "/img/monsters/1244.svg",
 		"couleur": "Vert"
 	},
 	{
@@ -3140,7 +3062,7 @@
 		"niveau_max": 185,
 		"pv_min": 4500,
 		"pv_max": 5300,
-		"image": "https://solomonk.fr/img/monsters/artworks/1243.svg",
+		"image": "/img/monsters/1243.svg",
 		"couleur": "Vert"
 	},
 	{
@@ -3152,7 +3074,7 @@
 		"niveau_max": 5,
 		"pv_min": 10,
 		"pv_max": 18,
-		"image": "https://solomonk.fr/img/monsters/artworks/9204.svg",
+		"image": "/img/monsters/9204.svg",
 		"couleur": "Rouge"
 	},
 	{
@@ -3164,7 +3086,7 @@
 		"niveau_max": 5,
 		"pv_min": 10,
 		"pv_max": 18,
-		"image": "https://solomonk.fr/img/monsters/artworks/9205.svg",
+		"image": "/img/monsters/9205.svg",
 		"couleur": "Vert"
 	},
 	{
@@ -3176,7 +3098,7 @@
 		"niveau_max": 5,
 		"pv_min": 10,
 		"pv_max": 18,
-		"image": "https://solomonk.fr/img/monsters/artworks/1212.svg",
+		"image": "/img/monsters/1212.svg",
 		"couleur": "Bleu"
 	},
 	{
@@ -3188,7 +3110,7 @@
 		"niveau_max": 6,
 		"pv_min": 10,
 		"pv_max": 18,
-		"image": "https://solomonk.fr/img/monsters/artworks/9203.svg",
+		"image": "/img/monsters/9203.svg",
 		"couleur": "Rose"
 	},
 	{
@@ -3200,7 +3122,7 @@
 		"niveau_max": 5,
 		"pv_min": 10,
 		"pv_max": 18,
-		"image": "https://solomonk.fr/img/monsters/artworks/9202.svg",
+		"image": "/img/monsters/9202.svg",
 		"couleur": "Jaune"
 	},
 	{
@@ -3212,8 +3134,7 @@
 		"niveau_max": 48,
 		"pv_min": 250,
 		"pv_max": 370,
-		"image": "https://solomonk.fr/img/monsters/artworks/1251.svg",
-		"couleur": ""
+		"image": "/img/monsters/1251.svg"
 	},
 	{
 		"id": 496,
@@ -3224,7 +3145,7 @@
 		"niveau_max": 48,
 		"pv_min": 250,
 		"pv_max": 370,
-		"image": "https://solomonk.fr/img/monsters/artworks/1252.svg",
+		"image": "/img/monsters/1252.svg",
 		"couleur": "Marron"
 	},
 	{
@@ -3236,7 +3157,7 @@
 		"niveau_max": 32,
 		"pv_min": 200,
 		"pv_max": 280,
-		"image": "https://solomonk.fr/img/monsters/artworks/1253.svg",
+		"image": "/img/monsters/1253.svg",
 		"couleur": "Gris"
 	},
 	{
@@ -3248,7 +3169,7 @@
 		"niveau_max": 65,
 		"pv_min": 5900,
 		"pv_max": 6800,
-		"image": "https://solomonk.fr/img/monsters/artworks/1254.svg",
+		"image": "/img/monsters/1254.svg",
 		"couleur": "Rouge"
 	},
 	{
@@ -3260,8 +3181,7 @@
 		"niveau_max": 25,
 		"pv_min": 100,
 		"pv_max": 100,
-		"image": "https://solomonk.fr/img/monsters/artworks/120.svg",
-		"couleur": ""
+		"image": "/img/monsters/120.svg"
 	},
 	{
 		"id": 508,
@@ -3272,8 +3192,7 @@
 		"niveau_max": 50,
 		"pv_min": 200,
 		"pv_max": 200,
-		"image": "https://solomonk.fr/img/monsters/artworks/120.svg",
-		"couleur": ""
+		"image": "/img/monsters/120.svg"
 	},
 	{
 		"id": 510,
@@ -3284,8 +3203,7 @@
 		"niveau_max": 75,
 		"pv_min": 400,
 		"pv_max": 400,
-		"image": "https://solomonk.fr/img/monsters/artworks/120.svg",
-		"couleur": ""
+		"image": "/img/monsters/120.svg"
 	},
 	{
 		"id": 512,
@@ -3296,8 +3214,7 @@
 		"niveau_max": 100,
 		"pv_min": 800,
 		"pv_max": 800,
-		"image": "https://solomonk.fr/img/monsters/artworks/120.svg",
-		"couleur": ""
+		"image": "/img/monsters/120.svg"
 	},
 	{
 		"id": 514,
@@ -3308,8 +3225,7 @@
 		"niveau_max": 200,
 		"pv_min": 2000,
 		"pv_max": 2000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1264.svg",
-		"couleur": ""
+		"image": "/img/monsters/1264.svg"
 	},
 	{
 		"id": 515,
@@ -3320,7 +3236,7 @@
 		"niveau_max": 26,
 		"pv_min": 90,
 		"pv_max": 110,
-		"image": "https://solomonk.fr/img/monsters/artworks/1265.svg",
+		"image": "/img/monsters/1265.svg",
 		"couleur": "Marron"
 	},
 	{
@@ -3332,7 +3248,7 @@
 		"niveau_max": 51,
 		"pv_min": 375,
 		"pv_max": 675,
-		"image": "https://solomonk.fr/img/monsters/artworks/1260.svg",
+		"image": "/img/monsters/1260.svg",
 		"couleur": "Blanc / Gris / Rouge"
 	},
 	{
@@ -3344,7 +3260,7 @@
 		"niveau_max": 42,
 		"pv_min": 250,
 		"pv_max": 370,
-		"image": "https://solomonk.fr/img/monsters/artworks/1266.svg",
+		"image": "/img/monsters/1266.svg",
 		"couleur": "Marron / Orange"
 	},
 	{
@@ -3356,7 +3272,7 @@
 		"niveau_max": 83,
 		"pv_min": 2350,
 		"pv_max": 3150,
-		"image": "https://solomonk.fr/img/monsters/artworks/1273.svg",
+		"image": "/img/monsters/1273.svg",
 		"couleur": "Marron / Vert"
 	},
 	{
@@ -3368,7 +3284,7 @@
 		"niveau_max": 43,
 		"pv_min": 400,
 		"pv_max": 420,
-		"image": "https://solomonk.fr/img/monsters/artworks/1002.svg",
+		"image": "/img/monsters/1002.svg",
 		"couleur": "Vert"
 	},
 	{
@@ -3380,8 +3296,7 @@
 		"niveau_max": 96,
 		"pv_min": 1305,
 		"pv_max": 1705,
-		"image": "https://solomonk.fr/img/monsters/artworks/1232.svg",
-		"couleur": ""
+		"image": "/img/monsters/1232.svg"
 	},
 	{
 		"id": 522,
@@ -3392,7 +3307,7 @@
 		"niveau_max": 67,
 		"pv_min": 1800,
 		"pv_max": 2000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1013.svg",
+		"image": "/img/monsters/1013.svg",
 		"couleur": "Vert"
 	},
 	{
@@ -3404,7 +3319,7 @@
 		"niveau_max": 29,
 		"pv_min": 153,
 		"pv_max": 169,
-		"image": "https://solomonk.fr/img/monsters/artworks/1271.svg",
+		"image": "/img/monsters/1271.svg",
 		"couleur": "Bleu"
 	},
 	{
@@ -3416,7 +3331,7 @@
 		"niveau_max": 24,
 		"pv_min": 85,
 		"pv_max": 105,
-		"image": "https://solomonk.fr/img/monsters/artworks/1285.svg",
+		"image": "/img/monsters/1285.svg",
 		"couleur": "Beige / Vert"
 	},
 	{
@@ -3428,7 +3343,7 @@
 		"niveau_max": 85,
 		"pv_min": 622,
 		"pv_max": 838,
-		"image": "https://solomonk.fr/img/monsters/artworks/1095.svg",
+		"image": "/img/monsters/1095.svg",
 		"couleur": "Marron"
 	},
 	{
@@ -3440,7 +3355,7 @@
 		"niveau_max": 170,
 		"pv_min": 4000,
 		"pv_max": 4400,
-		"image": "https://solomonk.fr/img/monsters/artworks/1276.svg",
+		"image": "/img/monsters/1276.svg",
 		"couleur": "Orange"
 	},
 	{
@@ -3452,7 +3367,7 @@
 		"niveau_max": 107,
 		"pv_min": 1900,
 		"pv_max": 1900,
-		"image": "https://solomonk.fr/img/monsters/artworks/1275.svg",
+		"image": "/img/monsters/1275.svg",
 		"couleur": "Orange"
 	},
 	{
@@ -3464,7 +3379,7 @@
 		"niveau_max": 110,
 		"pv_min": 1500,
 		"pv_max": 1500,
-		"image": "https://solomonk.fr/img/monsters/artworks/1275.svg",
+		"image": "/img/monsters/1275.svg",
 		"couleur": "Orange"
 	},
 	{
@@ -3476,7 +3391,7 @@
 		"niveau_max": 81,
 		"pv_min": 553,
 		"pv_max": 569,
-		"image": "https://solomonk.fr/img/monsters/artworks/1270.svg",
+		"image": "/img/monsters/1270.svg",
 		"couleur": "Marron"
 	},
 	{
@@ -3488,7 +3403,7 @@
 		"niveau_max": 61,
 		"pv_min": 353,
 		"pv_max": 369,
-		"image": "https://solomonk.fr/img/monsters/artworks/1268.svg",
+		"image": "/img/monsters/1268.svg",
 		"couleur": "Blanc"
 	},
 	{
@@ -3500,7 +3415,7 @@
 		"niveau_max": 111,
 		"pv_min": 753,
 		"pv_max": 769,
-		"image": "https://solomonk.fr/img/monsters/artworks/1269.svg",
+		"image": "/img/monsters/1269.svg",
 		"couleur": "Orange"
 	},
 	{
@@ -3512,7 +3427,7 @@
 		"niveau_max": 58,
 		"pv_min": 650,
 		"pv_max": 730,
-		"image": "https://solomonk.fr/img/monsters/artworks/1278.svg",
+		"image": "/img/monsters/1278.svg",
 		"couleur": "Orange"
 	},
 	{
@@ -3524,7 +3439,7 @@
 		"niveau_max": 240,
 		"pv_min": 7000,
 		"pv_max": 9000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1295.svg",
+		"image": "/img/monsters/1295.svg",
 		"couleur": "Blanc / Gris"
 	},
 	{
@@ -3536,8 +3451,7 @@
 		"niveau_max": 1,
 		"pv_min": 3000,
 		"pv_max": 3000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1200.svg",
-		"couleur": ""
+		"image": "/img/monsters/1200.svg"
 	},
 	{
 		"id": 539,
@@ -3548,8 +3462,7 @@
 		"niveau_max": 1,
 		"pv_min": 3000,
 		"pv_max": 3000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1200.svg",
-		"couleur": ""
+		"image": "/img/monsters/1200.svg"
 	},
 	{
 		"id": 540,
@@ -3560,8 +3473,7 @@
 		"niveau_max": 1,
 		"pv_min": 3000,
 		"pv_max": 3000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1200.svg",
-		"couleur": ""
+		"image": "/img/monsters/1200.svg"
 	},
 	{
 		"id": 541,
@@ -3572,8 +3484,7 @@
 		"niveau_max": 1,
 		"pv_min": 3000,
 		"pv_max": 3000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1200.svg",
-		"couleur": ""
+		"image": "/img/monsters/1200.svg"
 	},
 	{
 		"id": 546,
@@ -3584,7 +3495,7 @@
 		"niveau_max": 97,
 		"pv_min": 2700,
 		"pv_max": 3700,
-		"image": "https://solomonk.fr/img/monsters/artworks/1286.svg",
+		"image": "/img/monsters/1286.svg",
 		"couleur": "Marron / Vert"
 	},
 	{
@@ -3596,7 +3507,7 @@
 		"niveau_max": 23,
 		"pv_min": 100,
 		"pv_max": 200,
-		"image": "https://solomonk.fr/img/monsters/artworks/1267.svg",
+		"image": "/img/monsters/1267.svg",
 		"couleur": "Marron / Vert"
 	},
 	{
@@ -3608,7 +3519,7 @@
 		"niveau_max": 90,
 		"pv_min": 600,
 		"pv_max": 1400,
-		"image": "https://solomonk.fr/img/monsters/artworks/1274.svg",
+		"image": "/img/monsters/1274.svg",
 		"couleur": "Blanc / Gris"
 	},
 	{
@@ -3620,7 +3531,7 @@
 		"niveau_max": 24,
 		"pv_min": 190,
 		"pv_max": 270,
-		"image": "https://solomonk.fr/img/monsters/artworks/1248.svg",
+		"image": "/img/monsters/1248.svg",
 		"couleur": "Gris"
 	},
 	{
@@ -3632,7 +3543,7 @@
 		"niveau_max": 80,
 		"pv_min": 800,
 		"pv_max": 800,
-		"image": "https://solomonk.fr/img/monsters/artworks/1153.svg",
+		"image": "/img/monsters/1153.svg",
 		"couleur": "Bleu / Violet"
 	},
 	{
@@ -3644,7 +3555,7 @@
 		"niveau_max": 50,
 		"pv_min": 350,
 		"pv_max": 350,
-		"image": "https://solomonk.fr/img/monsters/artworks/1076.svg",
+		"image": "/img/monsters/1076.svg",
 		"couleur": "Gris"
 	},
 	{
@@ -3656,7 +3567,7 @@
 		"niveau_max": 150,
 		"pv_min": 1000,
 		"pv_max": 1000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1264.svg",
+		"image": "/img/monsters/1264.svg",
 		"couleur": "Gris / Blanc"
 	},
 	{
@@ -3668,8 +3579,7 @@
 		"niveau_max": 54,
 		"pv_min": 275,
 		"pv_max": 379,
-		"image": "https://solomonk.fr/img/monsters/artworks/120.svg",
-		"couleur": ""
+		"image": "/img/monsters/120.svg"
 	},
 	{
 		"id": 558,
@@ -3680,8 +3590,7 @@
 		"niveau_max": 33,
 		"pv_min": 125,
 		"pv_max": 145,
-		"image": "https://solomonk.fr/img/monsters/artworks/120.svg",
-		"couleur": ""
+		"image": "/img/monsters/120.svg"
 	},
 	{
 		"id": 559,
@@ -3692,8 +3601,7 @@
 		"niveau_max": 110,
 		"pv_min": 880,
 		"pv_max": 1320,
-		"image": "https://solomonk.fr/img/monsters/artworks/120.svg",
-		"couleur": ""
+		"image": "/img/monsters/120.svg"
 	},
 	{
 		"id": 560,
@@ -3704,8 +3612,7 @@
 		"niveau_max": 90,
 		"pv_min": 612,
 		"pv_max": 764,
-		"image": "https://solomonk.fr/img/monsters/artworks/120.svg",
-		"couleur": ""
+		"image": "/img/monsters/120.svg"
 	},
 	{
 		"id": 561,
@@ -3716,8 +3623,7 @@
 		"niveau_max": 50,
 		"pv_min": 275,
 		"pv_max": 275,
-		"image": "https://solomonk.fr/img/monsters/artworks/120.svg",
-		"couleur": ""
+		"image": "/img/monsters/120.svg"
 	},
 	{
 		"id": 566,
@@ -3728,7 +3634,7 @@
 		"niveau_max": 52,
 		"pv_min": 380,
 		"pv_max": 640,
-		"image": "https://solomonk.fr/img/monsters/artworks/1260.svg",
+		"image": "/img/monsters/1260.svg",
 		"couleur": "Blanc / Gris"
 	},
 	{
@@ -3740,7 +3646,7 @@
 		"niveau_max": 140,
 		"pv_min": 5000,
 		"pv_max": 5400,
-		"image": "https://solomonk.fr/img/monsters/artworks/1283.svg",
+		"image": "/img/monsters/1283.svg",
 		"couleur": "Blanc / Gris / Rouge"
 	},
 	{
@@ -3752,7 +3658,7 @@
 		"niveau_max": 38,
 		"pv_min": 300,
 		"pv_max": 340,
-		"image": "https://solomonk.fr/img/monsters/artworks/1284.svg",
+		"image": "/img/monsters/1284.svg",
 		"couleur": "Blanc / Gris / Rouge"
 	},
 	{
@@ -3764,8 +3670,7 @@
 		"niveau_max": 47,
 		"pv_min": 350,
 		"pv_max": 550,
-		"image": "https://solomonk.fr/img/monsters/artworks/1240.svg",
-		"couleur": ""
+		"image": "/img/monsters/1240.svg"
 	},
 	{
 		"id": 575,
@@ -3776,8 +3681,7 @@
 		"niveau_max": 47,
 		"pv_min": 350,
 		"pv_max": 550,
-		"image": "https://solomonk.fr/img/monsters/artworks/1240.svg",
-		"couleur": ""
+		"image": "/img/monsters/1240.svg"
 	},
 	{
 		"id": 576,
@@ -3788,8 +3692,7 @@
 		"niveau_max": 47,
 		"pv_min": 350,
 		"pv_max": 550,
-		"image": "https://solomonk.fr/img/monsters/artworks/1240.svg",
-		"couleur": ""
+		"image": "/img/monsters/1240.svg"
 	},
 	{
 		"id": 578,
@@ -3800,7 +3703,7 @@
 		"niveau_max": 53,
 		"pv_min": 500,
 		"pv_max": 700,
-		"image": "https://solomonk.fr/img/monsters/artworks/1260.svg",
+		"image": "/img/monsters/1260.svg",
 		"couleur": "Blanc / Gris / Rouge"
 	},
 	{
@@ -3812,7 +3715,7 @@
 		"niveau_max": 55,
 		"pv_min": 600,
 		"pv_max": 600,
-		"image": "https://solomonk.fr/img/monsters/artworks/1260.svg",
+		"image": "/img/monsters/1260.svg",
 		"couleur": "Blanc / Gris / Rouge"
 	},
 	{
@@ -3824,7 +3727,7 @@
 		"niveau_max": 85,
 		"pv_min": 1000,
 		"pv_max": 1000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1264.svg",
+		"image": "/img/monsters/1264.svg",
 		"couleur": "Blanc / Noir"
 	},
 	{
@@ -3836,7 +3739,7 @@
 		"niveau_max": 78,
 		"pv_min": 1300,
 		"pv_max": 1700,
-		"image": "https://solomonk.fr/img/monsters/artworks/1274.svg",
+		"image": "/img/monsters/1274.svg",
 		"couleur": "Blanc / Rouge"
 	},
 	{
@@ -3848,7 +3751,7 @@
 		"niveau_max": 350,
 		"pv_min": 20000,
 		"pv_max": 20000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1232.svg",
+		"image": "/img/monsters/1232.svg",
 		"couleur": "Noir"
 	},
 	{
@@ -3860,7 +3763,7 @@
 		"niveau_max": 180,
 		"pv_min": 3600,
 		"pv_max": 4000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1287.svg",
+		"image": "/img/monsters/1287.svg",
 		"couleur": "Transparent"
 	},
 	{
@@ -3872,7 +3775,7 @@
 		"niveau_max": 250,
 		"pv_min": 6000,
 		"pv_max": 8000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1288.svg",
+		"image": "/img/monsters/1288.svg",
 		"couleur": "Transparent"
 	},
 	{
@@ -3884,7 +3787,7 @@
 		"niveau_max": 220,
 		"pv_min": 4000,
 		"pv_max": 4000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1288.svg",
+		"image": "/img/monsters/1288.svg",
 		"couleur": "Transparent"
 	},
 	{
@@ -3896,7 +3799,7 @@
 		"niveau_max": 180,
 		"pv_min": 5200,
 		"pv_max": 6000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1290.svg",
+		"image": "/img/monsters/1290.svg",
 		"couleur": "Transparent"
 	},
 	{
@@ -3908,7 +3811,7 @@
 		"niveau_max": 270,
 		"pv_min": 8000,
 		"pv_max": 10000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1289.svg",
+		"image": "/img/monsters/1289.svg",
 		"couleur": "Transparent"
 	},
 	{
@@ -3920,7 +3823,7 @@
 		"niveau_max": 440,
 		"pv_min": 11000,
 		"pv_max": 15000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1292.svg",
+		"image": "/img/monsters/1292.svg",
 		"couleur": "Transparent"
 	},
 	{
@@ -3932,7 +3835,7 @@
 		"niveau_max": 210,
 		"pv_min": 6000,
 		"pv_max": 8000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1294.svg",
+		"image": "/img/monsters/1294.svg",
 		"couleur": "Transparent"
 	},
 	{
@@ -3944,7 +3847,7 @@
 		"niveau_max": 80,
 		"pv_min": 1000,
 		"pv_max": 1400,
-		"image": "https://solomonk.fr/img/monsters/artworks/1293.svg",
+		"image": "/img/monsters/1293.svg",
 		"couleur": "Transparent"
 	},
 	{
@@ -3956,7 +3859,7 @@
 		"niveau_max": 400,
 		"pv_min": 10000,
 		"pv_max": 12000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1296.svg",
+		"image": "/img/monsters/1296.svg",
 		"couleur": "Transparent"
 	},
 	{
@@ -3968,7 +3871,7 @@
 		"niveau_max": 100,
 		"pv_min": 4000,
 		"pv_max": 4000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1145.svg",
+		"image": "/img/monsters/1145.svg",
 		"couleur": "Rouge"
 	},
 	{
@@ -3980,7 +3883,7 @@
 		"niveau_max": 68,
 		"pv_min": 700,
 		"pv_max": 900,
-		"image": "https://solomonk.fr/img/monsters/artworks/1256.svg",
+		"image": "/img/monsters/1256.svg",
 		"couleur": "Beige / Blanc"
 	},
 	{
@@ -3992,7 +3895,7 @@
 		"niveau_max": 72,
 		"pv_min": 700,
 		"pv_max": 900,
-		"image": "https://solomonk.fr/img/monsters/artworks/1259.svg",
+		"image": "/img/monsters/1259.svg",
 		"couleur": "Beige / Blanc / Rouge"
 	},
 	{
@@ -4004,7 +3907,7 @@
 		"niveau_max": 38,
 		"pv_min": 300,
 		"pv_max": 420,
-		"image": "https://solomonk.fr/img/monsters/artworks/1257.svg",
+		"image": "/img/monsters/1257.svg",
 		"couleur": "Beige"
 	},
 	{
@@ -4016,7 +3919,7 @@
 		"niveau_max": 840,
 		"pv_min": 10000,
 		"pv_max": 12000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1297.svg",
+		"image": "/img/monsters/1297.svg",
 		"couleur": "Jaune"
 	},
 	{
@@ -4028,7 +3931,7 @@
 		"niveau_max": 1,
 		"pv_min": 10,
 		"pv_max": 10,
-		"image": "https://solomonk.fr/img/monsters/artworks/1083.svg",
+		"image": "/img/monsters/1083.svg",
 		"couleur": "Jaune / Marron"
 	},
 	{
@@ -4040,7 +3943,7 @@
 		"niveau_max": 100,
 		"pv_min": 1500,
 		"pv_max": 1500,
-		"image": "https://solomonk.fr/img/monsters/artworks/1264.svg",
+		"image": "/img/monsters/1264.svg",
 		"couleur": "Blanc / Noir"
 	},
 	{
@@ -4052,7 +3955,7 @@
 		"niveau_max": 90,
 		"pv_min": 20,
 		"pv_max": 28,
-		"image": "https://solomonk.fr/img/monsters/artworks/1280.svg",
+		"image": "/img/monsters/1280.svg",
 		"couleur": "Blanc / Noir"
 	},
 	{
@@ -4064,8 +3967,7 @@
 		"niveau_max": 5,
 		"pv_min": 15,
 		"pv_max": 19,
-		"image": "https://solomonk.fr/img/monsters/artworks/1298.svg",
-		"couleur": ""
+		"image": "/img/monsters/1298.svg"
 	},
 	{
 		"id": 612,
@@ -4076,7 +3978,7 @@
 		"niveau_max": 240,
 		"pv_min": 7000,
 		"pv_max": 9000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1295.svg",
+		"image": "/img/monsters/1295.svg",
 		"couleur": "Blanc / Gris"
 	},
 	{
@@ -4088,8 +3990,7 @@
 		"niveau_max": 80,
 		"pv_min": 500,
 		"pv_max": 1100,
-		"image": "https://solomonk.fr/img/monsters/artworks/9041.svg",
-		"couleur": ""
+		"image": "/img/monsters/9041.svg"
 	},
 	{
 		"id": 627,
@@ -4100,8 +4001,7 @@
 		"niveau_max": 5,
 		"pv_min": 6,
 		"pv_max": 6,
-		"image": "https://solomonk.fr/img/monsters/artworks/1311.svg",
-		"couleur": ""
+		"image": "/img/monsters/1311.svg"
 	},
 	{
 		"id": 650,
@@ -4112,7 +4012,7 @@
 		"niveau_max": 42,
 		"pv_min": 220,
 		"pv_max": 340,
-		"image": "https://solomonk.fr/img/monsters/artworks/1333.svg",
+		"image": "/img/monsters/1333.svg",
 		"couleur": "Marron"
 	},
 	{
@@ -4124,7 +4024,7 @@
 		"niveau_max": 18,
 		"pv_min": 100,
 		"pv_max": 180,
-		"image": "https://solomonk.fr/img/monsters/artworks/1335.svg",
+		"image": "/img/monsters/1335.svg",
 		"couleur": "Vert"
 	},
 	{
@@ -4136,7 +4036,7 @@
 		"niveau_max": 28,
 		"pv_min": 100,
 		"pv_max": 180,
-		"image": "https://solomonk.fr/img/monsters/artworks/1335.svg",
+		"image": "/img/monsters/1335.svg",
 		"couleur": "Rouge"
 	},
 	{
@@ -4148,7 +4048,7 @@
 		"niveau_max": 28,
 		"pv_min": 30,
 		"pv_max": 50,
-		"image": "https://solomonk.fr/img/monsters/artworks/1335.svg",
+		"image": "/img/monsters/1335.svg",
 		"couleur": "Bleu"
 	},
 	{
@@ -4160,7 +4060,7 @@
 		"niveau_max": 28,
 		"pv_min": 150,
 		"pv_max": 230,
-		"image": "https://solomonk.fr/img/monsters/artworks/1335.svg",
+		"image": "/img/monsters/1335.svg",
 		"couleur": "Marron"
 	},
 	{
@@ -4172,8 +4072,7 @@
 		"niveau_max": 1,
 		"pv_min": 100,
 		"pv_max": 100,
-		"image": "https://solomonk.fr/img/monsters/artworks/1046.svg",
-		"couleur": ""
+		"image": "/img/monsters/1046.svg"
 	},
 	{
 		"id": 666,
@@ -4184,7 +4083,7 @@
 		"niveau_max": 92,
 		"pv_min": 1500,
 		"pv_max": 1900,
-		"image": "https://solomonk.fr/img/monsters/artworks/1108.svg",
+		"image": "/img/monsters/1108.svg",
 		"couleur": "Jaune"
 	},
 	{
@@ -4196,7 +4095,7 @@
 		"niveau_max": 48,
 		"pv_min": 300,
 		"pv_max": 420,
-		"image": "https://solomonk.fr/img/monsters/artworks/1384.svg",
+		"image": "/img/monsters/1384.svg",
 		"couleur": "Orange"
 	},
 	{
@@ -4208,7 +4107,7 @@
 		"niveau_max": 140,
 		"pv_min": 4600,
 		"pv_max": 5000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1358.svg",
+		"image": "/img/monsters/1358.svg",
 		"couleur": "Gris"
 	},
 	{
@@ -4220,7 +4119,7 @@
 		"niveau_max": 220,
 		"pv_min": 7000,
 		"pv_max": 8200,
-		"image": "https://solomonk.fr/img/monsters/artworks/1356.svg",
+		"image": "/img/monsters/1356.svg",
 		"couleur": "Vert / Gris"
 	},
 	{
@@ -4232,7 +4131,7 @@
 		"niveau_max": 48,
 		"pv_min": 250,
 		"pv_max": 290,
-		"image": "https://solomonk.fr/img/monsters/artworks/1354.svg",
+		"image": "/img/monsters/1354.svg",
 		"couleur": "Blanc"
 	},
 	{
@@ -4244,7 +4143,7 @@
 		"niveau_max": 58,
 		"pv_min": 450,
 		"pv_max": 490,
-		"image": "https://solomonk.fr/img/monsters/artworks/1355.svg",
+		"image": "/img/monsters/1355.svg",
 		"couleur": "Vert / Rouge / Jaune"
 	},
 	{
@@ -4256,7 +4155,7 @@
 		"niveau_max": 120,
 		"pv_min": 6200,
 		"pv_max": 7000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1357.svg",
+		"image": "/img/monsters/1357.svg",
 		"couleur": "Vert"
 	},
 	{
@@ -4268,8 +4167,7 @@
 		"niveau_max": 48,
 		"pv_min": 200,
 		"pv_max": 320,
-		"image": "https://solomonk.fr/img/monsters/artworks/1369.svg",
-		"couleur": ""
+		"image": "/img/monsters/1369.svg"
 	},
 	{
 		"id": 675,
@@ -4280,7 +4178,7 @@
 		"niveau_max": 120,
 		"pv_min": 6200,
 		"pv_max": 7000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1357.svg",
+		"image": "/img/monsters/1357.svg",
 		"couleur": "Bleu"
 	},
 	{
@@ -4292,7 +4190,7 @@
 		"niveau_max": 5,
 		"pv_min": 1000,
 		"pv_max": 1000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1369.svg",
+		"image": "/img/monsters/1369.svg",
 		"couleur": "Gris"
 	},
 	{
@@ -4304,7 +4202,7 @@
 		"niveau_max": 120,
 		"pv_min": 6200,
 		"pv_max": 7000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1357.svg",
+		"image": "/img/monsters/1357.svg",
 		"couleur": "Rouge"
 	},
 	{
@@ -4316,8 +4214,7 @@
 		"niveau_max": 5,
 		"pv_min": 300,
 		"pv_max": 380,
-		"image": "https://solomonk.fr/img/monsters/artworks/1370.svg",
-		"couleur": ""
+		"image": "/img/monsters/1370.svg"
 	},
 	{
 		"id": 679,
@@ -4328,8 +4225,7 @@
 		"niveau_max": 5,
 		"pv_min": 300,
 		"pv_max": 380,
-		"image": "https://solomonk.fr/img/monsters/artworks/1370.svg",
-		"couleur": ""
+		"image": "/img/monsters/1370.svg"
 	},
 	{
 		"id": 680,
@@ -4340,8 +4236,7 @@
 		"niveau_max": 5,
 		"pv_min": 300,
 		"pv_max": 380,
-		"image": "https://solomonk.fr/img/monsters/artworks/1370.svg",
-		"couleur": ""
+		"image": "/img/monsters/1370.svg"
 	},
 	{
 		"id": 681,
@@ -4352,7 +4247,7 @@
 		"niveau_max": 120,
 		"pv_min": 6200,
 		"pv_max": 7000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1357.svg",
+		"image": "/img/monsters/1357.svg",
 		"couleur": "Bleu / Blanc"
 	},
 	{
@@ -4364,8 +4259,7 @@
 		"niveau_max": 5,
 		"pv_min": 100,
 		"pv_max": 140,
-		"image": "https://solomonk.fr/img/monsters/artworks/1369.svg",
-		"couleur": ""
+		"image": "/img/monsters/1369.svg"
 	},
 	{
 		"id": 684,
@@ -4376,8 +4270,7 @@
 		"niveau_max": 50,
 		"pv_min": 30,
 		"pv_max": 70,
-		"image": "https://solomonk.fr/img/monsters/artworks/1411.svg",
-		"couleur": ""
+		"image": "/img/monsters/1411.svg"
 	},
 	{
 		"id": 685,
@@ -4388,8 +4281,7 @@
 		"niveau_max": 50,
 		"pv_min": 30,
 		"pv_max": 70,
-		"image": "https://solomonk.fr/img/monsters/artworks/1412.svg",
-		"couleur": ""
+		"image": "/img/monsters/1412.svg"
 	},
 	{
 		"id": 686,
@@ -4400,8 +4292,7 @@
 		"niveau_max": 50,
 		"pv_min": 30,
 		"pv_max": 70,
-		"image": "https://solomonk.fr/img/monsters/artworks/1414.svg",
-		"couleur": ""
+		"image": "/img/monsters/1414.svg"
 	},
 	{
 		"id": 687,
@@ -4412,8 +4303,7 @@
 		"niveau_max": 50,
 		"pv_min": 30,
 		"pv_max": 70,
-		"image": "https://solomonk.fr/img/monsters/artworks/1413.svg",
-		"couleur": ""
+		"image": "/img/monsters/1413.svg"
 	},
 	{
 		"id": 688,
@@ -4424,8 +4314,7 @@
 		"niveau_max": 50,
 		"pv_min": 30,
 		"pv_max": 70,
-		"image": "https://solomonk.fr/img/monsters/artworks/1415.svg",
-		"couleur": ""
+		"image": "/img/monsters/1415.svg"
 	},
 	{
 		"id": 689,
@@ -4436,8 +4325,7 @@
 		"niveau_max": 50,
 		"pv_min": 30,
 		"pv_max": 70,
-		"image": "https://solomonk.fr/img/monsters/artworks/1418.svg",
-		"couleur": ""
+		"image": "/img/monsters/1418.svg"
 	},
 	{
 		"id": 690,
@@ -4448,8 +4336,7 @@
 		"niveau_max": 50,
 		"pv_min": 30,
 		"pv_max": 70,
-		"image": "https://solomonk.fr/img/monsters/artworks/1417.svg",
-		"couleur": ""
+		"image": "/img/monsters/1417.svg"
 	},
 	{
 		"id": 691,
@@ -4460,8 +4347,7 @@
 		"niveau_max": 50,
 		"pv_min": 30,
 		"pv_max": 70,
-		"image": "https://solomonk.fr/img/monsters/artworks/1410.svg",
-		"couleur": ""
+		"image": "/img/monsters/1410.svg"
 	},
 	{
 		"id": 692,
@@ -4472,8 +4358,7 @@
 		"niveau_max": 50,
 		"pv_min": 30,
 		"pv_max": 70,
-		"image": "https://solomonk.fr/img/monsters/artworks/1416.svg",
-		"couleur": ""
+		"image": "/img/monsters/1416.svg"
 	},
 	{
 		"id": 693,
@@ -4484,8 +4369,7 @@
 		"niveau_max": 50,
 		"pv_min": 30,
 		"pv_max": 70,
-		"image": "https://solomonk.fr/img/monsters/artworks/1389.svg",
-		"couleur": ""
+		"image": "/img/monsters/1389.svg"
 	},
 	{
 		"id": 694,
@@ -4496,8 +4380,7 @@
 		"niveau_max": 50,
 		"pv_min": 30,
 		"pv_max": 70,
-		"image": "https://solomonk.fr/img/monsters/artworks/1389.svg",
-		"couleur": ""
+		"image": "/img/monsters/1389.svg"
 	},
 	{
 		"id": 695,
@@ -4508,8 +4391,7 @@
 		"niveau_max": 50,
 		"pv_min": 30,
 		"pv_max": 70,
-		"image": "https://solomonk.fr/img/monsters/artworks/1389.svg",
-		"couleur": ""
+		"image": "/img/monsters/1389.svg"
 	},
 	{
 		"id": 696,
@@ -4520,8 +4402,7 @@
 		"niveau_max": 50,
 		"pv_min": 30,
 		"pv_max": 70,
-		"image": "https://solomonk.fr/img/monsters/artworks/1389.svg",
-		"couleur": ""
+		"image": "/img/monsters/1389.svg"
 	},
 	{
 		"id": 697,
@@ -4532,8 +4413,7 @@
 		"niveau_max": 50,
 		"pv_min": 30,
 		"pv_max": 70,
-		"image": "https://solomonk.fr/img/monsters/artworks/1389.svg",
-		"couleur": ""
+		"image": "/img/monsters/1389.svg"
 	},
 	{
 		"id": 698,
@@ -4544,8 +4424,7 @@
 		"niveau_max": 50,
 		"pv_min": 30,
 		"pv_max": 70,
-		"image": "https://solomonk.fr/img/monsters/artworks/1389.svg",
-		"couleur": ""
+		"image": "/img/monsters/1389.svg"
 	},
 	{
 		"id": 699,
@@ -4556,8 +4435,7 @@
 		"niveau_max": 50,
 		"pv_min": 30,
 		"pv_max": 70,
-		"image": "https://solomonk.fr/img/monsters/artworks/1389.svg",
-		"couleur": ""
+		"image": "/img/monsters/1389.svg"
 	},
 	{
 		"id": 700,
@@ -4568,8 +4446,7 @@
 		"niveau_max": 50,
 		"pv_min": 30,
 		"pv_max": 70,
-		"image": "https://solomonk.fr/img/monsters/artworks/1389.svg",
-		"couleur": ""
+		"image": "/img/monsters/1389.svg"
 	},
 	{
 		"id": 701,
@@ -4580,8 +4457,7 @@
 		"niveau_max": 50,
 		"pv_min": 30,
 		"pv_max": 70,
-		"image": "https://solomonk.fr/img/monsters/artworks/1389.svg",
-		"couleur": ""
+		"image": "/img/monsters/1389.svg"
 	},
 	{
 		"id": 702,
@@ -4592,8 +4468,7 @@
 		"niveau_max": 50,
 		"pv_min": 30,
 		"pv_max": 70,
-		"image": "https://solomonk.fr/img/monsters/artworks/1389.svg",
-		"couleur": ""
+		"image": "/img/monsters/1389.svg"
 	},
 	{
 		"id": 703,
@@ -4604,8 +4479,7 @@
 		"niveau_max": 50,
 		"pv_min": 30,
 		"pv_max": 70,
-		"image": "https://solomonk.fr/img/monsters/artworks/1389.svg",
-		"couleur": ""
+		"image": "/img/monsters/1389.svg"
 	},
 	{
 		"id": 704,
@@ -4616,8 +4490,7 @@
 		"niveau_max": 50,
 		"pv_min": 30,
 		"pv_max": 70,
-		"image": "https://solomonk.fr/img/monsters/artworks/1429.svg",
-		"couleur": ""
+		"image": "/img/monsters/1429.svg"
 	},
 	{
 		"id": 705,
@@ -4628,8 +4501,7 @@
 		"niveau_max": 50,
 		"pv_min": 30,
 		"pv_max": 70,
-		"image": "https://solomonk.fr/img/monsters/artworks/1431.svg",
-		"couleur": ""
+		"image": "/img/monsters/1431.svg"
 	},
 	{
 		"id": 706,
@@ -4640,8 +4512,7 @@
 		"niveau_max": 50,
 		"pv_min": 30,
 		"pv_max": 70,
-		"image": "https://solomonk.fr/img/monsters/artworks/1433.svg",
-		"couleur": ""
+		"image": "/img/monsters/1433.svg"
 	},
 	{
 		"id": 707,
@@ -4652,8 +4523,7 @@
 		"niveau_max": 50,
 		"pv_min": 30,
 		"pv_max": 70,
-		"image": "https://solomonk.fr/img/monsters/artworks/1432.svg",
-		"couleur": ""
+		"image": "/img/monsters/1432.svg"
 	},
 	{
 		"id": 708,
@@ -4664,8 +4534,7 @@
 		"niveau_max": 50,
 		"pv_min": 30,
 		"pv_max": 70,
-		"image": "https://solomonk.fr/img/monsters/artworks/1419.svg",
-		"couleur": ""
+		"image": "/img/monsters/1419.svg"
 	},
 	{
 		"id": 709,
@@ -4676,8 +4545,7 @@
 		"niveau_max": 50,
 		"pv_min": 30,
 		"pv_max": 70,
-		"image": "https://solomonk.fr/img/monsters/artworks/1430.svg",
-		"couleur": ""
+		"image": "/img/monsters/1430.svg"
 	},
 	{
 		"id": 710,
@@ -4688,8 +4556,7 @@
 		"niveau_max": 50,
 		"pv_min": 30,
 		"pv_max": 70,
-		"image": "https://solomonk.fr/img/monsters/artworks/1434.svg",
-		"couleur": ""
+		"image": "/img/monsters/1434.svg"
 	},
 	{
 		"id": 711,
@@ -4700,8 +4567,7 @@
 		"niveau_max": 50,
 		"pv_min": 30,
 		"pv_max": 70,
-		"image": "https://solomonk.fr/img/monsters/artworks/1404.svg",
-		"couleur": ""
+		"image": "/img/monsters/1404.svg"
 	},
 	{
 		"id": 712,
@@ -4712,8 +4578,7 @@
 		"niveau_max": 50,
 		"pv_min": 30,
 		"pv_max": 70,
-		"image": "https://solomonk.fr/img/monsters/artworks/1402.svg",
-		"couleur": ""
+		"image": "/img/monsters/1402.svg"
 	},
 	{
 		"id": 713,
@@ -4724,8 +4589,7 @@
 		"niveau_max": 50,
 		"pv_min": 30,
 		"pv_max": 70,
-		"image": "https://solomonk.fr/img/monsters/artworks/1401.svg",
-		"couleur": ""
+		"image": "/img/monsters/1401.svg"
 	},
 	{
 		"id": 714,
@@ -4736,8 +4600,7 @@
 		"niveau_max": 50,
 		"pv_min": 30,
 		"pv_max": 70,
-		"image": "https://solomonk.fr/img/monsters/artworks/1403.svg",
-		"couleur": ""
+		"image": "/img/monsters/1403.svg"
 	},
 	{
 		"id": 715,
@@ -4748,8 +4611,7 @@
 		"niveau_max": 50,
 		"pv_min": 30,
 		"pv_max": 70,
-		"image": "https://solomonk.fr/img/monsters/artworks/1394.svg",
-		"couleur": ""
+		"image": "/img/monsters/1394.svg"
 	},
 	{
 		"id": 716,
@@ -4760,8 +4622,7 @@
 		"niveau_max": 50,
 		"pv_min": 30,
 		"pv_max": 70,
-		"image": "https://solomonk.fr/img/monsters/artworks/1391.svg",
-		"couleur": ""
+		"image": "/img/monsters/1391.svg"
 	},
 	{
 		"id": 717,
@@ -4772,8 +4633,7 @@
 		"niveau_max": 50,
 		"pv_min": 30,
 		"pv_max": 70,
-		"image": "https://solomonk.fr/img/monsters/artworks/1396.svg",
-		"couleur": ""
+		"image": "/img/monsters/1396.svg"
 	},
 	{
 		"id": 718,
@@ -4784,8 +4644,7 @@
 		"niveau_max": 50,
 		"pv_min": 30,
 		"pv_max": 70,
-		"image": "https://solomonk.fr/img/monsters/artworks/1397.svg",
-		"couleur": ""
+		"image": "/img/monsters/1397.svg"
 	},
 	{
 		"id": 719,
@@ -4796,8 +4655,7 @@
 		"niveau_max": 50,
 		"pv_min": 30,
 		"pv_max": 70,
-		"image": "https://solomonk.fr/img/monsters/artworks/1392.svg",
-		"couleur": ""
+		"image": "/img/monsters/1392.svg"
 	},
 	{
 		"id": 720,
@@ -4808,8 +4666,7 @@
 		"niveau_max": 50,
 		"pv_min": 30,
 		"pv_max": 70,
-		"image": "https://solomonk.fr/img/monsters/artworks/1395.svg",
-		"couleur": ""
+		"image": "/img/monsters/1395.svg"
 	},
 	{
 		"id": 721,
@@ -4820,8 +4677,7 @@
 		"niveau_max": 50,
 		"pv_min": 30,
 		"pv_max": 70,
-		"image": "https://solomonk.fr/img/monsters/artworks/1398.svg",
-		"couleur": ""
+		"image": "/img/monsters/1398.svg"
 	},
 	{
 		"id": 722,
@@ -4832,8 +4688,7 @@
 		"niveau_max": 50,
 		"pv_min": 30,
 		"pv_max": 70,
-		"image": "https://solomonk.fr/img/monsters/artworks/1399.svg",
-		"couleur": ""
+		"image": "/img/monsters/1399.svg"
 	},
 	{
 		"id": 723,
@@ -4844,8 +4699,7 @@
 		"niveau_max": 50,
 		"pv_min": 30,
 		"pv_max": 70,
-		"image": "https://solomonk.fr/img/monsters/artworks/1393.svg",
-		"couleur": ""
+		"image": "/img/monsters/1393.svg"
 	},
 	{
 		"id": 724,
@@ -4856,8 +4710,7 @@
 		"niveau_max": 50,
 		"pv_min": 30,
 		"pv_max": 70,
-		"image": "https://solomonk.fr/img/monsters/artworks/1400.svg",
-		"couleur": ""
+		"image": "/img/monsters/1400.svg"
 	},
 	{
 		"id": 725,
@@ -4868,8 +4721,7 @@
 		"niveau_max": 50,
 		"pv_min": 30,
 		"pv_max": 70,
-		"image": "https://solomonk.fr/img/monsters/artworks/1405.svg",
-		"couleur": ""
+		"image": "/img/monsters/1405.svg"
 	},
 	{
 		"id": 726,
@@ -4880,8 +4732,7 @@
 		"niveau_max": 50,
 		"pv_min": 30,
 		"pv_max": 70,
-		"image": "https://solomonk.fr/img/monsters/artworks/1349.svg",
-		"couleur": ""
+		"image": "/img/monsters/1349.svg"
 	},
 	{
 		"id": 727,
@@ -4892,8 +4743,7 @@
 		"niveau_max": 50,
 		"pv_min": 30,
 		"pv_max": 70,
-		"image": "https://solomonk.fr/img/monsters/artworks/1349.svg",
-		"couleur": ""
+		"image": "/img/monsters/1349.svg"
 	},
 	{
 		"id": 728,
@@ -4904,8 +4754,7 @@
 		"niveau_max": 50,
 		"pv_min": 30,
 		"pv_max": 70,
-		"image": "https://solomonk.fr/img/monsters/artworks/1349.svg",
-		"couleur": ""
+		"image": "/img/monsters/1349.svg"
 	},
 	{
 		"id": 729,
@@ -4916,8 +4765,7 @@
 		"niveau_max": 50,
 		"pv_min": 30,
 		"pv_max": 70,
-		"image": "https://solomonk.fr/img/monsters/artworks/1349.svg",
-		"couleur": ""
+		"image": "/img/monsters/1349.svg"
 	},
 	{
 		"id": 730,
@@ -4928,8 +4776,7 @@
 		"niveau_max": 50,
 		"pv_min": 30,
 		"pv_max": 70,
-		"image": "https://solomonk.fr/img/monsters/artworks/1349.svg",
-		"couleur": ""
+		"image": "/img/monsters/1349.svg"
 	},
 	{
 		"id": 731,
@@ -4940,8 +4787,7 @@
 		"niveau_max": 50,
 		"pv_min": 30,
 		"pv_max": 70,
-		"image": "https://solomonk.fr/img/monsters/artworks/1349.svg",
-		"couleur": ""
+		"image": "/img/monsters/1349.svg"
 	},
 	{
 		"id": 732,
@@ -4952,8 +4798,7 @@
 		"niveau_max": 50,
 		"pv_min": 30,
 		"pv_max": 70,
-		"image": "https://solomonk.fr/img/monsters/artworks/1349.svg",
-		"couleur": ""
+		"image": "/img/monsters/1349.svg"
 	},
 	{
 		"id": 733,
@@ -4964,8 +4809,7 @@
 		"niveau_max": 50,
 		"pv_min": 30,
 		"pv_max": 70,
-		"image": "https://solomonk.fr/img/monsters/artworks/1349.svg",
-		"couleur": ""
+		"image": "/img/monsters/1349.svg"
 	},
 	{
 		"id": 734,
@@ -4976,8 +4820,7 @@
 		"niveau_max": 50,
 		"pv_min": 30,
 		"pv_max": 70,
-		"image": "https://solomonk.fr/img/monsters/artworks/1349.svg",
-		"couleur": ""
+		"image": "/img/monsters/1349.svg"
 	},
 	{
 		"id": 735,
@@ -4988,8 +4831,7 @@
 		"niveau_max": 50,
 		"pv_min": 30,
 		"pv_max": 70,
-		"image": "https://solomonk.fr/img/monsters/artworks/1349.svg",
-		"couleur": ""
+		"image": "/img/monsters/1349.svg"
 	},
 	{
 		"id": 736,
@@ -5000,8 +4842,7 @@
 		"niveau_max": 50,
 		"pv_min": 30,
 		"pv_max": 70,
-		"image": "https://solomonk.fr/img/monsters/artworks/1349.svg",
-		"couleur": ""
+		"image": "/img/monsters/1349.svg"
 	},
 	{
 		"id": 737,
@@ -5012,8 +4853,7 @@
 		"niveau_max": 50,
 		"pv_min": 30,
 		"pv_max": 70,
-		"image": "https://solomonk.fr/img/monsters/artworks/1349.svg",
-		"couleur": ""
+		"image": "/img/monsters/1349.svg"
 	},
 	{
 		"id": 738,
@@ -5024,8 +4864,7 @@
 		"niveau_max": 50,
 		"pv_min": 30,
 		"pv_max": 70,
-		"image": "https://solomonk.fr/img/monsters/artworks/1349.svg",
-		"couleur": ""
+		"image": "/img/monsters/1349.svg"
 	},
 	{
 		"id": 739,
@@ -5036,8 +4875,7 @@
 		"niveau_max": 50,
 		"pv_min": 30,
 		"pv_max": 70,
-		"image": "https://solomonk.fr/img/monsters/artworks/1349.svg",
-		"couleur": ""
+		"image": "/img/monsters/1349.svg"
 	},
 	{
 		"id": 751,
@@ -5048,7 +4886,7 @@
 		"niveau_max": 68,
 		"pv_min": 600,
 		"pv_max": 800,
-		"image": "https://solomonk.fr/img/monsters/artworks/1359.svg",
+		"image": "/img/monsters/1359.svg",
 		"couleur": "Bleu"
 	},
 	{
@@ -5060,7 +4898,7 @@
 		"niveau_max": 68,
 		"pv_min": 600,
 		"pv_max": 800,
-		"image": "https://solomonk.fr/img/monsters/artworks/1359.svg",
+		"image": "/img/monsters/1359.svg",
 		"couleur": "Jaune"
 	},
 	{
@@ -5072,7 +4910,7 @@
 		"niveau_max": 68,
 		"pv_min": 600,
 		"pv_max": 800,
-		"image": "https://solomonk.fr/img/monsters/artworks/1359.svg",
+		"image": "/img/monsters/1359.svg",
 		"couleur": "Rouge"
 	},
 	{
@@ -5084,7 +4922,7 @@
 		"niveau_max": 68,
 		"pv_min": 600,
 		"pv_max": 800,
-		"image": "https://solomonk.fr/img/monsters/artworks/1359.svg",
+		"image": "/img/monsters/1359.svg",
 		"couleur": "Vert"
 	},
 	{
@@ -5096,7 +4934,7 @@
 		"niveau_max": 98,
 		"pv_min": 1200,
 		"pv_max": 1600,
-		"image": "https://solomonk.fr/img/monsters/artworks/1366.svg",
+		"image": "/img/monsters/1366.svg",
 		"couleur": "Marron / Vert / Rose"
 	},
 	{
@@ -5108,8 +4946,7 @@
 		"niveau_max": 24,
 		"pv_min": 100,
 		"pv_max": 140,
-		"image": "https://solomonk.fr/img/monsters/artworks/1369.svg",
-		"couleur": ""
+		"image": "/img/monsters/1369.svg"
 	},
 	{
 		"id": 763,
@@ -5120,7 +4957,7 @@
 		"niveau_max": 120,
 		"pv_min": 2000,
 		"pv_max": 2400,
-		"image": "https://solomonk.fr/img/monsters/artworks/1440.svg",
+		"image": "/img/monsters/1440.svg",
 		"couleur": "Orange / Gris / Bleu"
 	},
 	{
@@ -5132,7 +4969,7 @@
 		"niveau_max": 220,
 		"pv_min": 5600,
 		"pv_max": 6000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1450.svg",
+		"image": "/img/monsters/1450.svg",
 		"couleur": "Blanc / Rose / Orange"
 	},
 	{
@@ -5144,8 +4981,7 @@
 		"niveau_max": 50,
 		"pv_min": 30,
 		"pv_max": 70,
-		"image": "https://solomonk.fr/img/monsters/artworks/1448.svg",
-		"couleur": ""
+		"image": "/img/monsters/1448.svg"
 	},
 	{
 		"id": 788,
@@ -5156,8 +4992,7 @@
 		"niveau_max": 140,
 		"pv_min": 2350,
 		"pv_max": 2750,
-		"image": "https://solomonk.fr/img/monsters/artworks/1193.svg",
-		"couleur": ""
+		"image": "/img/monsters/1193.svg"
 	},
 	{
 		"id": 789,
@@ -5168,8 +5003,7 @@
 		"niveau_max": 120,
 		"pv_min": 1300,
 		"pv_max": 1500,
-		"image": "https://solomonk.fr/img/monsters/artworks/1194.svg",
-		"couleur": ""
+		"image": "/img/monsters/1194.svg"
 	},
 	{
 		"id": 790,
@@ -5180,8 +5014,7 @@
 		"niveau_max": 120,
 		"pv_min": 1200,
 		"pv_max": 1400,
-		"image": "https://solomonk.fr/img/monsters/artworks/1195.svg",
-		"couleur": ""
+		"image": "/img/monsters/1195.svg"
 	},
 	{
 		"id": 791,
@@ -5192,8 +5025,7 @@
 		"niveau_max": 88,
 		"pv_min": 4000,
 		"pv_max": 6000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1131.svg",
-		"couleur": ""
+		"image": "/img/monsters/1131.svg"
 	},
 	{
 		"id": 792,
@@ -5204,7 +5036,7 @@
 		"niveau_max": 98,
 		"pv_min": 2400,
 		"pv_max": 3200,
-		"image": "https://solomonk.fr/img/monsters/artworks/1241.svg",
+		"image": "/img/monsters/1241.svg",
 		"couleur": "Vert"
 	},
 	{
@@ -5216,7 +5048,7 @@
 		"niveau_max": 15,
 		"pv_min": 60,
 		"pv_max": 120,
-		"image": "https://solomonk.fr/img/monsters/artworks/1117.svg",
+		"image": "/img/monsters/1117.svg",
 		"couleur": "Blanc / Orange"
 	},
 	{
@@ -5228,7 +5060,7 @@
 		"niveau_max": 6,
 		"pv_min": 8,
 		"pv_max": 24,
-		"image": "https://solomonk.fr/img/monsters/artworks/1111.svg",
+		"image": "/img/monsters/1111.svg",
 		"couleur": "Jaune / Orange"
 	},
 	{
@@ -5240,7 +5072,7 @@
 		"niveau_max": 48,
 		"pv_min": 400,
 		"pv_max": 600,
-		"image": "https://solomonk.fr/img/monsters/artworks/1453.svg",
+		"image": "/img/monsters/1453.svg",
 		"couleur": "Noir"
 	},
 	{
@@ -5252,7 +5084,7 @@
 		"niveau_max": 18,
 		"pv_min": 40,
 		"pv_max": 60,
-		"image": "https://solomonk.fr/img/monsters/artworks/1462.svg",
+		"image": "/img/monsters/1462.svg",
 		"couleur": "Noir"
 	},
 	{
@@ -5264,7 +5096,7 @@
 		"niveau_max": 78,
 		"pv_min": 1500,
 		"pv_max": 1900,
-		"image": "https://solomonk.fr/img/monsters/artworks/1455.svg",
+		"image": "/img/monsters/1455.svg",
 		"couleur": "Jaune"
 	},
 	{
@@ -5276,7 +5108,7 @@
 		"niveau_max": 20,
 		"pv_min": 150,
 		"pv_max": 150,
-		"image": "https://solomonk.fr/img/monsters/artworks/1454.svg",
+		"image": "/img/monsters/1454.svg",
 		"couleur": "Rouge"
 	},
 	{
@@ -5288,7 +5120,7 @@
 		"niveau_max": 48,
 		"pv_min": 500,
 		"pv_max": 620,
-		"image": "https://solomonk.fr/img/monsters/artworks/1459.svg",
+		"image": "/img/monsters/1459.svg",
 		"couleur": "Vert / Jaune"
 	},
 	{
@@ -5300,7 +5132,7 @@
 		"niveau_max": 68,
 		"pv_min": 700,
 		"pv_max": 900,
-		"image": "https://solomonk.fr/img/monsters/artworks/1380.svg",
+		"image": "/img/monsters/1380.svg",
 		"couleur": "Jaune / Bleu"
 	},
 	{
@@ -5312,8 +5144,7 @@
 		"niveau_max": 28,
 		"pv_min": 40,
 		"pv_max": 48,
-		"image": "https://solomonk.fr/img/monsters/artworks/1443.svg",
-		"couleur": ""
+		"image": "/img/monsters/1443.svg"
 	},
 	{
 		"id": 802,
@@ -5324,8 +5155,7 @@
 		"niveau_max": 14,
 		"pv_min": 15,
 		"pv_max": 15,
-		"image": "https://solomonk.fr/img/monsters/artworks/1379.svg",
-		"couleur": ""
+		"image": "/img/monsters/1379.svg"
 	},
 	{
 		"id": 803,
@@ -5336,8 +5166,7 @@
 		"niveau_max": 28,
 		"pv_min": 40,
 		"pv_max": 48,
-		"image": "https://solomonk.fr/img/monsters/artworks/1377.svg",
-		"couleur": ""
+		"image": "/img/monsters/1377.svg"
 	},
 	{
 		"id": 804,
@@ -5348,7 +5177,7 @@
 		"niveau_max": 48,
 		"pv_min": 200,
 		"pv_max": 320,
-		"image": "https://solomonk.fr/img/monsters/artworks/1376.svg",
+		"image": "/img/monsters/1376.svg",
 		"couleur": "Jaune"
 	},
 	{
@@ -5360,8 +5189,7 @@
 		"niveau_max": 28,
 		"pv_min": 40,
 		"pv_max": 48,
-		"image": "https://solomonk.fr/img/monsters/artworks/1375.svg",
-		"couleur": ""
+		"image": "/img/monsters/1375.svg"
 	},
 	{
 		"id": 806,
@@ -5372,7 +5200,7 @@
 		"niveau_max": 38,
 		"pv_min": 200,
 		"pv_max": 280,
-		"image": "https://solomonk.fr/img/monsters/artworks/1374.svg",
+		"image": "/img/monsters/1374.svg",
 		"couleur": "Orange"
 	},
 	{
@@ -5384,7 +5212,7 @@
 		"niveau_max": 48,
 		"pv_min": 300,
 		"pv_max": 420,
-		"image": "https://solomonk.fr/img/monsters/artworks/1373.svg",
+		"image": "/img/monsters/1373.svg",
 		"couleur": "Noir"
 	},
 	{
@@ -5396,7 +5224,7 @@
 		"niveau_max": 58,
 		"pv_min": 500,
 		"pv_max": 700,
-		"image": "https://solomonk.fr/img/monsters/artworks/1372.svg",
+		"image": "/img/monsters/1372.svg",
 		"couleur": "Jaune"
 	},
 	{
@@ -5408,8 +5236,7 @@
 		"niveau_max": 51,
 		"pv_min": 380,
 		"pv_max": 620,
-		"image": "https://solomonk.fr/img/monsters/artworks/1049.svg",
-		"couleur": ""
+		"image": "/img/monsters/1049.svg"
 	},
 	{
 		"id": 810,
@@ -5420,8 +5247,7 @@
 		"niveau_max": 51,
 		"pv_min": 380,
 		"pv_max": 620,
-		"image": "https://solomonk.fr/img/monsters/artworks/1452.svg",
-		"couleur": ""
+		"image": "/img/monsters/1452.svg"
 	},
 	{
 		"id": 811,
@@ -5432,8 +5258,7 @@
 		"niveau_max": 37,
 		"pv_min": 400,
 		"pv_max": 600,
-		"image": "https://solomonk.fr/img/monsters/artworks/1008.svg",
-		"couleur": ""
+		"image": "/img/monsters/1008.svg"
 	},
 	{
 		"id": 812,
@@ -5444,8 +5269,7 @@
 		"niveau_max": 28,
 		"pv_min": 190,
 		"pv_max": 270,
-		"image": "https://solomonk.fr/img/monsters/artworks/1248.svg",
-		"couleur": ""
+		"image": "/img/monsters/1248.svg"
 	},
 	{
 		"id": 818,
@@ -5456,8 +5280,7 @@
 		"niveau_max": 48,
 		"pv_min": 400,
 		"pv_max": 520,
-		"image": "https://solomonk.fr/img/monsters/artworks/1408.svg",
-		"couleur": ""
+		"image": "/img/monsters/1408.svg"
 	},
 	{
 		"id": 819,
@@ -5468,7 +5291,7 @@
 		"niveau_max": 68,
 		"pv_min": 700,
 		"pv_max": 820,
-		"image": "https://solomonk.fr/img/monsters/artworks/1407.svg",
+		"image": "/img/monsters/1407.svg",
 		"couleur": "Beige / Rouge"
 	},
 	{
@@ -5480,7 +5303,7 @@
 		"niveau_max": 68,
 		"pv_min": 700,
 		"pv_max": 820,
-		"image": "https://solomonk.fr/img/monsters/artworks/1406.svg",
+		"image": "/img/monsters/1406.svg",
 		"couleur": "Orange / Bleu"
 	},
 	{
@@ -5492,8 +5315,7 @@
 		"niveau_max": 98,
 		"pv_min": 1600,
 		"pv_max": 1800,
-		"image": "https://solomonk.fr/img/monsters/artworks/1406.svg",
-		"couleur": ""
+		"image": "/img/monsters/1406.svg"
 	},
 	{
 		"id": 824,
@@ -5504,8 +5326,7 @@
 		"niveau_max": 88,
 		"pv_min": 1400,
 		"pv_max": 1600,
-		"image": "https://solomonk.fr/img/monsters/artworks/1408.svg",
-		"couleur": ""
+		"image": "/img/monsters/1408.svg"
 	},
 	{
 		"id": 825,
@@ -5516,8 +5337,7 @@
 		"niveau_max": 98,
 		"pv_min": 1600,
 		"pv_max": 1800,
-		"image": "https://solomonk.fr/img/monsters/artworks/1407.svg",
-		"couleur": ""
+		"image": "/img/monsters/1407.svg"
 	},
 	{
 		"id": 826,
@@ -5528,7 +5348,7 @@
 		"niveau_max": 51,
 		"pv_min": 1380,
 		"pv_max": 1620,
-		"image": "https://solomonk.fr/img/monsters/artworks/1049.svg",
+		"image": "/img/monsters/1049.svg",
 		"couleur": "Gris"
 	},
 	{
@@ -5540,7 +5360,7 @@
 		"niveau_max": 440,
 		"pv_min": 16000,
 		"pv_max": 20000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1444.svg",
+		"image": "/img/monsters/1444.svg",
 		"couleur": "Beige / Marron"
 	},
 	{
@@ -5552,7 +5372,7 @@
 		"niveau_max": 34,
 		"pv_min": 500,
 		"pv_max": 620,
-		"image": "https://solomonk.fr/img/monsters/artworks/1442.svg",
+		"image": "/img/monsters/1442.svg",
 		"couleur": "Blanc"
 	},
 	{
@@ -5564,7 +5384,7 @@
 		"niveau_max": 58,
 		"pv_min": 600,
 		"pv_max": 640,
-		"image": "https://solomonk.fr/img/monsters/artworks/1409.svg",
+		"image": "/img/monsters/1409.svg",
 		"couleur": "Gris / Rouge"
 	},
 	{
@@ -5576,7 +5396,7 @@
 		"niveau_max": 38,
 		"pv_min": 200,
 		"pv_max": 240,
-		"image": "https://solomonk.fr/img/monsters/artworks/1388.svg",
+		"image": "/img/monsters/1388.svg",
 		"couleur": "Vert"
 	},
 	{
@@ -5588,7 +5408,7 @@
 		"niveau_max": 120,
 		"pv_min": 4000,
 		"pv_max": 4400,
-		"image": "https://solomonk.fr/img/monsters/artworks/1387.svg",
+		"image": "/img/monsters/1387.svg",
 		"couleur": "Blanc"
 	},
 	{
@@ -5600,7 +5420,7 @@
 		"niveau_max": 120,
 		"pv_min": 4000,
 		"pv_max": 4400,
-		"image": "https://solomonk.fr/img/monsters/artworks/1338.svg",
+		"image": "/img/monsters/1338.svg",
 		"couleur": "Marron"
 	},
 	{
@@ -5612,7 +5432,7 @@
 		"niveau_max": 24,
 		"pv_min": 120,
 		"pv_max": 160,
-		"image": "https://solomonk.fr/img/monsters/artworks/1347.svg",
+		"image": "/img/monsters/1347.svg",
 		"couleur": "Bleu"
 	},
 	{
@@ -5624,7 +5444,7 @@
 		"niveau_max": 28,
 		"pv_min": 120,
 		"pv_max": 200,
-		"image": "https://solomonk.fr/img/monsters/artworks/1341.svg",
+		"image": "/img/monsters/1341.svg",
 		"couleur": "Bleu"
 	},
 	{
@@ -5636,7 +5456,7 @@
 		"niveau_max": 34,
 		"pv_min": 240,
 		"pv_max": 280,
-		"image": "https://solomonk.fr/img/monsters/artworks/1348.svg",
+		"image": "/img/monsters/1348.svg",
 		"couleur": "Vert"
 	},
 	{
@@ -5648,8 +5468,7 @@
 		"niveau_max": 440,
 		"pv_min": 10000,
 		"pv_max": 18000,
-		"image": "https://solomonk.fr/img/monsters/artworks/30.svg",
-		"couleur": ""
+		"image": "/img/monsters/30.svg"
 	},
 	{
 		"id": 839,
@@ -5660,7 +5479,7 @@
 		"niveau_max": 80,
 		"pv_min": 3000,
 		"pv_max": 5000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1472.svg",
+		"image": "/img/monsters/1472.svg",
 		"couleur": "Blanc"
 	},
 	{
@@ -5672,7 +5491,7 @@
 		"niveau_max": 80,
 		"pv_min": 700,
 		"pv_max": 1100,
-		"image": "https://solomonk.fr/img/monsters/artworks/1497.svg",
+		"image": "/img/monsters/1497.svg",
 		"couleur": "Blanc"
 	},
 	{
@@ -5684,7 +5503,7 @@
 		"niveau_max": 22,
 		"pv_min": 60,
 		"pv_max": 108,
-		"image": "https://solomonk.fr/img/monsters/artworks/1518.svg",
+		"image": "/img/monsters/1518.svg",
 		"couleur": "Blanc / Jaune"
 	},
 	{
@@ -5696,7 +5515,7 @@
 		"niveau_max": 36,
 		"pv_min": 120,
 		"pv_max": 320,
-		"image": "https://solomonk.fr/img/monsters/artworks/1495.svg",
+		"image": "/img/monsters/1495.svg",
 		"couleur": "Vert / Rouge / Blanc"
 	},
 	{
@@ -5708,8 +5527,7 @@
 		"niveau_max": 50,
 		"pv_min": 242,
 		"pv_max": 550,
-		"image": "https://solomonk.fr/img/monsters/artworks/1499.svg",
-		"couleur": ""
+		"image": "/img/monsters/1499.svg"
 	},
 	{
 		"id": 844,
@@ -5720,8 +5538,7 @@
 		"niveau_max": 24,
 		"pv_min": 150,
 		"pv_max": 270,
-		"image": "https://solomonk.fr/img/monsters/artworks/1091.svg",
-		"couleur": ""
+		"image": "/img/monsters/1091.svg"
 	},
 	{
 		"id": 845,
@@ -5732,7 +5549,7 @@
 		"niveau_max": 50,
 		"pv_min": 1200,
 		"pv_max": 1600,
-		"image": "https://solomonk.fr/img/monsters/artworks/1513.svg",
+		"image": "/img/monsters/1513.svg",
 		"couleur": "Blanc"
 	},
 	{
@@ -5744,7 +5561,7 @@
 		"niveau_max": 5,
 		"pv_min": 200,
 		"pv_max": 300,
-		"image": "https://solomonk.fr/img/monsters/artworks/1062.svg",
+		"image": "/img/monsters/1062.svg",
 		"couleur": "Blanc"
 	},
 	{
@@ -5756,8 +5573,7 @@
 		"niveau_max": 58,
 		"pv_min": 315,
 		"pv_max": 1200,
-		"image": "https://solomonk.fr/img/monsters/artworks/1518.svg",
-		"couleur": ""
+		"image": "/img/monsters/1518.svg"
 	},
 	{
 		"id": 849,
@@ -5768,7 +5584,7 @@
 		"niveau_max": 30,
 		"pv_min": 120,
 		"pv_max": 280,
-		"image": "https://solomonk.fr/img/monsters/artworks/1514.svg",
+		"image": "/img/monsters/1514.svg",
 		"couleur": "Vert"
 	},
 	{
@@ -5780,7 +5596,7 @@
 		"niveau_max": 43,
 		"pv_min": 170,
 		"pv_max": 490,
-		"image": "https://solomonk.fr/img/monsters/artworks/1515.svg",
+		"image": "/img/monsters/1515.svg",
 		"couleur": "Vert / Rouge"
 	},
 	{
@@ -5792,7 +5608,7 @@
 		"niveau_max": 480,
 		"pv_min": 10000,
 		"pv_max": 12000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1451.svg",
+		"image": "/img/monsters/1451.svg",
 		"couleur": "Rouge"
 	},
 	{
@@ -5804,7 +5620,7 @@
 		"niveau_max": 96,
 		"pv_min": 900,
 		"pv_max": 1300,
-		"image": "https://solomonk.fr/img/monsters/artworks/1502.svg",
+		"image": "/img/monsters/1502.svg",
 		"couleur": "Noir"
 	},
 	{
@@ -5816,8 +5632,7 @@
 		"niveau_max": 87,
 		"pv_min": 7000,
 		"pv_max": 7000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1504.svg",
-		"couleur": ""
+		"image": "/img/monsters/1504.svg"
 	},
 	{
 		"id": 867,
@@ -5828,7 +5643,7 @@
 		"niveau_max": 43,
 		"pv_min": 240,
 		"pv_max": 360,
-		"image": "https://solomonk.fr/img/monsters/artworks/1510.svg",
+		"image": "/img/monsters/1510.svg",
 		"couleur": "Blanc"
 	},
 	{
@@ -5840,8 +5655,7 @@
 		"niveau_max": 47,
 		"pv_min": 315,
 		"pv_max": 655,
-		"image": "https://solomonk.fr/img/monsters/artworks/1518.svg",
-		"couleur": ""
+		"image": "/img/monsters/1518.svg"
 	},
 	{
 		"id": 869,
@@ -5852,7 +5666,7 @@
 		"niveau_max": 51,
 		"pv_min": 3400,
 		"pv_max": 5000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1506.svg",
+		"image": "/img/monsters/1506.svg",
 		"couleur": "Blanc"
 	},
 	{
@@ -5864,8 +5678,7 @@
 		"niveau_max": 6,
 		"pv_min": 10,
 		"pv_max": 30,
-		"image": "https://solomonk.fr/img/monsters/artworks/1505.svg",
-		"couleur": ""
+		"image": "/img/monsters/1505.svg"
 	},
 	{
 		"id": 871,
@@ -5876,7 +5689,7 @@
 		"niveau_max": 16,
 		"pv_min": 60,
 		"pv_max": 80,
-		"image": "https://solomonk.fr/img/monsters/artworks/1505.svg",
+		"image": "/img/monsters/1505.svg",
 		"couleur": "Blanc"
 	},
 	{
@@ -5888,7 +5701,7 @@
 		"niveau_max": 200,
 		"pv_min": 5000,
 		"pv_max": 7000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1511.svg",
+		"image": "/img/monsters/1511.svg",
 		"couleur": "Rouge"
 	},
 	{
@@ -5900,8 +5713,7 @@
 		"niveau_max": 200,
 		"pv_min": 2500,
 		"pv_max": 3500,
-		"image": "https://solomonk.fr/img/monsters/artworks/1517.svg",
-		"couleur": ""
+		"image": "/img/monsters/1517.svg"
 	},
 	{
 		"id": 876,
@@ -5912,7 +5724,7 @@
 		"niveau_max": 43,
 		"pv_min": 150,
 		"pv_max": 350,
-		"image": "https://solomonk.fr/img/monsters/artworks/1003.svg",
+		"image": "/img/monsters/1003.svg",
 		"couleur": "Vert"
 	},
 	{
@@ -5924,8 +5736,7 @@
 		"niveau_max": 5,
 		"pv_min": 50,
 		"pv_max": 200,
-		"image": "https://solomonk.fr/img/monsters/artworks/1522.svg",
-		"couleur": ""
+		"image": "/img/monsters/1522.svg"
 	},
 	{
 		"id": 881,
@@ -5936,8 +5747,7 @@
 		"niveau_max": 5,
 		"pv_min": 50,
 		"pv_max": 200,
-		"image": "https://solomonk.fr/img/monsters/artworks/1522.svg",
-		"couleur": ""
+		"image": "/img/monsters/1522.svg"
 	},
 	{
 		"id": 882,
@@ -5948,8 +5758,7 @@
 		"niveau_max": 5,
 		"pv_min": 50,
 		"pv_max": 200,
-		"image": "https://solomonk.fr/img/monsters/artworks/1522.svg",
-		"couleur": ""
+		"image": "/img/monsters/1522.svg"
 	},
 	{
 		"id": 887,
@@ -5960,8 +5769,7 @@
 		"niveau_max": 5,
 		"pv_min": 80,
 		"pv_max": 80,
-		"image": "https://solomonk.fr/img/monsters/artworks/1522.svg",
-		"couleur": ""
+		"image": "/img/monsters/1522.svg"
 	},
 	{
 		"id": 888,
@@ -5972,8 +5780,7 @@
 		"niveau_max": 50,
 		"pv_min": 5000,
 		"pv_max": 5000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1522.svg",
-		"couleur": ""
+		"image": "/img/monsters/1522.svg"
 	},
 	{
 		"id": 889,
@@ -5984,8 +5791,7 @@
 		"niveau_max": 20,
 		"pv_min": 2500,
 		"pv_max": 2500,
-		"image": "https://solomonk.fr/img/monsters/artworks/1522.svg",
-		"couleur": ""
+		"image": "/img/monsters/1522.svg"
 	},
 	{
 		"id": 890,
@@ -5996,8 +5802,7 @@
 		"niveau_max": 20,
 		"pv_min": 500,
 		"pv_max": 500,
-		"image": "https://solomonk.fr/img/monsters/artworks/1522.svg",
-		"couleur": ""
+		"image": "/img/monsters/1522.svg"
 	},
 	{
 		"id": 891,
@@ -6008,7 +5813,7 @@
 		"niveau_max": 140,
 		"pv_min": 1995,
 		"pv_max": 4380,
-		"image": "https://solomonk.fr/img/monsters/artworks/1523.svg",
+		"image": "/img/monsters/1523.svg",
 		"couleur": "Marron"
 	},
 	{
@@ -6020,7 +5825,7 @@
 		"niveau_max": 89,
 		"pv_min": 420,
 		"pv_max": 540,
-		"image": "https://solomonk.fr/img/monsters/artworks/1519.svg",
+		"image": "/img/monsters/1519.svg",
 		"couleur": "Blanc"
 	},
 	{
@@ -6032,7 +5837,7 @@
 		"niveau_max": 93,
 		"pv_min": 450,
 		"pv_max": 570,
-		"image": "https://solomonk.fr/img/monsters/artworks/1520.svg",
+		"image": "/img/monsters/1520.svg",
 		"couleur": "Blanc / Noir / Rouge"
 	},
 	{
@@ -6044,8 +5849,7 @@
 		"niveau_max": 90,
 		"pv_min": 420,
 		"pv_max": 540,
-		"image": "https://solomonk.fr/img/monsters/artworks/1521.svg",
-		"couleur": ""
+		"image": "/img/monsters/1521.svg"
 	},
 	{
 		"id": 907,
@@ -6056,8 +5860,7 @@
 		"niveau_max": 48,
 		"pv_min": 1400,
 		"pv_max": 2000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1523.svg",
-		"couleur": ""
+		"image": "/img/monsters/1523.svg"
 	},
 	{
 		"id": 919,
@@ -6068,8 +5871,7 @@
 		"niveau_max": 39,
 		"pv_min": 400,
 		"pv_max": 400,
-		"image": "https://solomonk.fr/img/monsters/artworks/1001.svg",
-		"couleur": ""
+		"image": "/img/monsters/1001.svg"
 	},
 	{
 		"id": 929,
@@ -6080,8 +5882,7 @@
 		"niveau_max": 198,
 		"pv_min": 20000,
 		"pv_max": 28000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1478.svg",
-		"couleur": ""
+		"image": "/img/monsters/1478.svg"
 	},
 	{
 		"id": 932,
@@ -6092,8 +5893,7 @@
 		"niveau_max": 73,
 		"pv_min": 290,
 		"pv_max": 490,
-		"image": "https://solomonk.fr/img/monsters/artworks/1194.svg",
-		"couleur": ""
+		"image": "/img/monsters/1194.svg"
 	},
 	{
 		"id": 935,
@@ -6104,7 +5904,7 @@
 		"niveau_max": 110,
 		"pv_min": 1100,
 		"pv_max": 2700,
-		"image": "https://solomonk.fr/img/monsters/artworks/1535.svg",
+		"image": "/img/monsters/1535.svg",
 		"couleur": "Marron"
 	},
 	{
@@ -6116,7 +5916,7 @@
 		"niveau_max": 100,
 		"pv_min": 1400,
 		"pv_max": 2200,
-		"image": "https://solomonk.fr/img/monsters/artworks/1534.svg",
+		"image": "/img/monsters/1534.svg",
 		"couleur": "Marron"
 	},
 	{
@@ -6128,7 +5928,7 @@
 		"niveau_max": 100,
 		"pv_min": 800,
 		"pv_max": 2000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1536.svg",
+		"image": "/img/monsters/1536.svg",
 		"couleur": "Marron / Blanc"
 	},
 	{
@@ -6140,7 +5940,7 @@
 		"niveau_max": 100,
 		"pv_min": 800,
 		"pv_max": 2000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1537.svg",
+		"image": "/img/monsters/1537.svg",
 		"couleur": "Blanc"
 	},
 	{
@@ -6152,7 +5952,7 @@
 		"niveau_max": 140,
 		"pv_min": 4600,
 		"pv_max": 5000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1538.svg",
+		"image": "/img/monsters/1538.svg",
 		"couleur": "Noir"
 	},
 	{
@@ -6164,7 +5964,7 @@
 		"niveau_max": 140,
 		"pv_min": 4600,
 		"pv_max": 5000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1544.svg",
+		"image": "/img/monsters/1544.svg",
 		"couleur": "Blanc"
 	},
 	{
@@ -6176,7 +5976,7 @@
 		"niveau_max": 100,
 		"pv_min": 1400,
 		"pv_max": 2200,
-		"image": "https://solomonk.fr/img/monsters/artworks/1539.svg",
+		"image": "/img/monsters/1539.svg",
 		"couleur": "Marron"
 	},
 	{
@@ -6188,7 +5988,7 @@
 		"niveau_max": 110,
 		"pv_min": 1100,
 		"pv_max": 2700,
-		"image": "https://solomonk.fr/img/monsters/artworks/1436.svg",
+		"image": "/img/monsters/1436.svg",
 		"couleur": "Blanc"
 	},
 	{
@@ -6200,7 +6000,7 @@
 		"niveau_max": 440,
 		"pv_min": 8000,
 		"pv_max": 10000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1541.svg",
+		"image": "/img/monsters/1541.svg",
 		"couleur": "Noir / Vert"
 	},
 	{
@@ -6212,8 +6012,7 @@
 		"niveau_max": 21,
 		"pv_min": 130,
 		"pv_max": 170,
-		"image": "https://solomonk.fr/img/monsters/artworks/1126.svg",
-		"couleur": ""
+		"image": "/img/monsters/1126.svg"
 	},
 	{
 		"id": 945,
@@ -6224,8 +6023,7 @@
 		"niveau_max": 20,
 		"pv_min": 120,
 		"pv_max": 160,
-		"image": "https://solomonk.fr/img/monsters/artworks/1128.svg",
-		"couleur": ""
+		"image": "/img/monsters/1128.svg"
 	},
 	{
 		"id": 946,
@@ -6236,8 +6034,7 @@
 		"niveau_max": 24,
 		"pv_min": 160,
 		"pv_max": 200,
-		"image": "https://solomonk.fr/img/monsters/artworks/1127.svg",
-		"couleur": ""
+		"image": "/img/monsters/1127.svg"
 	},
 	{
 		"id": 947,
@@ -6248,8 +6045,7 @@
 		"niveau_max": 22,
 		"pv_min": 140,
 		"pv_max": 180,
-		"image": "https://solomonk.fr/img/monsters/artworks/1125.svg",
-		"couleur": ""
+		"image": "/img/monsters/1125.svg"
 	},
 	{
 		"id": 948,
@@ -6260,8 +6056,7 @@
 		"niveau_max": 98,
 		"pv_min": 2000,
 		"pv_max": 2800,
-		"image": "https://solomonk.fr/img/monsters/artworks/1101.svg",
-		"couleur": ""
+		"image": "/img/monsters/1101.svg"
 	},
 	{
 		"id": 949,
@@ -6272,8 +6067,7 @@
 		"niveau_max": 24,
 		"pv_min": 350,
 		"pv_max": 550,
-		"image": "https://solomonk.fr/img/monsters/artworks/1076.svg",
-		"couleur": ""
+		"image": "/img/monsters/1076.svg"
 	},
 	{
 		"id": 950,
@@ -6284,8 +6078,7 @@
 		"niveau_max": 38,
 		"pv_min": 400,
 		"pv_max": 600,
-		"image": "https://solomonk.fr/img/monsters/artworks/1004.svg",
-		"couleur": ""
+		"image": "/img/monsters/1004.svg"
 	},
 	{
 		"id": 951,
@@ -6296,8 +6089,7 @@
 		"niveau_max": 43,
 		"pv_min": 300,
 		"pv_max": 700,
-		"image": "https://solomonk.fr/img/monsters/artworks/1003.svg",
-		"couleur": ""
+		"image": "/img/monsters/1003.svg"
 	},
 	{
 		"id": 952,
@@ -6308,8 +6100,7 @@
 		"niveau_max": 5,
 		"pv_min": 200,
 		"pv_max": 200,
-		"image": "https://solomonk.fr/img/monsters/artworks/1016.svg",
-		"couleur": ""
+		"image": "/img/monsters/1016.svg"
 	},
 	{
 		"id": 953,
@@ -6320,8 +6111,7 @@
 		"niveau_max": 98,
 		"pv_min": 3200,
 		"pv_max": 3200,
-		"image": "https://solomonk.fr/img/monsters/artworks/1241.svg",
-		"couleur": ""
+		"image": "/img/monsters/1241.svg"
 	},
 	{
 		"id": 970,
@@ -6332,7 +6122,7 @@
 		"niveau_max": 6,
 		"pv_min": 6,
 		"pv_max": 14,
-		"image": "https://solomonk.fr/img/monsters/artworks/1558.svg",
+		"image": "/img/monsters/1558.svg",
 		"couleur": "Jaune"
 	},
 	{
@@ -6344,7 +6134,7 @@
 		"niveau_max": 7,
 		"pv_min": 20,
 		"pv_max": 32,
-		"image": "https://solomonk.fr/img/monsters/artworks/1566.svg",
+		"image": "/img/monsters/1566.svg",
 		"couleur": "Blanc"
 	},
 	{
@@ -6356,7 +6146,7 @@
 		"niveau_max": 5,
 		"pv_min": 15,
 		"pv_max": 23,
-		"image": "https://solomonk.fr/img/monsters/artworks/1570.svg",
+		"image": "/img/monsters/1570.svg",
 		"couleur": "Blanc"
 	},
 	{
@@ -6368,7 +6158,7 @@
 		"niveau_max": 5,
 		"pv_min": 15,
 		"pv_max": 23,
-		"image": "https://solomonk.fr/img/monsters/artworks/1571.svg",
+		"image": "/img/monsters/1571.svg",
 		"couleur": "Noir"
 	},
 	{
@@ -6380,7 +6170,7 @@
 		"niveau_max": 5,
 		"pv_min": 10,
 		"pv_max": 22,
-		"image": "https://solomonk.fr/img/monsters/artworks/1572.svg",
+		"image": "/img/monsters/1572.svg",
 		"couleur": "Bleu / Orange"
 	},
 	{
@@ -6392,7 +6182,7 @@
 		"niveau_max": 6,
 		"pv_min": 10,
 		"pv_max": 18,
-		"image": "https://solomonk.fr/img/monsters/artworks/1563.svg",
+		"image": "/img/monsters/1563.svg",
 		"couleur": "Bleu"
 	},
 	{
@@ -6404,7 +6194,7 @@
 		"niveau_max": 9,
 		"pv_min": 25,
 		"pv_max": 33,
-		"image": "https://solomonk.fr/img/monsters/artworks/1567.svg",
+		"image": "/img/monsters/1567.svg",
 		"couleur": "Orange"
 	},
 	{
@@ -6416,7 +6206,7 @@
 		"niveau_max": 8,
 		"pv_min": 15,
 		"pv_max": 19,
-		"image": "https://solomonk.fr/img/monsters/artworks/1568.svg",
+		"image": "/img/monsters/1568.svg",
 		"couleur": "Vert"
 	},
 	{
@@ -6428,7 +6218,7 @@
 		"niveau_max": 7,
 		"pv_min": 10,
 		"pv_max": 18,
-		"image": "https://solomonk.fr/img/monsters/artworks/1565.svg",
+		"image": "/img/monsters/1565.svg",
 		"couleur": "Rouge"
 	},
 	{
@@ -6440,7 +6230,7 @@
 		"niveau_max": 7,
 		"pv_min": 15,
 		"pv_max": 19,
-		"image": "https://solomonk.fr/img/monsters/artworks/1560.svg",
+		"image": "/img/monsters/1560.svg",
 		"couleur": "Jaune / Blanc"
 	},
 	{
@@ -6452,7 +6242,7 @@
 		"niveau_max": 8,
 		"pv_min": 10,
 		"pv_max": 18,
-		"image": "https://solomonk.fr/img/monsters/artworks/1561.svg",
+		"image": "/img/monsters/1561.svg",
 		"couleur": "Rouge / Blanc"
 	},
 	{
@@ -6464,7 +6254,7 @@
 		"niveau_max": 12,
 		"pv_min": 40,
 		"pv_max": 60,
-		"image": "https://solomonk.fr/img/monsters/artworks/1569.svg",
+		"image": "/img/monsters/1569.svg",
 		"couleur": "Jaune / Marron"
 	},
 	{
@@ -6476,7 +6266,7 @@
 		"niveau_max": 5,
 		"pv_min": 10,
 		"pv_max": 30,
-		"image": "https://solomonk.fr/img/monsters/artworks/1564.svg",
+		"image": "/img/monsters/1564.svg",
 		"couleur": "Noir"
 	},
 	{
@@ -6488,7 +6278,7 @@
 		"niveau_max": 14,
 		"pv_min": 80,
 		"pv_max": 100,
-		"image": "https://solomonk.fr/img/monsters/artworks/1562.svg",
+		"image": "/img/monsters/1562.svg",
 		"couleur": "Marron"
 	},
 	{
@@ -6500,7 +6290,7 @@
 		"niveau_max": 14,
 		"pv_min": 80,
 		"pv_max": 100,
-		"image": "https://solomonk.fr/img/monsters/artworks/1573.svg",
+		"image": "/img/monsters/1573.svg",
 		"couleur": "Blanc"
 	},
 	{
@@ -6512,8 +6302,7 @@
 		"niveau_max": 24,
 		"pv_min": 200,
 		"pv_max": 280,
-		"image": "https://solomonk.fr/img/monsters/artworks/1076.svg",
-		"couleur": ""
+		"image": "/img/monsters/1076.svg"
 	},
 	{
 		"id": 986,
@@ -6524,8 +6313,7 @@
 		"niveau_max": 43,
 		"pv_min": 300,
 		"pv_max": 700,
-		"image": "https://solomonk.fr/img/monsters/artworks/1003.svg",
-		"couleur": ""
+		"image": "/img/monsters/1003.svg"
 	},
 	{
 		"id": 988,
@@ -6536,8 +6324,7 @@
 		"niveau_max": 24,
 		"pv_min": 350,
 		"pv_max": 550,
-		"image": "https://solomonk.fr/img/monsters/artworks/1076.svg",
-		"couleur": ""
+		"image": "/img/monsters/1076.svg"
 	},
 	{
 		"id": 989,
@@ -6548,7 +6335,7 @@
 		"niveau_max": 49,
 		"pv_min": 100,
 		"pv_max": 120,
-		"image": "https://solomonk.fr/img/monsters/artworks/1001.svg",
+		"image": "/img/monsters/1001.svg",
 		"couleur": "Marron"
 	},
 	{
@@ -6560,7 +6347,7 @@
 		"niveau_max": 48,
 		"pv_min": 100,
 		"pv_max": 120,
-		"image": "https://solomonk.fr/img/monsters/artworks/1337.svg",
+		"image": "/img/monsters/1337.svg",
 		"couleur": "Marron"
 	},
 	{
@@ -6572,7 +6359,7 @@
 		"niveau_max": 84,
 		"pv_min": 200,
 		"pv_max": 240,
-		"image": "https://solomonk.fr/img/monsters/artworks/1158.svg",
+		"image": "/img/monsters/1158.svg",
 		"couleur": "Noir"
 	},
 	{
@@ -6584,7 +6371,7 @@
 		"niveau_max": 92,
 		"pv_min": 200,
 		"pv_max": 240,
-		"image": "https://solomonk.fr/img/monsters/artworks/1334.svg",
+		"image": "/img/monsters/1334.svg",
 		"couleur": "Noir"
 	},
 	{
@@ -6596,8 +6383,7 @@
 		"niveau_max": 14,
 		"pv_min": 100,
 		"pv_max": 160,
-		"image": "https://solomonk.fr/img/monsters/artworks/1212.svg",
-		"couleur": ""
+		"image": "/img/monsters/1212.svg"
 	},
 	{
 		"id": 996,
@@ -6608,7 +6394,7 @@
 		"niveau_max": 14,
 		"pv_min": 50,
 		"pv_max": 70,
-		"image": "https://solomonk.fr/img/monsters/artworks/1014.svg",
+		"image": "/img/monsters/1014.svg",
 		"couleur": "Blanc"
 	},
 	{
@@ -6620,7 +6406,7 @@
 		"niveau_max": 7,
 		"pv_min": 20,
 		"pv_max": 40,
-		"image": "https://solomonk.fr/img/monsters/artworks/1475.svg",
+		"image": "/img/monsters/1475.svg",
 		"couleur": "Bleu"
 	},
 	{
@@ -6632,8 +6418,7 @@
 		"niveau_max": 1,
 		"pv_min": 10,
 		"pv_max": 10,
-		"image": "https://solomonk.fr/img/monsters/artworks/1219.svg",
-		"couleur": ""
+		"image": "/img/monsters/1219.svg"
 	},
 	{
 		"id": 1001,
@@ -6644,8 +6429,7 @@
 		"niveau_max": 26,
 		"pv_min": 200,
 		"pv_max": 240,
-		"image": "https://solomonk.fr/img/monsters/artworks/1581.svg",
-		"couleur": ""
+		"image": "/img/monsters/1581.svg"
 	},
 	{
 		"id": 1003,
@@ -6656,8 +6440,7 @@
 		"niveau_max": 1,
 		"pv_min": 20,
 		"pv_max": 20,
-		"image": "https://solomonk.fr/img/monsters/artworks/1219.svg",
-		"couleur": ""
+		"image": "/img/monsters/1219.svg"
 	},
 	{
 		"id": 1006,
@@ -6668,8 +6451,7 @@
 		"niveau_max": 80,
 		"pv_min": 700,
 		"pv_max": 1200,
-		"image": "https://solomonk.fr/img/monsters/artworks/1069.svg",
-		"couleur": ""
+		"image": "/img/monsters/1069.svg"
 	},
 	{
 		"id": 1011,
@@ -6680,8 +6462,7 @@
 		"niveau_max": 48,
 		"pv_min": 200,
 		"pv_max": 320,
-		"image": "https://solomonk.fr/img/monsters/artworks/1376.svg",
-		"couleur": ""
+		"image": "/img/monsters/1376.svg"
 	},
 	{
 		"id": 1012,
@@ -6692,8 +6473,7 @@
 		"niveau_max": 70,
 		"pv_min": 180,
 		"pv_max": 340,
-		"image": "https://solomonk.fr/img/monsters/artworks/1372.svg",
-		"couleur": ""
+		"image": "/img/monsters/1372.svg"
 	},
 	{
 		"id": 1013,
@@ -6704,8 +6484,7 @@
 		"niveau_max": 70,
 		"pv_min": 250,
 		"pv_max": 360,
-		"image": "https://solomonk.fr/img/monsters/artworks/1372.svg",
-		"couleur": ""
+		"image": "/img/monsters/1372.svg"
 	},
 	{
 		"id": 1017,
@@ -6716,8 +6495,7 @@
 		"niveau_max": 80,
 		"pv_min": 1200,
 		"pv_max": 2000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1275.svg",
-		"couleur": ""
+		"image": "/img/monsters/1275.svg"
 	},
 	{
 		"id": 1019,
@@ -6728,7 +6506,7 @@
 		"niveau_max": 90,
 		"pv_min": 500,
 		"pv_max": 1300,
-		"image": "https://solomonk.fr/img/monsters/artworks/1586.svg",
+		"image": "/img/monsters/1586.svg",
 		"couleur": "Marron"
 	},
 	{
@@ -6740,7 +6518,7 @@
 		"niveau_max": 143,
 		"pv_min": 1700,
 		"pv_max": 3300,
-		"image": "https://solomonk.fr/img/monsters/artworks/1631.svg",
+		"image": "/img/monsters/1631.svg",
 		"couleur": "Marron"
 	},
 	{
@@ -6752,7 +6530,7 @@
 		"niveau_max": 60,
 		"pv_min": 500,
 		"pv_max": 700,
-		"image": "https://solomonk.fr/img/monsters/artworks/1587.svg",
+		"image": "/img/monsters/1587.svg",
 		"couleur": "Rouge"
 	},
 	{
@@ -6764,7 +6542,7 @@
 		"niveau_max": 90,
 		"pv_min": 500,
 		"pv_max": 1300,
-		"image": "https://solomonk.fr/img/monsters/artworks/1528.svg",
+		"image": "/img/monsters/1528.svg",
 		"couleur": "Beige / Blanc"
 	},
 	{
@@ -6776,7 +6554,7 @@
 		"niveau_max": 52,
 		"pv_min": 350,
 		"pv_max": 550,
-		"image": "https://solomonk.fr/img/monsters/artworks/1551.svg",
+		"image": "/img/monsters/1551.svg",
 		"couleur": "Beige / Blanc"
 	},
 	{
@@ -6788,7 +6566,7 @@
 		"niveau_max": 170,
 		"pv_min": 2000,
 		"pv_max": 2400,
-		"image": "https://solomonk.fr/img/monsters/artworks/1617.svg",
+		"image": "/img/monsters/1617.svg",
 		"couleur": "Rouge"
 	},
 	{
@@ -6800,7 +6578,7 @@
 		"niveau_max": 109,
 		"pv_min": 900,
 		"pv_max": 2100,
-		"image": "https://solomonk.fr/img/monsters/artworks/1615.svg",
+		"image": "/img/monsters/1615.svg",
 		"couleur": "Marron / Vert / Jaune"
 	},
 	{
@@ -6812,8 +6590,7 @@
 		"niveau_max": 53,
 		"pv_min": 600,
 		"pv_max": 1000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1109.svg",
-		"couleur": ""
+		"image": "/img/monsters/1109.svg"
 	},
 	{
 		"id": 1041,
@@ -6824,7 +6601,7 @@
 		"niveau_max": 113,
 		"pv_min": 800,
 		"pv_max": 1600,
-		"image": "https://solomonk.fr/img/monsters/artworks/1638.svg",
+		"image": "/img/monsters/1638.svg",
 		"couleur": "Marron"
 	},
 	{
@@ -6836,8 +6613,7 @@
 		"niveau_max": 43,
 		"pv_min": 300,
 		"pv_max": 700,
-		"image": "https://solomonk.fr/img/monsters/artworks/1003.svg",
-		"couleur": ""
+		"image": "/img/monsters/1003.svg"
 	},
 	{
 		"id": 1043,
@@ -6848,7 +6624,7 @@
 		"niveau_max": 124,
 		"pv_min": 1700,
 		"pv_max": 2500,
-		"image": "https://solomonk.fr/img/monsters/artworks/1600.svg",
+		"image": "/img/monsters/1600.svg",
 		"couleur": "Vert / Jaune"
 	},
 	{
@@ -6860,7 +6636,7 @@
 		"niveau_max": 132,
 		"pv_min": 1700,
 		"pv_max": 2900,
-		"image": "https://solomonk.fr/img/monsters/artworks/1622.svg",
+		"image": "/img/monsters/1622.svg",
 		"couleur": "Vert / Orange"
 	},
 	{
@@ -6872,7 +6648,7 @@
 		"niveau_max": 990,
 		"pv_min": 9000,
 		"pv_max": 11000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1623.svg",
+		"image": "/img/monsters/1623.svg",
 		"couleur": "Marron / Vert"
 	},
 	{
@@ -6884,7 +6660,7 @@
 		"niveau_max": 92,
 		"pv_min": 1100,
 		"pv_max": 1500,
-		"image": "https://solomonk.fr/img/monsters/artworks/1531.svg",
+		"image": "/img/monsters/1531.svg",
 		"couleur": "Vert / Marron"
 	},
 	{
@@ -6896,7 +6672,7 @@
 		"niveau_max": 152,
 		"pv_min": 1700,
 		"pv_max": 3500,
-		"image": "https://solomonk.fr/img/monsters/artworks/1598.svg",
+		"image": "/img/monsters/1598.svg",
 		"couleur": "Blanc"
 	},
 	{
@@ -6908,7 +6684,7 @@
 		"niveau_max": 80,
 		"pv_min": 500,
 		"pv_max": 1100,
-		"image": "https://solomonk.fr/img/monsters/artworks/1619.svg",
+		"image": "/img/monsters/1619.svg",
 		"couleur": "Marron"
 	},
 	{
@@ -6920,7 +6696,7 @@
 		"niveau_max": 80,
 		"pv_min": 500,
 		"pv_max": 1100,
-		"image": "https://solomonk.fr/img/monsters/artworks/1618.svg",
+		"image": "/img/monsters/1618.svg",
 		"couleur": "Noir"
 	},
 	{
@@ -6932,7 +6708,7 @@
 		"niveau_max": 76,
 		"pv_min": 700,
 		"pv_max": 940,
-		"image": "https://solomonk.fr/img/monsters/artworks/1620.svg",
+		"image": "/img/monsters/1620.svg",
 		"couleur": "Orange"
 	},
 	{
@@ -6944,7 +6720,7 @@
 		"niveau_max": 190,
 		"pv_min": 2000,
 		"pv_max": 2400,
-		"image": "https://solomonk.fr/img/monsters/artworks/1621.svg",
+		"image": "/img/monsters/1621.svg",
 		"couleur": "Vert"
 	},
 	{
@@ -6956,7 +6732,7 @@
 		"niveau_max": 148,
 		"pv_min": 2000,
 		"pv_max": 3800,
-		"image": "https://solomonk.fr/img/monsters/artworks/1610.svg",
+		"image": "/img/monsters/1610.svg",
 		"couleur": "Marron / Beige"
 	},
 	{
@@ -6968,7 +6744,7 @@
 		"niveau_max": 111,
 		"pv_min": 1400,
 		"pv_max": 2000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1609.svg",
+		"image": "/img/monsters/1609.svg",
 		"couleur": "Marron / Beige"
 	},
 	{
@@ -6980,7 +6756,7 @@
 		"niveau_max": 119,
 		"pv_min": 1100,
 		"pv_max": 2300,
-		"image": "https://solomonk.fr/img/monsters/artworks/1608.svg",
+		"image": "/img/monsters/1608.svg",
 		"couleur": "Marron / Beige"
 	},
 	{
@@ -6992,7 +6768,7 @@
 		"niveau_max": 99,
 		"pv_min": 1100,
 		"pv_max": 1700,
-		"image": "https://solomonk.fr/img/monsters/artworks/1606.svg",
+		"image": "/img/monsters/1606.svg",
 		"couleur": "Marron / Beige"
 	},
 	{
@@ -7004,7 +6780,7 @@
 		"niveau_max": 130,
 		"pv_min": 1700,
 		"pv_max": 2700,
-		"image": "https://solomonk.fr/img/monsters/artworks/1607.svg",
+		"image": "/img/monsters/1607.svg",
 		"couleur": "Marron / Beige"
 	},
 	{
@@ -7016,7 +6792,7 @@
 		"niveau_max": 239,
 		"pv_min": 7600,
 		"pv_max": 8000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1624.svg",
+		"image": "/img/monsters/1624.svg",
 		"couleur": "Bleu"
 	},
 	{
@@ -7028,7 +6804,7 @@
 		"niveau_max": 121,
 		"pv_min": 1100,
 		"pv_max": 2300,
-		"image": "https://solomonk.fr/img/monsters/artworks/1626.svg",
+		"image": "/img/monsters/1626.svg",
 		"couleur": "Noir / Violet"
 	},
 	{
@@ -7040,7 +6816,7 @@
 		"niveau_max": 107,
 		"pv_min": 1400,
 		"pv_max": 2000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1625.svg",
+		"image": "/img/monsters/1625.svg",
 		"couleur": "Marron / Noir"
 	},
 	{
@@ -7052,7 +6828,7 @@
 		"niveau_max": 46,
 		"pv_min": 200,
 		"pv_max": 400,
-		"image": "https://solomonk.fr/img/monsters/artworks/1592.svg",
+		"image": "/img/monsters/1592.svg",
 		"couleur": "Bleu"
 	},
 	{
@@ -7064,7 +6840,7 @@
 		"niveau_max": 46,
 		"pv_min": 200,
 		"pv_max": 400,
-		"image": "https://solomonk.fr/img/monsters/artworks/1594.svg",
+		"image": "/img/monsters/1594.svg",
 		"couleur": "Vert"
 	},
 	{
@@ -7076,7 +6852,7 @@
 		"niveau_max": 46,
 		"pv_min": 200,
 		"pv_max": 400,
-		"image": "https://solomonk.fr/img/monsters/artworks/1593.svg",
+		"image": "/img/monsters/1593.svg",
 		"couleur": "Rouge"
 	},
 	{
@@ -7088,7 +6864,7 @@
 		"niveau_max": 46,
 		"pv_min": 200,
 		"pv_max": 400,
-		"image": "https://solomonk.fr/img/monsters/artworks/1595.svg",
+		"image": "/img/monsters/1595.svg",
 		"couleur": "Jaune"
 	},
 	{
@@ -7100,7 +6876,7 @@
 		"niveau_max": 60,
 		"pv_min": 200,
 		"pv_max": 800,
-		"image": "https://solomonk.fr/img/monsters/artworks/1604.svg",
+		"image": "/img/monsters/1604.svg",
 		"couleur": "Bleu"
 	},
 	{
@@ -7112,7 +6888,7 @@
 		"niveau_max": 60,
 		"pv_min": 200,
 		"pv_max": 800,
-		"image": "https://solomonk.fr/img/monsters/artworks/1603.svg",
+		"image": "/img/monsters/1603.svg",
 		"couleur": "Vert"
 	},
 	{
@@ -7124,7 +6900,7 @@
 		"niveau_max": 60,
 		"pv_min": 200,
 		"pv_max": 800,
-		"image": "https://solomonk.fr/img/monsters/artworks/1605.svg",
+		"image": "/img/monsters/1605.svg",
 		"couleur": "Rouge"
 	},
 	{
@@ -7136,7 +6912,7 @@
 		"niveau_max": 60,
 		"pv_min": 200,
 		"pv_max": 800,
-		"image": "https://solomonk.fr/img/monsters/artworks/1602.svg",
+		"image": "/img/monsters/1602.svg",
 		"couleur": "Jaune"
 	},
 	{
@@ -7148,7 +6924,7 @@
 		"niveau_max": 78,
 		"pv_min": 650,
 		"pv_max": 1050,
-		"image": "https://solomonk.fr/img/monsters/artworks/1601.svg",
+		"image": "/img/monsters/1601.svg",
 		"couleur": "Beige / Violet"
 	},
 	{
@@ -7160,7 +6936,7 @@
 		"niveau_max": 89,
 		"pv_min": 500,
 		"pv_max": 1300,
-		"image": "https://solomonk.fr/img/monsters/artworks/1628.svg",
+		"image": "/img/monsters/1628.svg",
 		"couleur": "Rouge"
 	},
 	{
@@ -7172,7 +6948,7 @@
 		"niveau_max": 90,
 		"pv_min": 600,
 		"pv_max": 1120,
-		"image": "https://solomonk.fr/img/monsters/artworks/1629.svg",
+		"image": "/img/monsters/1629.svg",
 		"couleur": "Bleu"
 	},
 	{
@@ -7184,7 +6960,7 @@
 		"niveau_max": 440,
 		"pv_min": 8000,
 		"pv_max": 10000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1585.svg",
+		"image": "/img/monsters/1585.svg",
 		"couleur": "Vert"
 	},
 	{
@@ -7196,7 +6972,7 @@
 		"niveau_max": 240,
 		"pv_min": 4000,
 		"pv_max": 5200,
-		"image": "https://solomonk.fr/img/monsters/artworks/1616.svg",
+		"image": "/img/monsters/1616.svg",
 		"couleur": "Marron"
 	},
 	{
@@ -7208,7 +6984,7 @@
 		"niveau_max": 98,
 		"pv_min": 1100,
 		"pv_max": 1700,
-		"image": "https://solomonk.fr/img/monsters/artworks/1614.svg",
+		"image": "/img/monsters/1614.svg",
 		"couleur": "Marron"
 	},
 	{
@@ -7220,7 +6996,7 @@
 		"niveau_max": 78,
 		"pv_min": 650,
 		"pv_max": 1050,
-		"image": "https://solomonk.fr/img/monsters/artworks/1613.svg",
+		"image": "/img/monsters/1613.svg",
 		"couleur": "Gris / Jaune"
 	},
 	{
@@ -7232,7 +7008,7 @@
 		"niveau_max": 101,
 		"pv_min": 1100,
 		"pv_max": 1700,
-		"image": "https://solomonk.fr/img/monsters/artworks/1611.svg",
+		"image": "/img/monsters/1611.svg",
 		"couleur": "Marron"
 	},
 	{
@@ -7244,7 +7020,7 @@
 		"niveau_max": 74,
 		"pv_min": 500,
 		"pv_max": 900,
-		"image": "https://solomonk.fr/img/monsters/artworks/1612.svg",
+		"image": "/img/monsters/1612.svg",
 		"couleur": "Vert / Jaune"
 	},
 	{
@@ -7256,7 +7032,7 @@
 		"niveau_max": 125,
 		"pv_min": 1100,
 		"pv_max": 2500,
-		"image": "https://solomonk.fr/img/monsters/artworks/1599.svg",
+		"image": "/img/monsters/1599.svg",
 		"couleur": "Marron / Noir"
 	},
 	{
@@ -7268,7 +7044,7 @@
 		"niveau_max": 28,
 		"pv_min": 100,
 		"pv_max": 200,
-		"image": "https://solomonk.fr/img/monsters/artworks/1083.svg",
+		"image": "/img/monsters/1083.svg",
 		"couleur": "Jaune"
 	},
 	{
@@ -7280,8 +7056,7 @@
 		"niveau_max": 20,
 		"pv_min": 100,
 		"pv_max": 100,
-		"image": "https://solomonk.fr/img/monsters/artworks/1619.svg",
-		"couleur": ""
+		"image": "/img/monsters/1619.svg"
 	},
 	{
 		"id": 1081,
@@ -7292,8 +7067,7 @@
 		"niveau_max": 78,
 		"pv_min": 700,
 		"pv_max": 900,
-		"image": "https://solomonk.fr/img/monsters/artworks/1597.svg",
-		"couleur": ""
+		"image": "/img/monsters/1597.svg"
 	},
 	{
 		"id": 1082,
@@ -7304,8 +7078,7 @@
 		"niveau_max": 38,
 		"pv_min": 800,
 		"pv_max": 1200,
-		"image": "https://solomonk.fr/img/monsters/artworks/1133.svg",
-		"couleur": ""
+		"image": "/img/monsters/1133.svg"
 	},
 	{
 		"id": 1084,
@@ -7316,7 +7089,7 @@
 		"niveau_max": 10,
 		"pv_min": 100,
 		"pv_max": 100,
-		"image": "https://solomonk.fr/img/monsters/artworks/1630.svg",
+		"image": "/img/monsters/1630.svg",
 		"couleur": "Marron / Vert"
 	},
 	{
@@ -7328,7 +7101,7 @@
 		"niveau_max": 20,
 		"pv_min": 100,
 		"pv_max": 100,
-		"image": "https://solomonk.fr/img/monsters/artworks/1636.svg",
+		"image": "/img/monsters/1636.svg",
 		"couleur": "Marron / Vert"
 	},
 	{
@@ -7340,8 +7113,7 @@
 		"niveau_max": 133,
 		"pv_min": 200,
 		"pv_max": 240,
-		"image": "https://solomonk.fr/img/monsters/artworks/1632.svg",
-		"couleur": ""
+		"image": "/img/monsters/1632.svg"
 	},
 	{
 		"id": 1091,
@@ -7352,8 +7124,7 @@
 		"niveau_max": 133,
 		"pv_min": 200,
 		"pv_max": 240,
-		"image": "https://solomonk.fr/img/monsters/artworks/1632.svg",
-		"couleur": ""
+		"image": "/img/monsters/1632.svg"
 	},
 	{
 		"id": 1092,
@@ -7364,8 +7135,7 @@
 		"niveau_max": 133,
 		"pv_min": 200,
 		"pv_max": 240,
-		"image": "https://solomonk.fr/img/monsters/artworks/1632.svg",
-		"couleur": ""
+		"image": "/img/monsters/1632.svg"
 	},
 	{
 		"id": 1093,
@@ -7376,7 +7146,7 @@
 		"niveau_max": 170,
 		"pv_min": 1400,
 		"pv_max": 2200,
-		"image": "https://solomonk.fr/img/monsters/artworks/120.svg",
+		"image": "/img/monsters/120.svg",
 		"couleur": "Noir / Rose"
 	},
 	{
@@ -7388,8 +7158,7 @@
 		"niveau_max": 170,
 		"pv_min": 1400,
 		"pv_max": 2200,
-		"image": "https://solomonk.fr/img/monsters/artworks/30.svg",
-		"couleur": ""
+		"image": "/img/monsters/30.svg"
 	},
 	{
 		"id": 1096,
@@ -7400,7 +7169,7 @@
 		"niveau_max": 48,
 		"pv_min": 250,
 		"pv_max": 370,
-		"image": "https://solomonk.fr/img/monsters/artworks/1633.svg",
+		"image": "/img/monsters/1633.svg",
 		"couleur": "Noir / Marron"
 	},
 	{
@@ -7412,8 +7181,7 @@
 		"niveau_max": 1,
 		"pv_min": 3000,
 		"pv_max": 3000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1200.svg",
-		"couleur": ""
+		"image": "/img/monsters/1200.svg"
 	},
 	{
 		"id": 1111,
@@ -7424,8 +7192,7 @@
 		"niveau_max": 5,
 		"pv_min": 1000,
 		"pv_max": 5000,
-		"image": "https://solomonk.fr/img/monsters/artworks/8101.svg",
-		"couleur": ""
+		"image": "/img/monsters/8101.svg"
 	},
 	{
 		"id": 1112,
@@ -7436,8 +7203,7 @@
 		"niveau_max": 5,
 		"pv_min": 1000,
 		"pv_max": 5000,
-		"image": "https://solomonk.fr/img/monsters/artworks/8100.svg",
-		"couleur": ""
+		"image": "/img/monsters/8100.svg"
 	},
 	{
 		"id": 1117,
@@ -7448,8 +7214,7 @@
 		"niveau_max": 47,
 		"pv_min": 350,
 		"pv_max": 550,
-		"image": "https://solomonk.fr/img/monsters/artworks/1095.svg",
-		"couleur": ""
+		"image": "/img/monsters/1095.svg"
 	},
 	{
 		"id": 1119,
@@ -7460,8 +7225,7 @@
 		"niveau_max": 44,
 		"pv_min": 350,
 		"pv_max": 630,
-		"image": "https://solomonk.fr/img/monsters/artworks/60.svg",
-		"couleur": ""
+		"image": "/img/monsters/60.svg"
 	},
 	{
 		"id": 1120,
@@ -7472,8 +7236,7 @@
 		"niveau_max": 33,
 		"pv_min": 300,
 		"pv_max": 440,
-		"image": "https://solomonk.fr/img/monsters/artworks/1192.svg",
-		"couleur": ""
+		"image": "/img/monsters/1192.svg"
 	},
 	{
 		"id": 1121,
@@ -7484,8 +7247,7 @@
 		"niveau_max": 50,
 		"pv_min": 700,
 		"pv_max": 700,
-		"image": "https://solomonk.fr/img/monsters/artworks/60.svg",
-		"couleur": ""
+		"image": "/img/monsters/60.svg"
 	},
 	{
 		"id": 1122,
@@ -7496,8 +7258,7 @@
 		"niveau_max": 80,
 		"pv_min": 1300,
 		"pv_max": 1300,
-		"image": "https://solomonk.fr/img/monsters/artworks/90.svg",
-		"couleur": ""
+		"image": "/img/monsters/90.svg"
 	},
 	{
 		"id": 1123,
@@ -7508,8 +7269,7 @@
 		"niveau_max": 45,
 		"pv_min": 500,
 		"pv_max": 500,
-		"image": "https://solomonk.fr/img/monsters/artworks/41.svg",
-		"couleur": ""
+		"image": "/img/monsters/41.svg"
 	},
 	{
 		"id": 1124,
@@ -7520,8 +7280,7 @@
 		"niveau_max": 50,
 		"pv_min": 600,
 		"pv_max": 600,
-		"image": "https://solomonk.fr/img/monsters/artworks/1192.svg",
-		"couleur": ""
+		"image": "/img/monsters/1192.svg"
 	},
 	{
 		"id": 1125,
@@ -7532,8 +7291,7 @@
 		"niveau_max": 50,
 		"pv_min": 600,
 		"pv_max": 600,
-		"image": "https://solomonk.fr/img/monsters/artworks/1205.svg",
-		"couleur": ""
+		"image": "/img/monsters/1205.svg"
 	},
 	{
 		"id": 1127,
@@ -7544,8 +7302,7 @@
 		"niveau_max": 30,
 		"pv_min": 500,
 		"pv_max": 500,
-		"image": "https://solomonk.fr/img/monsters/artworks/1201.svg",
-		"couleur": ""
+		"image": "/img/monsters/1201.svg"
 	},
 	{
 		"id": 1128,
@@ -7556,8 +7313,7 @@
 		"niveau_max": 70,
 		"pv_min": 900,
 		"pv_max": 900,
-		"image": "https://solomonk.fr/img/monsters/artworks/1192.svg",
-		"couleur": ""
+		"image": "/img/monsters/1192.svg"
 	},
 	{
 		"id": 1132,
@@ -7568,8 +7324,7 @@
 		"niveau_max": 80,
 		"pv_min": 800,
 		"pv_max": 1200,
-		"image": "https://solomonk.fr/img/monsters/artworks/1004.svg",
-		"couleur": ""
+		"image": "/img/monsters/1004.svg"
 	},
 	{
 		"id": 1133,
@@ -7580,8 +7335,7 @@
 		"niveau_max": 40,
 		"pv_min": 600,
 		"pv_max": 600,
-		"image": "https://solomonk.fr/img/monsters/artworks/1192.svg",
-		"couleur": ""
+		"image": "/img/monsters/1192.svg"
 	},
 	{
 		"id": 1134,
@@ -7592,8 +7346,7 @@
 		"niveau_max": 50,
 		"pv_min": 800,
 		"pv_max": 800,
-		"image": "https://solomonk.fr/img/monsters/artworks/1192.svg",
-		"couleur": ""
+		"image": "/img/monsters/1192.svg"
 	},
 	{
 		"id": 1135,
@@ -7604,8 +7357,7 @@
 		"niveau_max": 40,
 		"pv_min": 450,
 		"pv_max": 450,
-		"image": "https://solomonk.fr/img/monsters/artworks/91.svg",
-		"couleur": ""
+		"image": "/img/monsters/91.svg"
 	},
 	{
 		"id": 1136,
@@ -7616,8 +7368,7 @@
 		"niveau_max": 40,
 		"pv_min": 600,
 		"pv_max": 600,
-		"image": "https://solomonk.fr/img/monsters/artworks/1205.svg",
-		"couleur": ""
+		"image": "/img/monsters/1205.svg"
 	},
 	{
 		"id": 1137,
@@ -7628,8 +7379,7 @@
 		"niveau_max": 40,
 		"pv_min": 650,
 		"pv_max": 650,
-		"image": "https://solomonk.fr/img/monsters/artworks/40.svg",
-		"couleur": ""
+		"image": "/img/monsters/40.svg"
 	},
 	{
 		"id": 1139,
@@ -7640,8 +7390,7 @@
 		"niveau_max": 60,
 		"pv_min": 521,
 		"pv_max": 521,
-		"image": "https://solomonk.fr/img/monsters/artworks/40.svg",
-		"couleur": ""
+		"image": "/img/monsters/40.svg"
 	},
 	{
 		"id": 1140,
@@ -7652,8 +7401,7 @@
 		"niveau_max": 60,
 		"pv_min": 1000,
 		"pv_max": 1000,
-		"image": "https://solomonk.fr/img/monsters/artworks/20.svg",
-		"couleur": ""
+		"image": "/img/monsters/20.svg"
 	},
 	{
 		"id": 1141,
@@ -7664,8 +7412,7 @@
 		"niveau_max": 50,
 		"pv_min": 750,
 		"pv_max": 750,
-		"image": "https://solomonk.fr/img/monsters/artworks/80.svg",
-		"couleur": ""
+		"image": "/img/monsters/80.svg"
 	},
 	{
 		"id": 1143,
@@ -7676,8 +7423,7 @@
 		"niveau_max": 40,
 		"pv_min": 500,
 		"pv_max": 500,
-		"image": "https://solomonk.fr/img/monsters/artworks/30.svg",
-		"couleur": ""
+		"image": "/img/monsters/30.svg"
 	},
 	{
 		"id": 1159,
@@ -7688,7 +7434,7 @@
 		"niveau_max": 940,
 		"pv_min": 16000,
 		"pv_max": 18000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1258.svg",
+		"image": "/img/monsters/1258.svg",
 		"couleur": "Blanc / Marron"
 	},
 	{
@@ -7700,8 +7446,7 @@
 		"niveau_max": 80,
 		"pv_min": 3000,
 		"pv_max": 3000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1192.svg",
-		"couleur": ""
+		"image": "/img/monsters/1192.svg"
 	},
 	{
 		"id": 1170,
@@ -7712,7 +7457,7 @@
 		"niveau_max": 1000,
 		"pv_min": 13000,
 		"pv_max": 17000,
-		"image": "https://solomonk.fr/img/monsters/artworks/8036.svg",
+		"image": "/img/monsters/8036.svg",
 		"couleur": "Blanc"
 	},
 	{
@@ -7724,8 +7469,7 @@
 		"niveau_max": 120,
 		"pv_min": 2000,
 		"pv_max": 2800,
-		"image": "https://solomonk.fr/img/monsters/artworks/1335.svg",
-		"couleur": ""
+		"image": "/img/monsters/1335.svg"
 	},
 	{
 		"id": 1179,
@@ -7736,7 +7480,7 @@
 		"niveau_max": 43,
 		"pv_min": 500,
 		"pv_max": 700,
-		"image": "https://solomonk.fr/img/monsters/artworks/1514.svg",
+		"image": "/img/monsters/1514.svg",
 		"couleur": "Vert"
 	},
 	{
@@ -7748,7 +7492,7 @@
 		"niveau_max": 13,
 		"pv_min": 20,
 		"pv_max": 40,
-		"image": "https://solomonk.fr/img/monsters/artworks/1514.svg",
+		"image": "/img/monsters/1514.svg",
 		"couleur": "Vert"
 	},
 	{
@@ -7760,7 +7504,7 @@
 		"niveau_max": 70,
 		"pv_min": 490,
 		"pv_max": 930,
-		"image": "https://solomonk.fr/img/monsters/artworks/1652.svg",
+		"image": "/img/monsters/1652.svg",
 		"couleur": "Bleu"
 	},
 	{
@@ -7772,7 +7516,7 @@
 		"niveau_max": 60,
 		"pv_min": 310,
 		"pv_max": 650,
-		"image": "https://solomonk.fr/img/monsters/artworks/1645.svg",
+		"image": "/img/monsters/1645.svg",
 		"couleur": "Vert"
 	},
 	{
@@ -7784,7 +7528,7 @@
 		"niveau_max": 60,
 		"pv_min": 310,
 		"pv_max": 650,
-		"image": "https://solomonk.fr/img/monsters/artworks/1653.svg",
+		"image": "/img/monsters/1653.svg",
 		"couleur": "Vert"
 	},
 	{
@@ -7796,7 +7540,7 @@
 		"niveau_max": 120,
 		"pv_min": 2600,
 		"pv_max": 3000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1654.svg",
+		"image": "/img/monsters/1654.svg",
 		"couleur": "Jaune"
 	},
 	{
@@ -7808,7 +7552,7 @@
 		"niveau_max": 120,
 		"pv_min": 2600,
 		"pv_max": 3000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1657.svg",
+		"image": "/img/monsters/1657.svg",
 		"couleur": "Rouge"
 	},
 	{
@@ -7820,7 +7564,7 @@
 		"niveau_max": 120,
 		"pv_min": 2600,
 		"pv_max": 3000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1656.svg",
+		"image": "/img/monsters/1656.svg",
 		"couleur": "Bleu"
 	},
 	{
@@ -7832,7 +7576,7 @@
 		"niveau_max": 120,
 		"pv_min": 2600,
 		"pv_max": 3000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1655.svg",
+		"image": "/img/monsters/1655.svg",
 		"couleur": "Vert"
 	},
 	{
@@ -7844,7 +7588,7 @@
 		"niveau_max": 170,
 		"pv_min": 4600,
 		"pv_max": 5000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1647.svg",
+		"image": "/img/monsters/1647.svg",
 		"couleur": "Bleu / Vert / Jaune / Rouge"
 	},
 	{
@@ -7856,8 +7600,7 @@
 		"niveau_max": 140,
 		"pv_min": 5000,
 		"pv_max": 7000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1071.svg",
-		"couleur": ""
+		"image": "/img/monsters/1071.svg"
 	},
 	{
 		"id": 1190,
@@ -7868,8 +7611,7 @@
 		"niveau_max": 43,
 		"pv_min": 500,
 		"pv_max": 700,
-		"image": "https://solomonk.fr/img/monsters/artworks/1574.svg",
-		"couleur": ""
+		"image": "/img/monsters/1574.svg"
 	},
 	{
 		"id": 1191,
@@ -7880,8 +7622,7 @@
 		"niveau_max": 120,
 		"pv_min": 2250,
 		"pv_max": 2650,
-		"image": "https://solomonk.fr/img/monsters/artworks/1037.svg",
-		"couleur": ""
+		"image": "/img/monsters/1037.svg"
 	},
 	{
 		"id": 1192,
@@ -7892,8 +7633,7 @@
 		"niveau_max": 133,
 		"pv_min": 6000,
 		"pv_max": 7200,
-		"image": "https://solomonk.fr/img/monsters/artworks/1088.svg",
-		"couleur": ""
+		"image": "/img/monsters/1088.svg"
 	},
 	{
 		"id": 1193,
@@ -7904,8 +7644,7 @@
 		"niveau_max": 198,
 		"pv_min": 12000,
 		"pv_max": 16000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1069.svg",
-		"couleur": ""
+		"image": "/img/monsters/1069.svg"
 	},
 	{
 		"id": 1194,
@@ -7916,7 +7655,7 @@
 		"niveau_max": 240,
 		"pv_min": 7000,
 		"pv_max": 9000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1660.svg",
+		"image": "/img/monsters/1660.svg",
 		"couleur": "Noir / Rouge"
 	},
 	{
@@ -7928,8 +7667,7 @@
 		"niveau_max": 999,
 		"pv_min": 13000,
 		"pv_max": 17000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1665.svg",
-		"couleur": ""
+		"image": "/img/monsters/1665.svg"
 	},
 	{
 		"id": 1196,
@@ -7940,8 +7678,7 @@
 		"niveau_max": 240,
 		"pv_min": 3500,
 		"pv_max": 4500,
-		"image": "https://solomonk.fr/img/monsters/artworks/1662.svg",
-		"couleur": ""
+		"image": "/img/monsters/1662.svg"
 	},
 	{
 		"id": 1197,
@@ -7952,7 +7689,7 @@
 		"niveau_max": 427,
 		"pv_min": 4444,
 		"pv_max": 5666,
-		"image": "https://solomonk.fr/img/monsters/artworks/1664.svg",
+		"image": "/img/monsters/1664.svg",
 		"couleur": "Vert / Orange"
 	},
 	{
@@ -7964,8 +7701,7 @@
 		"niveau_max": 1,
 		"pv_min": 3000,
 		"pv_max": 3000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1664.svg",
-		"couleur": ""
+		"image": "/img/monsters/1664.svg"
 	},
 	{
 		"id": 1199,
@@ -7976,8 +7712,7 @@
 		"niveau_max": 1,
 		"pv_min": 3000,
 		"pv_max": 3000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1664.svg",
-		"couleur": ""
+		"image": "/img/monsters/1664.svg"
 	},
 	{
 		"id": 1200,
@@ -7988,8 +7723,7 @@
 		"niveau_max": 1,
 		"pv_min": 3000,
 		"pv_max": 3000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1664.svg",
-		"couleur": ""
+		"image": "/img/monsters/1664.svg"
 	},
 	{
 		"id": 1203,
@@ -8000,8 +7734,7 @@
 		"niveau_max": 1,
 		"pv_min": 2500,
 		"pv_max": 2500,
-		"image": "https://solomonk.fr/img/monsters/artworks/1664.svg",
-		"couleur": ""
+		"image": "/img/monsters/1664.svg"
 	},
 	{
 		"id": 1204,
@@ -8012,7 +7745,7 @@
 		"niveau_max": 150,
 		"pv_min": 5200,
 		"pv_max": 6000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1726.svg",
+		"image": "/img/monsters/1726.svg",
 		"couleur": "Bleu / Noir"
 	},
 	{
@@ -8024,7 +7757,7 @@
 		"niveau_max": 150,
 		"pv_min": 4200,
 		"pv_max": 5000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1727.svg",
+		"image": "/img/monsters/1727.svg",
 		"couleur": "Noir"
 	},
 	{
@@ -8036,7 +7769,7 @@
 		"niveau_max": 150,
 		"pv_min": 4700,
 		"pv_max": 5500,
-		"image": "https://solomonk.fr/img/monsters/artworks/1725.svg",
+		"image": "/img/monsters/1725.svg",
 		"couleur": "Vert"
 	},
 	{
@@ -8048,8 +7781,7 @@
 		"niveau_max": 150,
 		"pv_min": 4200,
 		"pv_max": 5000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1724.svg",
-		"couleur": ""
+		"image": "/img/monsters/1724.svg"
 	},
 	{
 		"id": 1209,
@@ -8060,7 +7792,7 @@
 		"niveau_max": 147,
 		"pv_min": 3200,
 		"pv_max": 4000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1728.svg",
+		"image": "/img/monsters/1728.svg",
 		"couleur": "Gris / Rouge"
 	},
 	{
@@ -8072,8 +7804,7 @@
 		"niveau_max": 135,
 		"pv_min": 2900,
 		"pv_max": 3300,
-		"image": "https://solomonk.fr/img/monsters/artworks/1729.svg",
-		"couleur": ""
+		"image": "/img/monsters/1729.svg"
 	},
 	{
 		"id": 1211,
@@ -8084,8 +7815,7 @@
 		"niveau_max": 147,
 		"pv_min": 3200,
 		"pv_max": 4000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1718.svg",
-		"couleur": ""
+		"image": "/img/monsters/1718.svg"
 	},
 	{
 		"id": 1212,
@@ -8096,7 +7826,7 @@
 		"niveau_max": 135,
 		"pv_min": 2900,
 		"pv_max": 3300,
-		"image": "https://solomonk.fr/img/monsters/artworks/1719.svg",
+		"image": "/img/monsters/1719.svg",
 		"couleur": "Blanc"
 	},
 	{
@@ -8108,7 +7838,7 @@
 		"niveau_max": 180,
 		"pv_min": 3000,
 		"pv_max": 4000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1723.svg",
+		"image": "/img/monsters/1723.svg",
 		"couleur": "Blanc"
 	},
 	{
@@ -8120,7 +7850,7 @@
 		"niveau_max": 385,
 		"pv_min": 4000,
 		"pv_max": 5000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1720.svg",
+		"image": "/img/monsters/1720.svg",
 		"couleur": "Gris"
 	},
 	{
@@ -8132,7 +7862,7 @@
 		"niveau_max": 245,
 		"pv_min": 4000,
 		"pv_max": 5200,
-		"image": "https://solomonk.fr/img/monsters/artworks/1721.svg",
+		"image": "/img/monsters/1721.svg",
 		"couleur": "Gris"
 	},
 	{
@@ -8144,7 +7874,7 @@
 		"niveau_max": 120,
 		"pv_min": 2000,
 		"pv_max": 3000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1722.svg",
+		"image": "/img/monsters/1722.svg",
 		"couleur": "Vert / Bleu"
 	},
 	{
@@ -8156,7 +7886,7 @@
 		"niveau_max": 385,
 		"pv_min": 4000,
 		"pv_max": 5000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1730.svg",
+		"image": "/img/monsters/1730.svg",
 		"couleur": "Gris / Rouge"
 	},
 	{
@@ -8168,8 +7898,7 @@
 		"niveau_max": 140,
 		"pv_min": 2000,
 		"pv_max": 3000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1664.svg",
-		"couleur": ""
+		"image": "/img/monsters/1664.svg"
 	},
 	{
 		"id": 1220,
@@ -8180,8 +7909,7 @@
 		"niveau_max": 180,
 		"pv_min": 3000,
 		"pv_max": 4000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1664.svg",
-		"couleur": ""
+		"image": "/img/monsters/1664.svg"
 	},
 	{
 		"id": 1229,
@@ -8192,8 +7920,7 @@
 		"niveau_max": 28,
 		"pv_min": 100,
 		"pv_max": 200,
-		"image": "https://solomonk.fr/img/monsters/artworks/1133.svg",
-		"couleur": ""
+		"image": "/img/monsters/1133.svg"
 	},
 	{
 		"id": 1230,
@@ -8204,8 +7931,7 @@
 		"niveau_max": 39,
 		"pv_min": 200,
 		"pv_max": 320,
-		"image": "https://solomonk.fr/img/monsters/artworks/1123.svg",
-		"couleur": ""
+		"image": "/img/monsters/1123.svg"
 	},
 	{
 		"id": 1231,
@@ -8216,8 +7942,7 @@
 		"niveau_max": 29,
 		"pv_min": 120,
 		"pv_max": 200,
-		"image": "https://solomonk.fr/img/monsters/artworks/1132.svg",
-		"couleur": ""
+		"image": "/img/monsters/1132.svg"
 	},
 	{
 		"id": 1232,
@@ -8228,7 +7953,7 @@
 		"niveau_max": 15,
 		"pv_min": 60,
 		"pv_max": 120,
-		"image": "https://solomonk.fr/img/monsters/artworks/1663.svg",
+		"image": "/img/monsters/1663.svg",
 		"couleur": "Rose"
 	},
 	{
@@ -8240,8 +7965,7 @@
 		"niveau_max": 60,
 		"pv_min": 550,
 		"pv_max": 850,
-		"image": "https://solomonk.fr/img/monsters/artworks/1192.svg",
-		"couleur": ""
+		"image": "/img/monsters/1192.svg"
 	},
 	{
 		"id": 1234,
@@ -8252,8 +7976,7 @@
 		"niveau_max": 75,
 		"pv_min": 1100,
 		"pv_max": 1100,
-		"image": "https://solomonk.fr/img/monsters/artworks/1073.svg",
-		"couleur": ""
+		"image": "/img/monsters/1073.svg"
 	},
 	{
 		"id": 1247,
@@ -8264,8 +7987,7 @@
 		"niveau_max": 14,
 		"pv_min": 70,
 		"pv_max": 90,
-		"image": "https://solomonk.fr/img/monsters/artworks/9090.svg",
-		"couleur": ""
+		"image": "/img/monsters/9090.svg"
 	},
 	{
 		"id": 2627,
@@ -8276,8 +7998,7 @@
 		"niveau_max": 14,
 		"pv_min": 70,
 		"pv_max": 90,
-		"image": "https://solomonk.fr/img/monsters/artworks/9090.svg",
-		"couleur": ""
+		"image": "/img/monsters/9090.svg"
 	},
 	{
 		"id": 2633,
@@ -8288,8 +8009,7 @@
 		"niveau_max": 50,
 		"pv_min": 750,
 		"pv_max": 750,
-		"image": "https://solomonk.fr/img/monsters/artworks/40.svg",
-		"couleur": ""
+		"image": "/img/monsters/40.svg"
 	},
 	{
 		"id": 2634,
@@ -8300,8 +8020,7 @@
 		"niveau_max": 50,
 		"pv_min": 500,
 		"pv_max": 500,
-		"image": "https://solomonk.fr/img/monsters/artworks/51.svg",
-		"couleur": ""
+		"image": "/img/monsters/51.svg"
 	},
 	{
 		"id": 2635,
@@ -8312,8 +8031,7 @@
 		"niveau_max": 35,
 		"pv_min": 285,
 		"pv_max": 285,
-		"image": "https://solomonk.fr/img/monsters/artworks/40.svg",
-		"couleur": ""
+		"image": "/img/monsters/40.svg"
 	},
 	{
 		"id": 2636,
@@ -8324,8 +8042,7 @@
 		"niveau_max": 100,
 		"pv_min": 1400,
 		"pv_max": 1400,
-		"image": "https://solomonk.fr/img/monsters/artworks/20.svg",
-		"couleur": ""
+		"image": "/img/monsters/20.svg"
 	},
 	{
 		"id": 2637,
@@ -8336,8 +8053,7 @@
 		"niveau_max": 30,
 		"pv_min": 650,
 		"pv_max": 650,
-		"image": "https://solomonk.fr/img/monsters/artworks/1220.svg",
-		"couleur": ""
+		"image": "/img/monsters/1220.svg"
 	},
 	{
 		"id": 2638,
@@ -8348,8 +8064,7 @@
 		"niveau_max": 1,
 		"pv_min": 300,
 		"pv_max": 300,
-		"image": "https://solomonk.fr/img/monsters/artworks/1229.svg",
-		"couleur": ""
+		"image": "/img/monsters/1229.svg"
 	},
 	{
 		"id": 2639,
@@ -8360,8 +8075,7 @@
 		"niveau_max": 40,
 		"pv_min": 500,
 		"pv_max": 500,
-		"image": "https://solomonk.fr/img/monsters/artworks/1083.svg",
-		"couleur": ""
+		"image": "/img/monsters/1083.svg"
 	},
 	{
 		"id": 2640,
@@ -8372,8 +8086,7 @@
 		"niveau_max": 40,
 		"pv_min": 600,
 		"pv_max": 600,
-		"image": "https://solomonk.fr/img/monsters/artworks/1082.svg",
-		"couleur": ""
+		"image": "/img/monsters/1082.svg"
 	},
 	{
 		"id": 2641,
@@ -8384,8 +8097,7 @@
 		"niveau_max": 30,
 		"pv_min": 500,
 		"pv_max": 500,
-		"image": "https://solomonk.fr/img/monsters/artworks/1223.svg",
-		"couleur": ""
+		"image": "/img/monsters/1223.svg"
 	},
 	{
 		"id": 2642,
@@ -8396,8 +8108,7 @@
 		"niveau_max": 30,
 		"pv_min": 450,
 		"pv_max": 450,
-		"image": "https://solomonk.fr/img/monsters/artworks/1201.svg",
-		"couleur": ""
+		"image": "/img/monsters/1201.svg"
 	},
 	{
 		"id": 2643,
@@ -8408,8 +8119,7 @@
 		"niveau_max": 60,
 		"pv_min": 900,
 		"pv_max": 900,
-		"image": "https://solomonk.fr/img/monsters/artworks/1192.svg",
-		"couleur": ""
+		"image": "/img/monsters/1192.svg"
 	},
 	{
 		"id": 2644,
@@ -8420,8 +8130,7 @@
 		"niveau_max": 80,
 		"pv_min": 1250,
 		"pv_max": 1250,
-		"image": "https://solomonk.fr/img/monsters/artworks/1191.svg",
-		"couleur": ""
+		"image": "/img/monsters/1191.svg"
 	},
 	{
 		"id": 2645,
@@ -8432,8 +8141,7 @@
 		"niveau_max": 50,
 		"pv_min": 650,
 		"pv_max": 650,
-		"image": "https://solomonk.fr/img/monsters/artworks/70.svg",
-		"couleur": ""
+		"image": "/img/monsters/70.svg"
 	},
 	{
 		"id": 2646,
@@ -8444,8 +8152,7 @@
 		"niveau_max": 70,
 		"pv_min": 950,
 		"pv_max": 950,
-		"image": "https://solomonk.fr/img/monsters/artworks/91.svg",
-		"couleur": ""
+		"image": "/img/monsters/91.svg"
 	},
 	{
 		"id": 2647,
@@ -8456,8 +8163,7 @@
 		"niveau_max": 200,
 		"pv_min": 6600,
 		"pv_max": 6600,
-		"image": "https://solomonk.fr/img/monsters/artworks/1056.svg",
-		"couleur": ""
+		"image": "/img/monsters/1056.svg"
 	},
 	{
 		"id": 2649,
@@ -8468,8 +8174,7 @@
 		"niveau_max": 50,
 		"pv_min": 750,
 		"pv_max": 750,
-		"image": "https://solomonk.fr/img/monsters/artworks/60.svg",
-		"couleur": ""
+		"image": "/img/monsters/60.svg"
 	},
 	{
 		"id": 2651,
@@ -8480,8 +8185,7 @@
 		"niveau_max": 60,
 		"pv_min": 750,
 		"pv_max": 750,
-		"image": "https://solomonk.fr/img/monsters/artworks/70.svg",
-		"couleur": ""
+		"image": "/img/monsters/70.svg"
 	},
 	{
 		"id": 2661,
@@ -8492,8 +8196,7 @@
 		"niveau_max": 50,
 		"pv_min": 500,
 		"pv_max": 500,
-		"image": "https://solomonk.fr/img/monsters/artworks/10.svg",
-		"couleur": ""
+		"image": "/img/monsters/10.svg"
 	},
 	{
 		"id": 2662,
@@ -8504,8 +8207,7 @@
 		"niveau_max": 50,
 		"pv_min": 550,
 		"pv_max": 550,
-		"image": "https://solomonk.fr/img/monsters/artworks/11.svg",
-		"couleur": ""
+		"image": "/img/monsters/11.svg"
 	},
 	{
 		"id": 2663,
@@ -8516,8 +8218,7 @@
 		"niveau_max": 55,
 		"pv_min": 550,
 		"pv_max": 550,
-		"image": "https://solomonk.fr/img/monsters/artworks/60.svg",
-		"couleur": ""
+		"image": "/img/monsters/60.svg"
 	},
 	{
 		"id": 2664,
@@ -8528,8 +8229,7 @@
 		"niveau_max": 43,
 		"pv_min": 150,
 		"pv_max": 350,
-		"image": "https://solomonk.fr/img/monsters/artworks/1003.svg",
-		"couleur": ""
+		"image": "/img/monsters/1003.svg"
 	},
 	{
 		"id": 2668,
@@ -8540,8 +8240,7 @@
 		"niveau_max": 60,
 		"pv_min": 750,
 		"pv_max": 750,
-		"image": "https://solomonk.fr/img/monsters/artworks/60.svg",
-		"couleur": ""
+		"image": "/img/monsters/60.svg"
 	},
 	{
 		"id": 2669,
@@ -8552,8 +8251,7 @@
 		"niveau_max": 70,
 		"pv_min": 800,
 		"pv_max": 800,
-		"image": "https://solomonk.fr/img/monsters/artworks/41.svg",
-		"couleur": ""
+		"image": "/img/monsters/41.svg"
 	},
 	{
 		"id": 2670,
@@ -8564,8 +8262,7 @@
 		"niveau_max": 70,
 		"pv_min": 1200,
 		"pv_max": 1200,
-		"image": "https://solomonk.fr/img/monsters/artworks/1191.svg",
-		"couleur": ""
+		"image": "/img/monsters/1191.svg"
 	},
 	{
 		"id": 2673,
@@ -8576,8 +8273,7 @@
 		"niveau_max": 50,
 		"pv_min": 700,
 		"pv_max": 700,
-		"image": "https://solomonk.fr/img/monsters/artworks/120.svg",
-		"couleur": ""
+		"image": "/img/monsters/120.svg"
 	},
 	{
 		"id": 2680,
@@ -8588,8 +8284,7 @@
 		"niveau_max": 220,
 		"pv_min": 6500,
 		"pv_max": 8500,
-		"image": "https://solomonk.fr/img/monsters/artworks/1244.svg",
-		"couleur": ""
+		"image": "/img/monsters/1244.svg"
 	},
 	{
 		"id": 2685,
@@ -8600,8 +8295,7 @@
 		"niveau_max": 220,
 		"pv_min": 6500,
 		"pv_max": 8500,
-		"image": "https://solomonk.fr/img/monsters/artworks/1188.svg",
-		"couleur": ""
+		"image": "/img/monsters/1188.svg"
 	},
 	{
 		"id": 2691,
@@ -8612,8 +8306,7 @@
 		"niveau_max": 100,
 		"pv_min": 200,
 		"pv_max": 1000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1456.svg",
-		"couleur": ""
+		"image": "/img/monsters/1456.svg"
 	},
 	{
 		"id": 2701,
@@ -8624,8 +8317,7 @@
 		"niveau_max": 1,
 		"pv_min": 100,
 		"pv_max": 100,
-		"image": "https://solomonk.fr/img/monsters/artworks/1083.svg",
-		"couleur": ""
+		"image": "/img/monsters/1083.svg"
 	},
 	{
 		"id": 2749,
@@ -8636,8 +8328,7 @@
 		"niveau_max": 5,
 		"pv_min": 50,
 		"pv_max": 50,
-		"image": "https://solomonk.fr/img/monsters/artworks/30.svg",
-		"couleur": ""
+		"image": "/img/monsters/30.svg"
 	},
 	{
 		"id": 2768,
@@ -8648,8 +8339,7 @@
 		"niveau_max": 5,
 		"pv_min": 40,
 		"pv_max": 25,
-		"image": "https://solomonk.fr/img/monsters/artworks/1182.svg",
-		"couleur": ""
+		"image": "/img/monsters/1182.svg"
 	},
 	{
 		"id": 2771,
@@ -8660,8 +8350,7 @@
 		"niveau_max": 39,
 		"pv_min": 400,
 		"pv_max": 800,
-		"image": "https://solomonk.fr/img/monsters/artworks/1001.svg",
-		"couleur": ""
+		"image": "/img/monsters/1001.svg"
 	},
 	{
 		"id": 2772,
@@ -8672,8 +8361,7 @@
 		"niveau_max": 440,
 		"pv_min": 5250,
 		"pv_max": 6250,
-		"image": "https://solomonk.fr/img/monsters/artworks/8038.svg",
-		"couleur": ""
+		"image": "/img/monsters/8038.svg"
 	},
 	{
 		"id": 2781,
@@ -8684,8 +8372,7 @@
 		"niveau_max": 1,
 		"pv_min": 20,
 		"pv_max": 20,
-		"image": "https://solomonk.fr/img/monsters/artworks/1107.svg",
-		"couleur": ""
+		"image": "/img/monsters/1107.svg"
 	},
 	{
 		"id": 2783,
@@ -8696,8 +8383,7 @@
 		"niveau_max": 10,
 		"pv_min": 100,
 		"pv_max": 100,
-		"image": "https://solomonk.fr/img/monsters/artworks/8010.svg",
-		"couleur": ""
+		"image": "/img/monsters/8010.svg"
 	},
 	{
 		"id": 2784,
@@ -8708,8 +8394,7 @@
 		"niveau_max": 10,
 		"pv_min": 90,
 		"pv_max": 90,
-		"image": "https://solomonk.fr/img/monsters/artworks/40.svg",
-		"couleur": ""
+		"image": "/img/monsters/40.svg"
 	},
 	{
 		"id": 2786,
@@ -8720,8 +8405,7 @@
 		"niveau_max": 150,
 		"pv_min": 3300,
 		"pv_max": 3700,
-		"image": "https://solomonk.fr/img/monsters/artworks/1077.svg",
-		"couleur": ""
+		"image": "/img/monsters/1077.svg"
 	},
 	{
 		"id": 2787,
@@ -8732,8 +8416,7 @@
 		"niveau_max": 48,
 		"pv_min": 300,
 		"pv_max": 380,
-		"image": "https://solomonk.fr/img/monsters/artworks/9201.svg",
-		"couleur": ""
+		"image": "/img/monsters/9201.svg"
 	},
 	{
 		"id": 2788,
@@ -8744,8 +8427,7 @@
 		"niveau_max": 50,
 		"pv_min": 300,
 		"pv_max": 400,
-		"image": "https://solomonk.fr/img/monsters/artworks/1072.svg",
-		"couleur": ""
+		"image": "/img/monsters/1072.svg"
 	},
 	{
 		"id": 2789,
@@ -8756,8 +8438,7 @@
 		"niveau_max": 28,
 		"pv_min": 380,
 		"pv_max": 540,
-		"image": "https://solomonk.fr/img/monsters/artworks/1248.svg",
-		"couleur": ""
+		"image": "/img/monsters/1248.svg"
 	},
 	{
 		"id": 2790,
@@ -8768,8 +8449,7 @@
 		"niveau_max": 60,
 		"pv_min": 400,
 		"pv_max": 480,
-		"image": "https://solomonk.fr/img/monsters/artworks/1212.svg",
-		"couleur": ""
+		"image": "/img/monsters/1212.svg"
 	},
 	{
 		"id": 2791,
@@ -8780,8 +8460,7 @@
 		"niveau_max": 60,
 		"pv_min": 500,
 		"pv_max": 500,
-		"image": "https://solomonk.fr/img/monsters/artworks/1085.svg",
-		"couleur": ""
+		"image": "/img/monsters/1085.svg"
 	},
 	{
 		"id": 2793,
@@ -8792,8 +8471,7 @@
 		"niveau_max": 440,
 		"pv_min": 7000,
 		"pv_max": 7400,
-		"image": "https://solomonk.fr/img/monsters/artworks/1073.svg",
-		"couleur": ""
+		"image": "/img/monsters/1073.svg"
 	},
 	{
 		"id": 2795,
@@ -8804,8 +8482,7 @@
 		"niveau_max": 1,
 		"pv_min": 8000,
 		"pv_max": 8000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1096.svg",
-		"couleur": ""
+		"image": "/img/monsters/1096.svg"
 	},
 	{
 		"id": 2800,
@@ -8816,7 +8493,7 @@
 		"niveau_max": 900,
 		"pv_min": 100000,
 		"pv_max": 100000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1503.svg",
+		"image": "/img/monsters/1503.svg",
 		"couleur": "Noir"
 	},
 	{
@@ -8828,7 +8505,7 @@
 		"niveau_max": 900,
 		"pv_min": 100000,
 		"pv_max": 100000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1508.svg",
+		"image": "/img/monsters/1508.svg",
 		"couleur": "Gris"
 	},
 	{
@@ -8840,8 +8517,7 @@
 		"niveau_max": 47,
 		"pv_min": 300,
 		"pv_max": 480,
-		"image": "https://solomonk.fr/img/monsters/artworks/1456.svg",
-		"couleur": ""
+		"image": "/img/monsters/1456.svg"
 	},
 	{
 		"id": 2841,
@@ -8852,8 +8528,7 @@
 		"niveau_max": 47,
 		"pv_min": 300,
 		"pv_max": 480,
-		"image": "https://solomonk.fr/img/monsters/artworks/1456.svg",
-		"couleur": ""
+		"image": "/img/monsters/1456.svg"
 	},
 	{
 		"id": 2842,
@@ -8864,8 +8539,7 @@
 		"niveau_max": 47,
 		"pv_min": 300,
 		"pv_max": 480,
-		"image": "https://solomonk.fr/img/monsters/artworks/1456.svg",
-		"couleur": ""
+		"image": "/img/monsters/1456.svg"
 	},
 	{
 		"id": 2976,
@@ -8876,8 +8550,7 @@
 		"niveau_max": 430,
 		"pv_min": 11000,
 		"pv_max": 15000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1296.svg",
-		"couleur": ""
+		"image": "/img/monsters/1296.svg"
 	},
 	{
 		"id": 2984,
@@ -8888,7 +8561,6 @@
 		"niveau_max": 460,
 		"pv_min": 12000,
 		"pv_max": 16000,
-		"image": "https://solomonk.fr/img/monsters/artworks/1292.svg",
-		"couleur": ""
+		"image": "/img/monsters/1292.svg"
 	}
 ]

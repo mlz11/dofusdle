@@ -13,7 +13,14 @@ export default function GuessRow({ result, isNew }: Props) {
 				className={`guess-monster-name ${isNew ? "cell-flip" : ""}`}
 				style={isNew ? { animationDelay: "0ms" } : undefined}
 			>
-				{result.monster.name}
+				{result.monster.image && (
+					<img
+						src={result.monster.image}
+						alt=""
+						className="guess-monster-img"
+					/>
+				)}
+				<span>{result.monster.name}</span>
 			</div>
 			<div className="guess-cells">
 				<AttributeCell
