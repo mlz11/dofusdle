@@ -6,7 +6,13 @@ export default function Header() {
 	return (
 		<header className="app-header">
 			<div className="header-content">
-				<h1 className="header-title">Ankamadle</h1>
+				<h1 className="header-title">
+					<img
+						src="/images/logo.webp"
+						alt="Ankamadle"
+						className="header-logo"
+					/>
+				</h1>
 				<button
 					type="button"
 					className="rules-btn"

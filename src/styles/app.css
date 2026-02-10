@@ -68,13 +68,12 @@ body::before {
 }
 
 .header-title {
-	font-size: 2rem;
-	font-weight: 800;
-	background: linear-gradient(135deg, var(--accent), #ff7979);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	background-clip: text;
-	letter-spacing: 2px;
+	line-height: 0;
+}
+
+.header-logo {
+	width: min(300px, 60vw);
+	height: auto;
 }
 
 .rules-btn {
@@ -583,8 +582,8 @@ body::before {
 
 /* ===== Responsive ===== */
 @media (max-width: 600px) {
-	.header-title {
-		font-size: 1.5rem;
+	.header-logo {
+		width: min(250px, 60vw);
 	}
 
 	.guess-monster-name {
