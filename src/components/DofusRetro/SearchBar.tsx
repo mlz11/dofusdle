@@ -63,25 +63,64 @@ export default function SearchBar({
 		}
 	}
 
+	function handleSubmit() {
+		if (showDropdown && filtered[highlightIndex]) {
+			handleSelect(filtered[highlightIndex]);
+		} else if (filtered.length > 0) {
+			handleSelect(filtered[0]);
+		}
+	}
+
+	const canSubmit = !disabled && filtered.length > 0;
+
 	return (
 		<div className="search-bar">
-			<input
-				ref={inputRef}
-				type="text"
-				placeholder={
-					disabled ? "Bravo ! Reviens demain." : "Devine le monstre..."
-				}
-				value={query}
-				disabled={disabled}
-				onChange={(e) => {
-					setQuery(e.target.value);
-					setShowDropdown(true);
-				}}
-				onFocus={() => setShowDropdown(true)}
-				onBlur={() => setTimeout(() => setShowDropdown(false), 150)}
-				onKeyDown={handleKeyDown}
-				autoComplete="off"
-			/>
+			<div className="search-input-wrapper">
+				<input
+					ref={inputRef}
+					type="text"
+					placeholder={
+						disabled ? "Bravo ! Reviens demain." : "Devine le monstre..."
+					}
+					value={query}
+					disabled={disabled}
+					onChange={(e) => {
+						setQuery(e.target.value);
+						setShowDropdown(true);
+					}}
+					onFocus={() => setShowDropdown(true)}
+					onBlur={() => setTimeout(() => setShowDropdown(false), 150)}
+					onKeyDown={handleKeyDown}
+					autoComplete="off"
+				/>
+				<button
+					type="button"
+					className="submit-btn"
+					disabled={!canSubmit}
+					onMouseDown={(e) => {
+						e.preventDefault();
+						handleSubmit();
+					}}
+					aria-label="Valider"
+				>
+					<svg
+						width="20"
+						height="20"
+						viewBox="0 0 24 24"
+						fill="none"
+						stroke="currentColor"
+						strokeWidth="2.5"
+						strokeLinecap="round"
+						strokeLinejoin="round"
+						role="img"
+						aria-label="Valider"
+					>
+						<title>Valider</title>
+						<line x1="5" y1="12" x2="19" y2="12" />
+						<polyline points="12 5 19 12 12 19" />
+					</svg>
+				</button>
+			</div>
 			{showDropdown && filtered.length > 0 && (
 				<ul className="search-dropdown">
 					{filtered.slice(0, 8).map((m, i) => (
