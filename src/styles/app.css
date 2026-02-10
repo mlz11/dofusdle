@@ -7,6 +7,13 @@
 	padding: 0;
 }
 
+input,
+button,
+select,
+textarea {
+	font-family: inherit;
+}
+
 :root {
 	--bg-primary: #1a1a2e;
 	--bg-secondary: #16213e;
@@ -24,7 +31,7 @@
 }
 
 body {
-	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	font-family: "Quicksand", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 	background: var(--bg-primary) url("/images/background.webp") no-repeat center
 		center fixed;
 	background-size: cover;
