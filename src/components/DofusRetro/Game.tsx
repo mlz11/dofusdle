@@ -75,6 +75,11 @@ export default function Game() {
 			<p className="game-subtitle">
 				Dofus Retro 1.29 — Devine le monstre du jour
 			</p>
+			{results.length > 0 && !won && (
+				<span className="guess-counter">
+					{results.length} essai{results.length > 1 ? "s" : ""}
+				</span>
+			)}
 			<SearchBar
 				monsters={monsters}
 				usedIds={usedIds}
