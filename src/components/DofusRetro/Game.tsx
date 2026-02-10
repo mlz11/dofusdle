@@ -9,6 +9,7 @@ import {
 	recordWin,
 	saveProgress,
 } from "../../utils/storage";
+import ColorLegend from "./ColorLegend";
 import GuessGrid from "./GuessGrid";
 import SearchBar from "./SearchBar";
 import Victory from "./Victory";
@@ -22,6 +23,7 @@ export default function Game() {
 	const [won, setWon] = useState(false);
 	const [stats, setStats] = useState<GameStats>(loadStats());
 	const [newGuessIndex, setNewGuessIndex] = useState(-1);
+	const [showLegend, setShowLegend] = useState(true);
 
 	// Restore progress on mount
 	useEffect(() => {
@@ -76,6 +78,9 @@ export default function Game() {
 				disabled={won}
 			/>
 			<GuessGrid results={results} newGuessIndex={newGuessIndex} />
+			{results.length > 0 && showLegend && !won && (
+				<ColorLegend onClose={() => setShowLegend(false)} />
+			)}
 			{won && (
 				<Victory results={results} stats={stats} targetName={target.name} />
 			)}

@@ -1,5 +1,16 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import type { GameStats, GuessResult } from "../../types";
+
+function getTimeUntilMidnight(): string {
+	const now = new Date();
+	const midnight = new Date(now);
+	midnight.setHours(24, 0, 0, 0);
+	const diff = midnight.getTime() - now.getTime();
+	const h = String(Math.floor(diff / 3_600_000)).padStart(2, "0");
+	const m = String(Math.floor((diff % 3_600_000) / 60_000)).padStart(2, "0");
+	const s = String(Math.floor((diff % 60_000) / 1_000)).padStart(2, "0");
+	return `${h}:${m}:${s}`;
+}
 
 interface Props {
 	results: GuessResult[];
@@ -32,6 +43,12 @@ function buildShareText(results: GuessResult[], targetName: string): string {
 
 export default function Victory({ results, stats, targetName }: Props) {
 	const [copied, setCopied] = useState(false);
+	const [countdown, setCountdown] = useState(getTimeUntilMidnight);
+
+	useEffect(() => {
+		const id = setInterval(() => setCountdown(getTimeUntilMidnight()), 1_000);
+		return () => clearInterval(id);
+	}, []);
 
 	function handleShare() {
 		const text = buildShareText(results, targetName);
@@ -73,6 +90,11 @@ export default function Victory({ results, stats, targetName }: Props) {
 						<span className="stat-value">{stats.maxStreak}</span>
 						<span className="stat-label">Max série</span>
 					</div>
+				</div>
+
+				<div className="countdown">
+					<span className="countdown-label">Prochain monstre dans</span>
+					<span className="countdown-timer">{countdown}</span>
 				</div>
 
 				<button type="button" className="share-btn" onClick={handleShare}>
