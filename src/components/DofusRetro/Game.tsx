@@ -1,3 +1,4 @@
+import confetti from "canvas-confetti";
 import { useEffect, useMemo, useState } from "react";
 import monstersData from "../../data/monsters.json";
 import type { GameStats, GuessResult, Monster } from "../../types";
@@ -58,6 +59,9 @@ export default function Game() {
 			setWon(true);
 			const newStats = recordWin(newResults.length);
 			setStats(newStats);
+			setTimeout(() => {
+				confetti({ particleCount: 150, spread: 80, origin: { y: 0.6 } });
+			}, 1000);
 		}
 
 		saveProgress(
