@@ -193,8 +193,9 @@ body::before {
 }
 
 .game-subtitle {
-	color: var(--text-secondary);
+	color: var(--text-primary);
 	font-size: 1.05rem;
+	font-weight: 600;
 	margin-bottom: 20px;
 }
 
