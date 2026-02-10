@@ -18,7 +18,8 @@ import Victory from "./Victory";
 const monsters: Monster[] = monstersData as Monster[];
 
 export default function Game() {
-	const target = useMemo(() => getDailyMonster(monsters), []);
+	const [target, setTarget] = useState(() => getDailyMonster(monsters));
+	const [devMode, setDevMode] = useState(false);
 
 	const [results, setResults] = useState<GuessResult[]>([]);
 	const [won, setWon] = useState(false);
@@ -26,8 +27,9 @@ export default function Game() {
 	const [newGuessIndex, setNewGuessIndex] = useState(-1);
 	const [showLegend, setShowLegend] = useState(true);
 
-	// Restore progress on mount
+	// Restore progress on mount (skip in dev mode)
 	useEffect(() => {
+		if (devMode) return;
 		const progress = loadProgress();
 		if (progress) {
 			const restored: GuessResult[] = [];
@@ -39,7 +41,16 @@ export default function Game() {
 			setWon(progress.won);
 			if (progress.won) setStats(loadStats());
 		}
-	}, [target]);
+	}, [target, devMode]);
+
+	function resetGame() {
+		const randomMonster = monsters[Math.floor(Math.random() * monsters.length)];
+		setTarget(randomMonster);
+		setResults([]);
+		setWon(false);
+		setNewGuessIndex(-1);
+		setShowLegend(true);
+	}
 
 	const usedIds = useMemo(
 		() => new Set(results.map((r) => r.monster.id)),
@@ -64,14 +75,36 @@ export default function Game() {
 			}, 1000);
 		}
 
-		saveProgress(
-			newResults.map((r) => r.monster.name),
-			isWin,
-		);
+		if (!devMode) {
+			saveProgress(
+				newResults.map((r) => r.monster.name),
+				isWin,
+			);
+		}
 	}
 
 	return (
 		<div className="game">
+			{import.meta.env.DEV && (
+				<div className="dev-toolbar">
+					<label>
+						<input
+							type="checkbox"
+							checked={devMode}
+							onChange={(e) => setDevMode(e.target.checked)}
+						/>
+						Dev mode
+					</label>
+					{devMode && (
+						<>
+							<button type="button" onClick={resetGame}>
+								New Game
+							</button>
+							<span>Target: {target.name}</span>
+						</>
+					)}
+				</div>
+			)}
 			<p className="game-subtitle">
 				Dofus Retro 1.29 — Devine le monstre du jour
 			</p>

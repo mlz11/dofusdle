@@ -153,6 +153,33 @@ body::before {
 	opacity: 0.85;
 }
 
+/* ===== Dev Toolbar ===== */
+.dev-toolbar {
+	position: fixed;
+	bottom: 8px;
+	right: 8px;
+	z-index: 9999;
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	padding: 6px 12px;
+	background: rgba(0, 0, 0, 0.85);
+	border: 1px solid #555;
+	border-radius: 6px;
+	font-size: 0.75rem;
+	color: #ccc;
+}
+
+.dev-toolbar button {
+	padding: 2px 8px;
+	background: var(--accent);
+	color: white;
+	border: none;
+	border-radius: 4px;
+	font-size: 0.75rem;
+	cursor: pointer;
+}
+
 /* ===== Game ===== */
 .game {
 	text-align: center;
