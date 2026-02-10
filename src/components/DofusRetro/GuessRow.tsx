@@ -17,26 +17,26 @@ export default function GuessRow({ result, isNew }: Props) {
 			</div>
 			<div className="guess-cells">
 				<AttributeCell
-					label="Type"
-					feedback={result.feedback.type}
+					label="Écosystème"
+					feedback={result.feedback.ecosystem}
 					isNew={isNew}
 					index={1}
 				/>
 				<AttributeCell
-					label="Zone"
-					feedback={result.feedback.zone}
+					label="Race"
+					feedback={result.feedback.race}
 					isNew={isNew}
 					index={2}
 				/>
 				<AttributeCell
-					label="Niveau"
-					feedback={result.feedback.niveau}
+					label="Couleur"
+					feedback={result.feedback.couleur}
 					isNew={isNew}
 					index={3}
 				/>
 				<AttributeCell
-					label="Couleur"
-					feedback={result.feedback.couleur}
+					label="Niveau"
+					feedback={result.feedback.niveau}
 					isNew={isNew}
 					index={4}
 				/>

@@ -41,19 +41,44 @@ export default function Header() {
 								<span className="legend-correct">🟩 Vert</span> — Attribut exact
 							</li>
 							<li>
-								<span className="legend-partial">🟧 Orange</span> — Proche (même
-								région, niveau ±10, PV ±20%)
+								<span className="legend-partial">🟧 Orange</span> — Proche
+								(plages qui se chevauchent)
 							</li>
 							<li>
 								<span className="legend-wrong">🟥 Rouge</span> — Pas de
 								correspondance
 							</li>
-							<li>⬆️⬇️ — Le vrai monstre est plus haut / plus bas</li>
+							<li>
+								<svg
+									width="14"
+									height="14"
+									viewBox="0 0 24 24"
+									fill="none"
+									style={{ verticalAlign: "middle" }}
+									aria-hidden="true"
+								>
+									<path d="M12 4l-8 8h5v8h6v-8h5z" fill="currentColor" />
+								</svg>
+								<svg
+									width="14"
+									height="14"
+									viewBox="0 0 24 24"
+									fill="none"
+									style={{
+										verticalAlign: "middle",
+										transform: "rotate(180deg)",
+									}}
+									aria-hidden="true"
+								>
+									<path d="M12 4l-8 8h5v8h6v-8h5z" fill="currentColor" />
+								</svg>{" "}
+								— Le vrai monstre est plus haut / plus bas
+							</li>
 						</ul>
 						<p>
-							Les 5 attributs : <strong>Type</strong>, <strong>Zone</strong>,{" "}
-							<strong>Niveau</strong>, <strong>Couleur</strong>,{" "}
-							<strong>PV</strong>
+							Les 5 attributs : <strong>Écosystème</strong>,{" "}
+							<strong>Race</strong>, <strong>Couleur</strong>,{" "}
+							<strong>Niveau</strong>, <strong>PV</strong>
 						</p>
 						<button
 							type="button"

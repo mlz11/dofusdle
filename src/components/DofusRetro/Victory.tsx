@@ -23,10 +23,10 @@ function buildShareText(results: GuessResult[], targetName: string): string {
 	const grid = results
 		.map((r) => {
 			const cells = [
-				r.feedback.type,
-				r.feedback.zone,
-				r.feedback.niveau,
+				r.feedback.ecosystem,
+				r.feedback.race,
 				r.feedback.couleur,
+				r.feedback.niveau,
 				r.feedback.pv,
 			];
 			return cells
