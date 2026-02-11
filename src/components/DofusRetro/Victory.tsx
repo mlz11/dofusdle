@@ -1,11 +1,14 @@
 import { useEffect, useState } from "react";
 import type { GameStats, GuessResult } from "../../types";
 
-function getTimeUntilMidnight(): string {
+function getTimeUntilMidnightParis(): string {
 	const now = new Date();
-	const midnight = new Date(now);
-	midnight.setHours(24, 0, 0, 0);
-	const diff = midnight.getTime() - now.getTime();
+	const parisNow = new Date(
+		now.toLocaleString("en-US", { timeZone: "Europe/Paris" }),
+	);
+	const midnightParis = new Date(parisNow);
+	midnightParis.setHours(24, 0, 0, 0);
+	const diff = midnightParis.getTime() - parisNow.getTime();
 	const h = String(Math.floor(diff / 3_600_000)).padStart(2, "0");
 	const m = String(Math.floor((diff % 3_600_000) / 60_000)).padStart(2, "0");
 	const s = String(Math.floor((diff % 60_000) / 1_000)).padStart(2, "0");
@@ -49,10 +52,13 @@ export default function Victory({
 	targetImage,
 }: Props) {
 	const [copied, setCopied] = useState(false);
-	const [countdown, setCountdown] = useState(getTimeUntilMidnight);
+	const [countdown, setCountdown] = useState(getTimeUntilMidnightParis);
 
 	useEffect(() => {
-		const id = setInterval(() => setCountdown(getTimeUntilMidnight()), 1_000);
+		const id = setInterval(
+			() => setCountdown(getTimeUntilMidnightParis()),
+			1_000,
+		);
 		return () => clearInterval(id);
 	}, []);
 
