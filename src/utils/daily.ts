@@ -42,27 +42,63 @@ function hash(str: string): number {
 		h = (h << 5) - h + ch.charCodeAt(0);
 		h |= 0;
 	}
+	h = Math.imul(h ^ (h >>> 16), 0x45d9f3b);
+	h = Math.imul(h ^ (h >>> 13), 0x45d9f3b);
+	h = h ^ (h >>> 16);
 	return h;
+}
+
+function getPreviousDayKey(seed: string): string {
+	const [y, m, d] = seed.split("-").map(Number);
+	const date = new Date(y, m - 1, d);
+	date.setDate(date.getDate() - 1);
+	return `${date.getFullYear()}-${date.getMonth() + 1}-${date.getDate()}`;
+}
+
+function selectMonster(
+	monsters: Monster[],
+	seed: string,
+	depth: number,
+): Monster {
+	const eligible = monsters.filter((m) =>
+		isDateOnOrBefore(m.availableFrom, seed),
+	);
+	const pool = eligible.length > 0 ? eligible : monsters;
+
+	let best = pool[0];
+	let bestScore = -Infinity;
+	let secondBest = pool[0];
+	let secondBestScore = -Infinity;
+
+	for (const monster of pool) {
+		const score = hash(`${seed}-${monster.id}`);
+		if (score > bestScore) {
+			secondBest = best;
+			secondBestScore = bestScore;
+			best = monster;
+			bestScore = score;
+		} else if (score > secondBestScore) {
+			secondBest = monster;
+			secondBestScore = score;
+		}
+	}
+
+	if (depth > 0) {
+		const prevSeed = getPreviousDayKey(seed);
+		const prevMonster = selectMonster(monsters, prevSeed, depth - 1);
+		if (best.id === prevMonster.id) {
+			return secondBest;
+		}
+	}
+
+	return best;
 }
 
 export function getDailyMonster(
 	monsters: Monster[],
 	seed: string = getTodayKey(),
 ): Monster {
-	const eligible = monsters.filter((m) =>
-		isDateOnOrBefore(m.availableFrom, seed),
-	);
-	const pool = eligible.length > 0 ? eligible : monsters;
-	let best = pool[0];
-	let bestScore = -Infinity;
-	for (const monster of pool) {
-		const score = hash(`${seed}-${monster.id}`);
-		if (score > bestScore) {
-			bestScore = score;
-			best = monster;
-		}
-	}
-	return best;
+	return selectMonster(monsters, seed, 10);
 }
 
 export function getYesterdayMonster(monsters: Monster[]): Monster {
