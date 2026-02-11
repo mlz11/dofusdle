@@ -524,6 +524,123 @@ body::before {
 	gap: 2px;
 }
 
+/* ===== Hint Panel ===== */
+.hint-panel {
+	max-width: 400px;
+	margin: 0 auto 20px;
+	padding: 16px;
+	background: var(--bg-secondary);
+	border: 1px solid var(--border);
+	border-radius: 12px;
+	animation: fadeIn 0.3s ease;
+}
+
+.hint-panel-title {
+	font-size: 0.8rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: var(--text-secondary);
+	margin-bottom: 10px;
+}
+
+.hint-slots {
+	display: flex;
+	gap: 12px;
+}
+
+.hint-slot {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 6px;
+	padding: 14px 8px;
+	border-radius: 8px;
+	border: 2px solid var(--border);
+	background: var(--bg-card);
+	text-align: center;
+	min-height: 100px;
+}
+
+.hint-slot--locked {
+	opacity: 0.5;
+}
+
+.hint-slot--unlocked {
+	border-color: var(--accent);
+	cursor: pointer;
+	font-family: inherit;
+	color: inherit;
+	transition:
+		background 0.2s,
+		border-color 0.2s;
+	animation: fadeIn 0.3s ease;
+}
+
+.hint-slot--unlocked:hover {
+	background: var(--highlight);
+}
+
+.hint-slot--revealed {
+	border-color: var(--accent);
+	background: rgba(212, 152, 60, 0.1);
+	animation: fadeIn 0.3s ease;
+}
+
+.hint-slot-icon {
+	flex-shrink: 0;
+	color: var(--text-secondary);
+}
+
+.hint-slot--unlocked .hint-slot-icon {
+	color: var(--accent);
+}
+
+.hint-slot-label {
+	font-size: 0.75rem;
+	font-weight: 700;
+	color: var(--text-secondary);
+	text-transform: uppercase;
+}
+
+.hint-slot-remaining {
+	font-size: 0.7rem;
+	font-weight: 700;
+	color: var(--text-secondary);
+	text-transform: uppercase;
+}
+
+.hint-slot-action {
+	font-size: 0.7rem;
+	font-weight: 700;
+	color: var(--accent);
+}
+
+.hint-slot-value {
+	font-size: 1rem;
+	font-weight: 800;
+	color: var(--accent);
+}
+
+.hint-blurred-container {
+	width: 110px;
+	height: 110px;
+	border-radius: 50%;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: var(--bg-primary);
+}
+
+.hint-blurred-image {
+	width: 110px;
+	height: 110px;
+	object-fit: contain;
+	filter: blur(8px);
+}
+
 /* ===== Yesterday's Answer ===== */
 .yesterday-answer {
 	display: flex;
@@ -760,5 +877,25 @@ body::before {
 
 	.guess-cells {
 		gap: 4px;
+	}
+
+	.hint-slot {
+		padding: 10px 6px;
+		min-height: 80px;
+	}
+
+	.hint-slot-icon {
+		width: 22px;
+		height: 22px;
+	}
+
+	.hint-blurred-container {
+		width: 80px;
+		height: 80px;
+	}
+
+	.hint-blurred-image {
+		width: 80px;
+		height: 80px;
 	}
 }

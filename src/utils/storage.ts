@@ -26,11 +26,18 @@ export function loadProgress(): DailyProgress | null {
 	}
 }
 
-export function saveProgress(guesses: string[], won: boolean): void {
+export function saveProgress(
+	guesses: string[],
+	won: boolean,
+	hint1Revealed = false,
+	hint2Revealed = false,
+): void {
 	const progress: DailyProgress = {
 		date: getTodayKey(),
 		guesses,
 		won,
+		hint1Revealed,
+		hint2Revealed,
 	};
 	localStorage.setItem(PROGRESS_KEY, JSON.stringify(progress));
 }

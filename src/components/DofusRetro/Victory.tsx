@@ -20,10 +20,17 @@ interface Props {
 	stats: GameStats;
 	targetName: string;
 	targetImage?: string;
+	hintsUsed: number;
 }
 
-function buildShareText(results: GuessResult[], targetName: string): string {
-	const header = `Ankamadle - ${targetName} en ${results.length} essai${results.length > 1 ? "s" : ""}`;
+function buildShareText(
+	results: GuessResult[],
+	targetName: string,
+	hintsUsed: number,
+): string {
+	const hintSuffix =
+		hintsUsed > 0 ? ` (+${hintsUsed} indice${hintsUsed > 1 ? "s" : ""})` : "";
+	const header = `Ankamadle - ${targetName} en ${results.length} essai${results.length > 1 ? "s" : ""}${hintSuffix}`;
 	const grid = results
 		.map((r) => {
 			const cells = [
@@ -50,6 +57,7 @@ export default function Victory({
 	stats,
 	targetName,
 	targetImage,
+	hintsUsed,
 }: Props) {
 	const [copied, setCopied] = useState(false);
 	const [countdown, setCountdown] = useState(getTimeUntilMidnightParis);
@@ -63,7 +71,7 @@ export default function Victory({
 	}, []);
 
 	function handleShare() {
-		const text = buildShareText(results, targetName);
+		const text = buildShareText(results, targetName, hintsUsed);
 		navigator.clipboard.writeText(text).then(() => {
 			setCopied(true);
 			setTimeout(() => setCopied(false), 2000);

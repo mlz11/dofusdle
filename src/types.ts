@@ -43,4 +43,6 @@ export interface DailyProgress {
 	date: string;
 	guesses: string[];
 	won: boolean;
+	hint1Revealed?: boolean;
+	hint2Revealed?: boolean;
 }

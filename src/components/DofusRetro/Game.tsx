@@ -12,6 +12,7 @@ import {
 } from "../../utils/storage";
 import ColorLegend from "./ColorLegend";
 import GuessGrid from "./GuessGrid";
+import HintPanel from "./HintPanel";
 import SearchBar from "./SearchBar";
 import Victory from "./Victory";
 import YesterdayAnswer from "./YesterdayAnswer";
@@ -32,6 +33,8 @@ export default function Game({ stats, onStatsChange }: Props) {
 	const [won, setWon] = useState(false);
 	const [showVictory, setShowVictory] = useState(false);
 	const [newGuessIndex, setNewGuessIndex] = useState(-1);
+	const [hint1Revealed, setHint1Revealed] = useState(false);
+	const [hint2Revealed, setHint2Revealed] = useState(false);
 
 	// Restore progress on mount (skip in dev mode)
 	useEffect(() => {
@@ -45,6 +48,8 @@ export default function Game({ stats, onStatsChange }: Props) {
 			}
 			setResults(restored);
 			setWon(progress.won);
+			setHint1Revealed(progress.hint1Revealed ?? false);
+			setHint2Revealed(progress.hint2Revealed ?? false);
 			if (progress.won) {
 				setShowVictory(true);
 				onStatsChange(loadStats());
@@ -59,6 +64,8 @@ export default function Game({ stats, onStatsChange }: Props) {
 		setWon(false);
 		setShowVictory(false);
 		setNewGuessIndex(-1);
+		setHint1Revealed(false);
+		setHint2Revealed(false);
 	}
 
 	const usedIds = useMemo(
@@ -97,6 +104,34 @@ export default function Game({ stats, onStatsChange }: Props) {
 			saveProgress(
 				newResults.map((r) => r.monster.name),
 				isWin,
+				hint1Revealed,
+				hint2Revealed,
+			);
+		}
+	}
+
+	const hintsUsed = (hint1Revealed ? 1 : 0) + (hint2Revealed ? 1 : 0);
+
+	function handleRevealHint1() {
+		setHint1Revealed(true);
+		if (!devMode) {
+			saveProgress(
+				results.map((r) => r.monster.name),
+				won,
+				true,
+				hint2Revealed,
+			);
+		}
+	}
+
+	function handleRevealHint2() {
+		setHint2Revealed(true);
+		if (!devMode) {
+			saveProgress(
+				results.map((r) => r.monster.name),
+				won,
+				hint1Revealed,
+				true,
 			);
 		}
 	}
@@ -123,6 +158,16 @@ export default function Game({ stats, onStatsChange }: Props) {
 					)}
 				</div>
 			)}
+			<HintPanel
+				guessCount={results.length}
+				won={won}
+				hint1Revealed={hint1Revealed}
+				hint2Revealed={hint2Revealed}
+				targetImage={target.image}
+				targetEcosystem={target.ecosystem}
+				onRevealHint1={handleRevealHint1}
+				onRevealHint2={handleRevealHint2}
+			/>
 			<SearchBar
 				monsters={monsters}
 				usedIds={usedIds}
@@ -138,6 +183,7 @@ export default function Game({ stats, onStatsChange }: Props) {
 					stats={stats}
 					targetName={target.name}
 					targetImage={target.image}
+					hintsUsed={hintsUsed}
 				/>
 			)}
 		</div>
