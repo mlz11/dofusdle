@@ -62,20 +62,13 @@ body::before {
 /* ===== Header ===== */
 .app-header {
 	text-align: center;
-	padding: 20px 0 10px;
-	border-bottom: 2px solid rgba(212, 152, 60, 0.3);
+	padding: 20px 0 0;
 	margin-bottom: 20px;
-}
-
-.header-content {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	gap: 12px;
 }
 
 .header-title {
 	line-height: 0;
+	margin-bottom: 12px;
 }
 
 .header-logo {
@@ -83,22 +76,62 @@ body::before {
 	height: auto;
 }
 
-.rules-btn {
-	width: 32px;
-	height: 32px;
-	border-radius: 50%;
-	border: 2px solid var(--text-secondary);
-	background: transparent;
-	color: var(--text-secondary);
-	font-size: 1rem;
-	font-weight: 700;
-	cursor: pointer;
-	transition: all 0.2s;
+/* ===== Toolbar Bar ===== */
+.toolbar {
+	display: flex;
+	align-items: baseline;
+	justify-content: center;
+	gap: 16px;
+	max-width: 220px;
+	margin: 0 auto;
+	padding: 8px 20px;
+	background: var(--bg-secondary);
+	border: 2px solid var(--border);
+	border-radius: 999px;
 }
 
-.rules-btn:hover {
-	border-color: var(--text-primary);
+.toolbar-btn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 36px;
+	height: 36px;
+	border: none;
+	border-radius: 50%;
+	background: transparent;
+	color: var(--text-secondary);
+	cursor: pointer;
+	transition:
+		color 0.2s,
+		background 0.2s;
+}
+
+.toolbar-btn:hover {
 	color: var(--text-primary);
+	background: var(--highlight);
+}
+
+.toolbar-streak {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 4px;
+	height: 36px;
+}
+
+.toolbar-streak-value {
+	font-size: 1.1rem;
+	font-weight: 800;
+	color: var(--accent);
+	line-height: 1;
+}
+
+.stats-modal {
+	text-align: center;
+}
+
+.stats-modal h2 {
+	margin-bottom: 20px;
 }
 
 /* ===== Rules Modal ===== */
@@ -196,7 +229,9 @@ body::before {
 	color: var(--text-primary);
 	font-size: 1.05rem;
 	font-weight: 600;
-	margin-bottom: 20px;
+	padding-bottom: 12px;
+	margin-bottom: 16px;
+	border-bottom: 2px solid rgba(212, 152, 60, 0.3);
 }
 
 .guess-counter {

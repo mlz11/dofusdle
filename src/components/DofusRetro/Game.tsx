@@ -17,14 +17,18 @@ import Victory from "./Victory";
 
 const monsters: Monster[] = monstersData as Monster[];
 
-export default function Game() {
+interface Props {
+	stats: GameStats;
+	onStatsChange: (stats: GameStats) => void;
+}
+
+export default function Game({ stats, onStatsChange }: Props) {
 	const [target, setTarget] = useState(() => getDailyMonster(monsters));
 	const [devMode, setDevMode] = useState(false);
 
 	const [results, setResults] = useState<GuessResult[]>([]);
 	const [won, setWon] = useState(false);
 	const [showVictory, setShowVictory] = useState(false);
-	const [stats, setStats] = useState<GameStats>(loadStats());
 	const [newGuessIndex, setNewGuessIndex] = useState(-1);
 
 	// Restore progress on mount (skip in dev mode)
@@ -41,10 +45,10 @@ export default function Game() {
 			setWon(progress.won);
 			if (progress.won) {
 				setShowVictory(true);
-				setStats(loadStats());
+				onStatsChange(loadStats());
 			}
 		}
-	}, [target, devMode]);
+	}, [target, devMode, onStatsChange]);
 
 	function resetGame() {
 		const randomMonster = monsters[Math.floor(Math.random() * monsters.length)];
@@ -72,7 +76,7 @@ export default function Game() {
 		if (isWin) {
 			setWon(true);
 			const newStats = recordWin(newResults.length);
-			setStats(newStats);
+			onStatsChange(newStats);
 			// First confetti burst right as last cell finishes flipping
 			setTimeout(() => {
 				confetti({ particleCount: 150, spread: 80, origin: { y: 0.6 } });
@@ -116,14 +120,6 @@ export default function Game() {
 						</>
 					)}
 				</div>
-			)}
-			<p className="game-subtitle">
-				Dofus Retro 1.29 — Devine le monstre du jour
-			</p>
-			{results.length > 0 && !won && (
-				<span className="guess-counter">
-					{results.length} essai{results.length > 1 ? "s" : ""}
-				</span>
 			)}
 			<SearchBar
 				monsters={monsters}
