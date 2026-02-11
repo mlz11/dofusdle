@@ -21,6 +21,7 @@ interface Props {
 	targetName: string;
 	targetImage?: string;
 	hintsUsed: number;
+	onClose: () => void;
 }
 
 function buildShareText(
@@ -58,6 +59,7 @@ export default function Victory({
 	targetName,
 	targetImage,
 	hintsUsed,
+	onClose,
 }: Props) {
 	const [copied, setCopied] = useState(false);
 	const [countdown, setCountdown] = useState(getTimeUntilMidnightParis);
@@ -69,6 +71,14 @@ export default function Victory({
 		);
 		return () => clearInterval(id);
 	}, []);
+
+	useEffect(() => {
+		function handleKeyDown(e: KeyboardEvent) {
+			if (e.key === "Escape") onClose();
+		}
+		document.addEventListener("keydown", handleKeyDown);
+		return () => document.removeEventListener("keydown", handleKeyDown);
+	}, [onClose]);
 
 	function handleShare() {
 		const text = buildShareText(results, targetName, hintsUsed);
@@ -84,8 +94,20 @@ export default function Victory({
 			: 0;
 
 	return (
-		<div className="victory-overlay">
-			<div className="victory-modal">
+		<div className="victory-overlay" onClick={onClose} onKeyDown={() => {}}>
+			<div
+				className="victory-modal"
+				onClick={(e) => e.stopPropagation()}
+				onKeyDown={(e) => e.stopPropagation()}
+			>
+				<button
+					type="button"
+					className="victory-close-btn"
+					onClick={onClose}
+					aria-label="Fermer"
+				>
+					&#x2715;
+				</button>
 				<h2>Bravo !</h2>
 				{targetImage && (
 					<img

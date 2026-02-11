@@ -669,6 +669,24 @@ body::before {
 	color: var(--text-primary);
 }
 
+/* ===== Re-open Victory Button ===== */
+.reopen-victory-btn {
+	padding: 10px 32px;
+	background: var(--correct);
+	color: white;
+	border: none;
+	border-radius: 8px;
+	font-size: 1rem;
+	font-weight: 700;
+	cursor: pointer;
+	transition: opacity 0.2s;
+	margin-bottom: 24px;
+}
+
+.reopen-victory-btn:hover {
+	opacity: 0.85;
+}
+
 /* ===== Victory Modal ===== */
 .victory-overlay {
 	position: fixed;
@@ -682,6 +700,7 @@ body::before {
 }
 
 .victory-modal {
+	position: relative;
 	background: var(--bg-secondary);
 	border: 1px solid var(--border);
 	border-radius: 16px;
@@ -690,6 +709,31 @@ body::before {
 	max-width: 360px;
 	width: 90%;
 	animation: popIn 0.5s ease;
+}
+
+.victory-close-btn {
+	position: absolute;
+	top: 12px;
+	right: 12px;
+	width: 32px;
+	height: 32px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: transparent;
+	border: none;
+	color: var(--text-secondary);
+	font-size: 1.1rem;
+	cursor: pointer;
+	border-radius: 50%;
+	transition:
+		color 0.2s,
+		background 0.2s;
+}
+
+.victory-close-btn:hover {
+	color: var(--text-primary);
+	background: var(--highlight);
 }
 
 .victory-modal h2 {

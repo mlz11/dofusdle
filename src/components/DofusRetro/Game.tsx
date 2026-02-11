@@ -176,6 +176,15 @@ export default function Game({ stats, onStatsChange }: Props) {
 			/>
 			<GuessGrid results={results} newGuessIndex={newGuessIndex} />
 			{results.length > 0 && !won && <ColorLegend />}
+			{won && !showVictory && (
+				<button
+					type="button"
+					className="reopen-victory-btn"
+					onClick={() => setShowVictory(true)}
+				>
+					Voir résultats
+				</button>
+			)}
 			<YesterdayAnswer monster={yesterdayMonster} />
 			{showVictory && (
 				<Victory
@@ -184,6 +193,7 @@ export default function Game({ stats, onStatsChange }: Props) {
 					targetName={target.name}
 					targetImage={target.image}
 					hintsUsed={hintsUsed}
+					onClose={() => setShowVictory(false)}
 				/>
 			)}
 		</div>
