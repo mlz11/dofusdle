@@ -1993,6 +1993,28 @@
 		"image": "/img/monsters/1100.svg"
 	},
 	{
+		"id": 343,
+		"name": "Cavalier Porkass",
+		"ecosystem": "Créatures des plaines",
+		"race": "Monstres des Plaines de Cania",
+		"niveau_min": 30,
+		"niveau_max": 50,
+		"pv_min": 250,
+		"pv_max": 570,
+		"image": "/img/monsters/1038.svg"
+	},
+	{
+		"id": 344,
+		"name": "Berger Porkass",
+		"ecosystem": "Créatures des plaines",
+		"race": "Monstres des Plaines de Cania",
+		"niveau_min": 13,
+		"niveau_max": 25,
+		"pv_min": 150,
+		"pv_max": 270,
+		"image": "/img/monsters/1040.svg"
+	},
+	{
 		"id": 345,
 		"name": "Kirevam Le Déterminé",
 		"ecosystem": "Créatures diverses",
