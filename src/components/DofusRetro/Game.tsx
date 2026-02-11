@@ -23,6 +23,7 @@ export default function Game() {
 
 	const [results, setResults] = useState<GuessResult[]>([]);
 	const [won, setWon] = useState(false);
+	const [showVictory, setShowVictory] = useState(false);
 	const [stats, setStats] = useState<GameStats>(loadStats());
 	const [newGuessIndex, setNewGuessIndex] = useState(-1);
 
@@ -38,7 +39,10 @@ export default function Game() {
 			}
 			setResults(restored);
 			setWon(progress.won);
-			if (progress.won) setStats(loadStats());
+			if (progress.won) {
+				setShowVictory(true);
+				setStats(loadStats());
+			}
 		}
 	}, [target, devMode]);
 
@@ -47,6 +51,7 @@ export default function Game() {
 		setTarget(randomMonster);
 		setResults([]);
 		setWon(false);
+		setShowVictory(false);
 		setNewGuessIndex(-1);
 	}
 
@@ -68,9 +73,18 @@ export default function Game() {
 			setWon(true);
 			const newStats = recordWin(newResults.length);
 			setStats(newStats);
+			// First confetti burst right as last cell finishes flipping
 			setTimeout(() => {
 				confetti({ particleCount: 150, spread: 80, origin: { y: 0.6 } });
-			}, 1000);
+			}, 1200);
+			// Second smaller burst for extra celebration
+			setTimeout(() => {
+				confetti({ particleCount: 80, spread: 60, origin: { y: 0.5 } });
+			}, 1700);
+			// Show victory modal after cells flip + confetti enjoyed
+			setTimeout(() => {
+				setShowVictory(true);
+			}, 2000);
 		}
 
 		if (!devMode) {
@@ -119,7 +133,7 @@ export default function Game() {
 			/>
 			<GuessGrid results={results} newGuessIndex={newGuessIndex} />
 			{results.length > 0 && !won && <ColorLegend />}
-			{won && (
+			{showVictory && (
 				<Victory
 					results={results}
 					stats={stats}
