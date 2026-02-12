@@ -135,14 +135,19 @@ export default function Header({ stats }: Props) {
 			</nav>
 			{showStats && (
 				<div
-					role="presentation"
 					className="rules-overlay"
-					onClick={() => setShowStats(false)}
+					onClick={(e) => {
+						if (e.target === e.currentTarget) setShowStats(false);
+					}}
+					onKeyDown={(e) => {
+						if (e.key === "Escape") setShowStats(false);
+					}}
 				>
 					<div
-						role="presentation"
+						role="dialog"
+						aria-modal="true"
+						aria-label="Statistiques"
 						className="rules-modal stats-modal"
-						onClick={(e) => e.stopPropagation()}
 					>
 						<h2>Statistiques</h2>
 						<div className="stats-grid">
@@ -175,14 +180,19 @@ export default function Header({ stats }: Props) {
 			)}
 			{showRules && (
 				<div
-					role="presentation"
 					className="rules-overlay"
-					onClick={() => setShowRules(false)}
+					onClick={(e) => {
+						if (e.target === e.currentTarget) setShowRules(false);
+					}}
+					onKeyDown={(e) => {
+						if (e.key === "Escape") setShowRules(false);
+					}}
 				>
 					<div
-						role="presentation"
+						role="dialog"
+						aria-modal="true"
+						aria-label="Comment jouer"
 						className="rules-modal"
-						onClick={(e) => e.stopPropagation()}
 					>
 						<h2>Comment jouer</h2>
 						<p>

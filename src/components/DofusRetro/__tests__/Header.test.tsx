@@ -97,9 +97,9 @@ describe("Header", () => {
 			await userEvent.click(
 				screen.getByRole("button", { name: "Statistiques" }),
 			);
-			// The overlay is the parent element with role="presentation"
-			const overlays = screen.getAllByRole("presentation");
-			await userEvent.click(overlays[0]);
+			const dialog = screen.getByRole("dialog", { name: "Statistiques" });
+			// Click the overlay behind the dialog
+			await userEvent.click(dialog.parentElement as HTMLElement);
 			expect(screen.queryByText("Statistiques")).not.toBeInTheDocument();
 		});
 
@@ -168,8 +168,9 @@ describe("Header", () => {
 		it("should close rules modal when overlay is clicked", async () => {
 			renderHeader();
 			await userEvent.click(screen.getByRole("button", { name: "Règles" }));
-			const overlays = screen.getAllByRole("presentation");
-			await userEvent.click(overlays[0]);
+			const dialog = screen.getByRole("dialog", { name: "Comment jouer" });
+			// Click the overlay behind the dialog
+			await userEvent.click(dialog.parentElement as HTMLElement);
 			expect(screen.queryByText("Comment jouer")).not.toBeInTheDocument();
 		});
 

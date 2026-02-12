@@ -26,14 +26,19 @@ export default function Footer() {
 			</button>
 			{showInfo && (
 				<div
-					role="presentation"
 					className="rules-overlay"
-					onClick={() => setShowInfo(false)}
+					onClick={(e) => {
+						if (e.target === e.currentTarget) setShowInfo(false);
+					}}
+					onKeyDown={(e) => {
+						if (e.key === "Escape") setShowInfo(false);
+					}}
 				>
 					<div
-						role="presentation"
+						role="dialog"
+						aria-modal="true"
+						aria-label="À propos"
 						className="rules-modal"
-						onClick={(e) => e.stopPropagation()}
 					>
 						<h2>À propos</h2>
 						<p>
