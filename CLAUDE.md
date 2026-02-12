@@ -20,8 +20,21 @@ npm run test:watch   # Run tests in watch mode
 
 - **Runner**: Vitest (`npm run test` / `npm run test:watch`)
 - **Rule**: Never export functions solely for testing. Tests should exercise the public API only. Use techniques like creating new array references (`[...pool]`) to invalidate caches instead of exporting test-only reset helpers.
-- **Structure**: One `describe` block per tested function.
-- **Naming**: Test names must follow the form `"should ... when ..."`. The name alone should be enough to understand the assertion.
+- **Structure**: One `describe` block per tested function or component.
+- **Naming**: Test names must follow the form `"should ... when ..."`. The name alone should be enough to understand the assertion. Describe user-observable behavior, not implementation details (e.g., "should reveal hint 2 when reveal button is clicked" not "should call onRevealHint2 when button is clicked").
+
+### Component Tests
+
+- **Library**: React Testing Library (`@testing-library/react`) + `@testing-library/jest-dom/vitest` + `@testing-library/user-event`
+- **Environment**: Per-file `// @vitest-environment jsdom` comment (global environment stays `node`)
+- **Location**: `__tests__/` directory next to the component (e.g., `src/components/DofusRetro/__tests__/HintPanel.test.tsx`)
+- **Assertions**: Prefer `jest-dom` matchers over raw DOM checks:
+  - `toBeVisible()` for all positive visibility assertions ("user can see this")
+  - `not.toBeInTheDocument()` only when the element doesn't exist in the DOM at all (component returns `null`)
+  - `toHaveTextContent()` for text inside an element already queried
+  - Never use `toBeTruthy()` or `container.innerHTML` for DOM assertions
+- **Queries**: Use user-facing queries (`getByText`, `getByRole`, `getByAltText`). Avoid `getByTestId` unless no semantic query fits.
+- **Mindset**: Tests assert what the user experiences, not implementation details. Don't assert CSS class names, internal state, or callback references — assert visible text, presence/absence, and user interactions.
 
 ## Code Style
 
