@@ -1,4 +1,5 @@
-import type { ArrowDirection, AttributeFeedback } from "../../types";
+import type { AttributeFeedback } from "../../types";
+import ArrowIcon from "./ArrowIcon";
 
 interface Props {
 	label: string;
@@ -12,25 +13,6 @@ const STATUS_CLASS: Record<string, string> = {
 	partial: "cell-partial",
 	wrong: "cell-wrong",
 };
-
-function ArrowIcon({ direction }: { direction: ArrowDirection }) {
-	if (!direction) return null;
-	const rotation = direction === "down" ? 180 : 0;
-	return (
-		<svg
-			className="arrow-icon"
-			width="14"
-			height="14"
-			viewBox="0 0 24 24"
-			fill="none"
-			style={{ transform: `rotate(${rotation}deg)` }}
-			role="img"
-			aria-label={direction === "up" ? "Plus haut" : "Plus bas"}
-		>
-			<path d="M12 4l-8 8h5v8h6v-8h5z" fill="currentColor" />
-		</svg>
-	);
-}
 
 export default function AttributeCell({
 	label,
