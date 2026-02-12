@@ -11,10 +11,9 @@ npm run preview      # Preview production build locally
 npm run lint         # Biome lint check
 npm run lint:fix     # Auto-fix lint issues
 npm run format       # Format all files with Biome
-```
-
 npm run test         # Run tests (Vitest)
 npm run test:watch   # Run tests in watch mode
+```
 
 ## Testing
 
@@ -35,6 +34,9 @@ npm run test:watch   # Run tests in watch mode
   - Never use `toBeTruthy()` or `container.innerHTML` for DOM assertions
 - **Queries**: Use user-facing queries (`getByText`, `getByRole`, `getByAltText`). Avoid `getByTestId` unless no semantic query fits.
 - **Mindset**: Tests assert what the user experiences, not implementation details. Don't assert CSS class names, internal state, or callback references — assert visible text, presence/absence, and user interactions.
+- **Async**: Prefer `findByText` / `findByRole` over `waitFor(() => expect(...))`. Wait for a user-visible DOM change, then assert synchronously.
+- **Clipboard**: Don't mock `navigator.clipboard`. `userEvent.setup()` provides a built-in clipboard — verify content with `await navigator.clipboard.readText()`.
+- **Fake timers + userEvent**: Use `vi.useFakeTimers({ shouldAdvanceTime: true })` and pass `advanceTimers: (ms) => vi.advanceTimersByTime(ms)` to `userEvent.setup()`. Create the user instance per-test via a `setupUser()` helper, not at module level.
 
 ## Code Style
 
