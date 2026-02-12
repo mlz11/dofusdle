@@ -1,3 +1,4 @@
+import { useMemo } from "react";
 import type { GuessResult } from "../../types";
 import GuessRow from "./GuessRow";
 
@@ -7,6 +8,8 @@ interface Props {
 }
 
 export default function GuessGrid({ results, animatingRowIndex = -1 }: Props) {
+	const reversedResults = useMemo(() => [...results].reverse(), [results]);
+
 	if (results.length === 0) return null;
 
 	return (
@@ -21,7 +24,7 @@ export default function GuessGrid({ results, animatingRowIndex = -1 }: Props) {
 					<div className="header-cell">PV max</div>
 				</div>
 			</div>
-			{[...results].reverse().map((r, i) => (
+			{reversedResults.map((r, i) => (
 				<GuessRow
 					key={`${r.monster.id}-${i}`}
 					result={r}
