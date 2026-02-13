@@ -1,73 +1,147 @@
-# React + TypeScript + Vite
+<p align="center">
+  <img src="public/images/logo.webp" alt="Dofusdle Logo" width="320">
+</p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+  A daily Wordle-style guessing game for Dofus Retro 1.29 monsters.<br>
+  One monster per day. Same for everyone. How many guesses will you need?
+</p>
 
-Currently, two official plugins are available:
+<p align="center">
+  <a href="https://dofusdle.fr">Play now</a> •
+  <a href="#how-to-play">How to Play</a> •
+  <a href="#features">Features</a> •
+  <a href="#development">Development</a> •
+  <a href="#credits">Credits</a>
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🎮 How to Play
 
-## React Compiler
+Each day, a mystery monster from **Dofus Retro 1.29** is selected. Guess which one it is by typing monster names into the search bar.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+After each guess, you get feedback on **5 attributes**:
 
-## Expanding the ESLint configuration
+| Attribute | Feedback |
+|-----------|----------|
+| **Ecosystem** | 🟩 Correct or 🟥 Wrong |
+| **Race** | 🟩 Correct or 🟥 Wrong |
+| **Max Level** | 🟩 Exact, 🟧 Within ±10, or 🟥 Far off — with ↑/↓ arrows |
+| **Color** | 🟩 Exact, 🟧 Partially matching, or 🟥 No match |
+| **Max HP** | 🟩 Exact, 🟧 Within ±20%, or 🟥 Far off — with ↑/↓ arrows |
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Stuck? After a few wrong guesses, **hints** unlock progressively: the monster's image preview and its ecosystem name.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+The puzzle resets every day at **midnight Paris time**.
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## ✨ Features
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+- **605 monsters** from the Dofus Retro 1.29 bestiary
+- **Deterministic daily puzzle** — same monster for all players, powered by a seeded PRNG with a 30-day anti-repeat window
+- **Fuzzy search** with autocomplete and monster images
+- **Progressive hints** to help you narrow it down
+- **Stats tracking** — win rate, current streak, max streak, and guess distribution persisted in localStorage
+- **Emoji share** — copy your result grid to share with friends without spoilers
+- **Yesterday's answer** displayed after the first guess
+- **Fully client-side** — no backend, no accounts, no tracking. Just a static SPA.
+- **Mobile-friendly** — responsive layout that works on any screen size
+
+## 🛠 Tech Stack
+
+| | |
+|---|---|
+| **Framework** | React 19 + TypeScript |
+| **Build** | Vite |
+| **Linting** | Biome |
+| **Testing** | Vitest + React Testing Library |
+| **Search** | fzf (fuzzy finder) |
+| **Effects** | canvas-confetti |
+
+No backend. No database. Fully static — deploy anywhere.
+
+## 💻 Development
+
+### Prerequisites
+
+- Node.js 20+
+- npm
+
+### Setup
+
+```bash
+git clone https://github.com/mlz11/dofusdle.git
+cd dofusdle
+npm install
+npm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+The dev server starts at [http://localhost:5173](http://localhost:5173).
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### Commands
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+| Command | Description |
+|---------|-------------|
+| `npm run dev` | Start dev server |
+| `npm run build` | TypeScript check + production build |
+| `npm run preview` | Preview production build |
+| `npm run test` | Run tests |
+| `npm run test:watch` | Run tests in watch mode |
+| `npm run lint` | Lint check (Biome) |
+| `npm run lint:fix` | Auto-fix lint issues |
+| `npm run format` | Format all files |
+| `npm run typecheck` | TypeScript check (app + tests) |
+
+### Project Structure
+
 ```
+src/
+  components/
+    DofusRetro/        # Game mode (future modes get their own directory)
+      Game.tsx          # Main game state & orchestration
+      SearchBar.tsx     # Fuzzy autocomplete with keyboard navigation
+      GuessGrid.tsx     # Renders guess results with flip animations
+      Victory.tsx       # Win modal with stats and emoji share
+      HintPanel.tsx     # Progressive hint reveals
+  utils/
+    daily.ts            # Deterministic daily monster selection
+    compare.ts          # Guess comparison & feedback logic
+    storage.ts          # localStorage persistence
+  data/
+    monsters.json       # Full monster database (605 entries)
+  types.ts              # TypeScript interfaces
+```
+
+### Conventions
+
+- **Commits**: [Conventional Commits](https://www.conventionalcommits.org/) enforced via commitlint
+- **Formatting**: Biome with tab indentation and double quotes
+- **Dependencies**: Exact versions only (no `^` or `~`)
+- **Git hooks**: Pre-commit runs lint, commit-msg validates format
+
+## ❓ FAQ
+
+<details>
+<summary><strong>Why only Dofus Retro 1.29?</strong></summary>
+
+Dofus Retro has a well-defined, stable bestiary that doesn't change frequently — perfect for a daily guessing game. The component structure is organized under `DofusRetro/` to allow future game modes for other Ankama titles.
+
+</details>
+
+<details>
+<summary><strong>How is the daily monster chosen?</strong></summary>
+
+A deterministic hash of today's date (Paris timezone) seeds a PRNG that picks from the monster pool. The same seed always produces the same monster, so all players get the same puzzle. A 30-day anti-repeat window prevents the same monster from appearing too frequently.
+
+</details>
+
+<details>
+<summary><strong>Is my data stored anywhere?</strong></summary>
+
+Everything stays in your browser's localStorage. No data is sent to any server. Your stats, streaks, and daily progress are fully local.
+
+</details>
+
+## 🙏 Credits
+
+- **[Ankama](https://www.ankama.com/)** — Dofus is their creation. This project is a fan-made tribute, not affiliated with Ankama.
+- **[solomonk.fr](https://solomonk.fr/)** and **[wiki-dofus.eu](https://wiki-dofus.eu/)** — Monster data sources.
+- Inspired by [Wordle](https://www.nytimes.com/games/wordle) and [LoLdle](https://loldle.net/).
