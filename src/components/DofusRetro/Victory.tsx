@@ -48,7 +48,7 @@ function buildShareText(results: GuessResult[], hintsUsed: number): string {
 				.join("");
 		})
 		.join("\n");
-	return `${header}\n${grid}`;
+	return `${header}\n${grid}\nhttps://dofusdle.fr`;
 }
 
 export default function Victory({

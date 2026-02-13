@@ -181,6 +181,15 @@ describe("Victory", () => {
 			const text = await navigator.clipboard.readText();
 			expect(text).not.toContain("indice");
 		});
+
+		it("should include site URL in share text when share button is clicked", async () => {
+			const user = setupUser();
+			renderVictory();
+			await user.click(screen.getByText("Partager"));
+			await screen.findByText("Copié !");
+			const text = await navigator.clipboard.readText();
+			expect(text).toContain("https://dofusdle.fr");
+		});
 	});
 
 	describe("close behavior", () => {
