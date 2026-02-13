@@ -1,32 +1,60 @@
 <!doctype html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#1a1725" />
+    <link rel="canonical" href="https://dofusdle.fr/" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet" />
     <link rel="icon" type="image/webp" href="/favicon.webp" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/manifest.webmanifest" />
     <meta name="description" content="Devine le monstre Dofus Retro du jour ! Un jeu de devinettes quotidien inspiré de Wordle pour les fans de Dofus 1.29." />
 
     <!-- Open Graph -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://dofusdle.fr/" />
-    <meta property="og:title" content="Dofusdle" />
+    <meta property="og:title" content="Dofusdle — Devine le monstre Dofus Retro du jour" />
     <meta property="og:description" content="Devine le monstre Dofus Retro du jour ! Un jeu de devinettes quotidien inspiré de Wordle pour les fans de Dofus 1.29." />
     <meta property="og:image" content="https://dofusdle.fr/og-image.png" />
     <meta property="og:site_name" content="Dofusdle" />
+    <meta property="og:locale" content="fr_FR" />
 
     <!-- Twitter -->
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content="Dofusdle" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Dofusdle — Devine le monstre Dofus Retro du jour" />
     <meta name="twitter:description" content="Devine le monstre Dofus Retro du jour ! Un jeu de devinettes quotidien inspiré de Wordle pour les fans de Dofus 1.29." />
     <meta name="twitter:image" content="https://dofusdle.fr/og-image.png" />
 
-    <title>Dofusdle</title>
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Dofusdle",
+        "url": "https://dofusdle.fr",
+        "description": "Devine le monstre Dofus Retro du jour ! Un jeu de devinettes quotidien inspiré de Wordle pour les fans de Dofus 1.29.",
+        "applicationCategory": "GameApplication",
+        "operatingSystem": "Any",
+        "inLanguage": "fr",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "EUR"
+        }
+      }
+    </script>
+
+    <title>Dofusdle — Devine le monstre Dofus Retro du jour</title>
   </head>
   <body>
     <div id="root"></div>
+    <noscript>
+      <h1>Dofusdle</h1>
+      <p>Devine le monstre Dofus Retro du jour ! Un jeu de devinettes quotidien inspiré de Wordle pour les fans de Dofus 1.29.</p>
+    </noscript>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>

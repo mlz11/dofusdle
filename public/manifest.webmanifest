@@ -1,0 +1,21 @@
+{
+	"name": "Dofusdle — Devine le monstre Dofus Retro du jour",
+	"short_name": "Dofusdle",
+	"description": "Devine le monstre Dofus Retro du jour ! Un jeu de devinettes quotidien inspiré de Wordle pour les fans de Dofus 1.29.",
+	"start_url": "/",
+	"display": "standalone",
+	"background_color": "#1a1725",
+	"theme_color": "#1a1725",
+	"icons": [
+		{
+			"src": "/favicon.webp",
+			"sizes": "64x64",
+			"type": "image/webp"
+		},
+		{
+			"src": "/apple-touch-icon.png",
+			"sizes": "180x180",
+			"type": "image/png"
+		}
+	]
+}
