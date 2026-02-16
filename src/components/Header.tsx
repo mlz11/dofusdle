@@ -32,10 +32,12 @@ export default function Header({ stats }: Props) {
 	return (
 		<header className="app-header">
 			<h1 className="header-title">
-				<img src="/images/logo.webp" alt="" className="header-logo" />
-				<span className="visually-hidden">
-					Dofusdle - Le Wordle des monstres Dofus Retro
-				</span>
+				<a href="/" className="header-home-link">
+					<img src="/images/logo.webp" alt="" className="header-logo" />
+					<span className="visually-hidden">
+						Dofusdle - Le Wordle des monstres Dofus Retro
+					</span>
+				</a>
 			</h1>
 			<p className="game-subtitle">
 				Dofus Retro 1.29 — Devine le monstre du jour

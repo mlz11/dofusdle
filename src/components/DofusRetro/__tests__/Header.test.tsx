@@ -21,6 +21,15 @@ function renderHeader(stats: Partial<GameStats> = {}) {
 }
 
 describe("Header", () => {
+	describe("logo home link", () => {
+		it("should link to the home page when the logo is clicked", () => {
+			renderHeader();
+			const heading = screen.getByRole("heading", { level: 1 });
+			const link = within(heading).getByRole("link");
+			expect(link).toHaveAttribute("href", "/");
+		});
+	});
+
 	describe("rendering", () => {
 		it("should display the game subtitle when rendered", () => {
 			renderHeader();

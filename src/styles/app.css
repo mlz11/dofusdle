@@ -86,6 +86,10 @@ body::before {
 	line-height: 0;
 }
 
+.header-home-link {
+	display: inline-block;
+}
+
 .header-logo {
 	width: min(300px, 60vw);
 	height: auto;
