@@ -38,3 +38,12 @@
 	align-items: center;
 	gap: 2px;
 }
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
