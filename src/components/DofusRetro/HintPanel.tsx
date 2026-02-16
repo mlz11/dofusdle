@@ -13,7 +13,6 @@ function BlurredImage({ src }: { src: string }) {
 		const img = new Image();
 		img.onload = () => {
 			const padding = canvas.width * 0.1;
-			ctx.filter = "blur(8px)";
 			ctx.drawImage(
 				img,
 				padding,
