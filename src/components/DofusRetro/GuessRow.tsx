@@ -1,5 +1,6 @@
 import type { GuessResult } from "../../types";
 import AttributeCell from "./AttributeCell";
+import styles from "./GuessRow.module.css";
 
 interface Props {
 	result: GuessResult;
@@ -8,18 +9,18 @@ interface Props {
 
 export default function GuessRow({ result, isNew }: Props) {
 	return (
-		<div className={`guess-row ${isNew ? "row-animating" : ""}`}>
-			<div className="guess-monster-name">
+		<div className={`${styles.row} ${isNew ? styles.animating : ""}`}>
+			<div className={styles.monsterName}>
 				{result.monster.image && (
 					<img
 						src={result.monster.image}
 						alt=""
-						className="guess-monster-img"
+						className={styles.monsterImg}
 					/>
 				)}
 				<span>{result.monster.name}</span>
 			</div>
-			<div className="guess-cells">
+			<div className={styles.cells}>
 				<AttributeCell
 					label="Écosystème"
 					feedback={result.feedback.ecosystem}

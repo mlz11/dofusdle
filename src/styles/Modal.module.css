@@ -1,0 +1,62 @@
+.overlay {
+	position: fixed;
+	inset: 0;
+	background: rgba(0, 0, 0, 0.7);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 100;
+	animation: fadeIn 0.2s ease;
+}
+
+.modal {
+	background: var(--bg-secondary);
+	border: 1px solid var(--border);
+	border-radius: 12px;
+	padding: 28px;
+	max-width: 420px;
+	width: 90%;
+}
+
+.modal h2 {
+	margin-bottom: 12px;
+	color: var(--accent);
+}
+
+.modal p {
+	margin-bottom: 10px;
+	line-height: 1.5;
+	color: var(--text-secondary);
+}
+
+.modal ul {
+	list-style: none;
+	margin-bottom: 14px;
+}
+
+.modal li {
+	padding: 4px 0;
+	font-size: 0.95rem;
+}
+
+.modal a {
+	color: var(--accent);
+	text-decoration: underline;
+}
+
+.closeBtn {
+	display: block;
+	margin: 12px auto 0;
+	padding: 8px 24px;
+	background: var(--accent);
+	color: white;
+	border: none;
+	border-radius: 6px;
+	font-size: 1rem;
+	cursor: pointer;
+	transition: opacity 0.2s;
+}
+
+.closeBtn:hover {
+	opacity: 0.85;
+}

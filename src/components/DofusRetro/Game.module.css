@@ -1,0 +1,61 @@
+.game {
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+	text-align: center;
+}
+
+.devToolbar {
+	position: fixed;
+	bottom: 8px;
+	right: 8px;
+	z-index: 9999;
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	padding: 6px 12px;
+	background: rgba(0, 0, 0, 0.85);
+	border: 1px solid #555;
+	border-radius: 6px;
+	font-size: 0.75rem;
+	color: #ccc;
+}
+
+.devToolbar button {
+	padding: 2px 8px;
+	background: var(--accent);
+	color: white;
+	border: none;
+	border-radius: 4px;
+	font-size: 0.75rem;
+	cursor: pointer;
+}
+
+.guessCounter {
+	display: inline-block;
+	font-size: 0.95rem;
+	font-weight: 700;
+	color: var(--accent);
+	background: transparent;
+	border: 1px solid var(--accent);
+	border-radius: 999px;
+	padding: 4px 14px;
+	margin-bottom: 12px;
+}
+
+.reopenBtn {
+	align-self: center;
+	padding: 10px 32px;
+	background: var(--correct);
+	color: white;
+	border: none;
+	border-radius: 8px;
+	font-size: 1rem;
+	font-weight: 700;
+	cursor: pointer;
+	transition: opacity 0.2s;
+}
+
+.reopenBtn:hover {
+	opacity: 0.85;
+}

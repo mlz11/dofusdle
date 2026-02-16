@@ -1,4 +1,5 @@
 import type { Monster } from "../../types";
+import styles from "./YesterdayAnswer.module.css";
 
 interface Props {
 	monster: Monster;
@@ -6,13 +7,9 @@ interface Props {
 
 export default function YesterdayAnswer({ monster }: Props) {
 	return (
-		<div className="yesterday-answer">
+		<div className={styles.answer}>
 			{monster.image && (
-				<img
-					className="yesterday-answer-img"
-					src={monster.image}
-					alt={monster.name}
-				/>
+				<img className={styles.img} src={monster.image} alt={monster.name} />
 			)}
 			<p>
 				Le monstre d'hier était <strong>{monster.name}</strong>

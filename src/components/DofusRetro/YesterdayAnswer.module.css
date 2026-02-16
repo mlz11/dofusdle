@@ -1,0 +1,27 @@
+.answer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+	width: 100%;
+	max-width: 520px;
+	margin-inline: auto;
+	padding: 10px 16px;
+	background: var(--bg-secondary);
+	border: 1px solid var(--border);
+	border-radius: 8px;
+	font-size: 0.9rem;
+	color: var(--text-secondary);
+	animation: fadeIn 0.3s ease;
+}
+
+.img {
+	width: 40px;
+	height: 40px;
+	object-fit: contain;
+	flex-shrink: 0;
+}
+
+.answer strong {
+	color: var(--text-primary);
+}

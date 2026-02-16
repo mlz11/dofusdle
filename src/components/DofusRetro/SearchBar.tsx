@@ -1,6 +1,7 @@
 import { Fzf } from "fzf";
 import { useEffect, useMemo, useRef, useState } from "react";
 import type { Monster } from "../../types";
+import styles from "./SearchBar.module.css";
 
 interface Props {
 	monsters: Monster[];
@@ -109,8 +110,11 @@ export default function SearchBar({
 	const canSubmit = !disabled && filtered.length > 0;
 
 	return (
-		<div ref={wrapperRef} className={`search-bar ${shaking ? "shake" : ""}`}>
-			<div className="search-input-wrapper">
+		<div
+			ref={wrapperRef}
+			className={`${styles.searchBar} ${shaking ? styles.shake : ""}`}
+		>
+			<div className={styles.inputWrapper}>
 				<input
 					ref={inputRef}
 					type="text"
@@ -129,7 +133,7 @@ export default function SearchBar({
 				/>
 				<button
 					type="button"
-					className="submit-btn"
+					className={styles.submitBtn}
 					disabled={!canSubmit}
 					onMouseDown={(e) => {
 						e.preventDefault();
@@ -156,16 +160,16 @@ export default function SearchBar({
 				</button>
 			</div>
 			{showDropdown && filtered.length > 0 && (
-				<ul className="search-dropdown">
+				<ul className={styles.dropdown}>
 					{filtered.map((m, i) => (
 						<li
 							key={m.id}
-							className={i === highlightIndex ? "highlighted" : ""}
+							className={i === highlightIndex ? styles.highlighted : ""}
 							onMouseDown={() => handleSelect(m)}
 							onMouseEnter={() => setHighlightIndex(i)}
 						>
 							{m.image && (
-								<img src={m.image} alt="" className="search-dropdown-img" />
+								<img src={m.image} alt="" className={styles.dropdownImg} />
 							)}
 							{m.name}
 						</li>

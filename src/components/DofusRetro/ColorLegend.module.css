@@ -1,0 +1,40 @@
+.legend {
+	position: relative;
+	width: 100%;
+	max-width: 520px;
+	margin-inline: auto;
+	padding: 10px 16px;
+	background: var(--bg-secondary);
+	border: 1px solid var(--border);
+	border-radius: 8px;
+	animation: fadeIn 0.3s ease;
+}
+
+.items {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 12px 20px;
+}
+
+.item {
+	display: flex;
+	align-items: center;
+	gap: 6px;
+	font-size: 0.85rem;
+	color: var(--text-secondary);
+}
+
+.swatch {
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	border-radius: 3px;
+	flex-shrink: 0;
+}
+
+.arrows {
+	display: inline-flex;
+	align-items: center;
+	gap: 2px;
+}

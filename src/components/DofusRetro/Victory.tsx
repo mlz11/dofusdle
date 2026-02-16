@@ -1,7 +1,9 @@
 import { useEffect, useState } from "react";
 import { useCloseOnKey } from "../../hooks/useCloseOnKey";
+import statsGridStyles from "../../styles/StatsGrid.module.css";
 import type { GameStats, GuessResult } from "../../types";
 import { getWinPercentage } from "../../utils/storage";
+import styles from "./Victory.module.css";
 
 function getTimeUntilMidnightParis(): string {
 	const now = new Date();
@@ -83,15 +85,15 @@ export default function Victory({
 	const winPct = getWinPercentage(stats);
 
 	return (
-		<div className="victory-overlay" onClick={onClose} onKeyDown={() => {}}>
+		<div className={styles.overlay} onClick={onClose} onKeyDown={() => {}}>
 			<div
-				className="victory-modal"
+				className={styles.modal}
 				onClick={(e) => e.stopPropagation()}
 				onKeyDown={(e) => e.stopPropagation()}
 			>
 				<button
 					type="button"
-					className="victory-close-btn"
+					className={styles.closeBtn}
 					onClick={onClose}
 					aria-label="Fermer"
 				>
@@ -102,7 +104,7 @@ export default function Victory({
 					<img
 						src={targetImage}
 						alt={targetName}
-						className="victory-monster-img"
+						className={styles.monsterImg}
 					/>
 				)}
 				<p>
@@ -111,31 +113,31 @@ export default function Victory({
 					.
 				</p>
 
-				<div className="stats-grid">
-					<div className="stat">
-						<span className="stat-value">{stats.gamesPlayed}</span>
-						<span className="stat-label">Parties</span>
+				<div className={statsGridStyles.grid}>
+					<div className={statsGridStyles.stat}>
+						<span className={statsGridStyles.value}>{stats.gamesPlayed}</span>
+						<span className={statsGridStyles.label}>Parties</span>
 					</div>
-					<div className="stat">
-						<span className="stat-value">{winPct}%</span>
-						<span className="stat-label">Victoires</span>
+					<div className={statsGridStyles.stat}>
+						<span className={statsGridStyles.value}>{winPct}%</span>
+						<span className={statsGridStyles.label}>Victoires</span>
 					</div>
-					<div className="stat">
-						<span className="stat-value">{stats.currentStreak}</span>
-						<span className="stat-label">Série</span>
+					<div className={statsGridStyles.stat}>
+						<span className={statsGridStyles.value}>{stats.currentStreak}</span>
+						<span className={statsGridStyles.label}>Série</span>
 					</div>
-					<div className="stat">
-						<span className="stat-value">{stats.maxStreak}</span>
-						<span className="stat-label">Max série</span>
+					<div className={statsGridStyles.stat}>
+						<span className={statsGridStyles.value}>{stats.maxStreak}</span>
+						<span className={statsGridStyles.label}>Max série</span>
 					</div>
 				</div>
 
-				<div className="countdown">
-					<span className="countdown-label">Prochain monstre dans</span>
-					<span className="countdown-timer">{countdown}</span>
+				<div className={styles.countdown}>
+					<span className={styles.label}>Prochain monstre dans</span>
+					<span className={styles.timer}>{countdown}</span>
 				</div>
 
-				<button type="button" className="share-btn" onClick={handleShare}>
+				<button type="button" className={styles.shareBtn} onClick={handleShare}>
 					{copied ? "Copié !" : "Partager"}
 				</button>
 			</div>

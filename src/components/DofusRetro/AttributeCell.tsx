@@ -1,5 +1,6 @@
 import type { AttributeFeedback } from "../../types";
 import ArrowIcon from "./ArrowIcon";
+import styles from "./AttributeCell.module.css";
 
 interface Props {
 	label: string;
@@ -14,9 +15,11 @@ const STATUS_CLASS: Record<string, string> = {
 
 export default function AttributeCell({ label, feedback }: Props) {
 	return (
-		<div className={`attribute-cell ${STATUS_CLASS[feedback.status]}`}>
-			<span className="cell-label">{label}</span>
-			<span className="cell-value">
+		<div
+			className={`attribute-cell ${styles.cell} ${STATUS_CLASS[feedback.status]}`}
+		>
+			<span className={styles.label}>{label}</span>
+			<span className={styles.value}>
 				{feedback.value}
 				<ArrowIcon direction={feedback.arrow} />
 			</span>
