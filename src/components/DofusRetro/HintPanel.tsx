@@ -1,4 +1,41 @@
+import { useEffect, useRef } from "react";
 import styles from "./HintPanel.module.css";
+
+function BlurredImage({ src }: { src: string }) {
+	const canvasRef = useRef<HTMLCanvasElement>(null);
+
+	useEffect(() => {
+		const canvas = canvasRef.current;
+		if (!canvas) return;
+		const ctx = canvas.getContext("2d");
+		if (!ctx) return;
+
+		const img = new Image();
+		img.onload = () => {
+			const padding = canvas.width * 0.1;
+			ctx.filter = "blur(8px)";
+			ctx.drawImage(
+				img,
+				padding,
+				padding,
+				canvas.width - padding * 2,
+				canvas.height - padding * 2,
+			);
+		};
+		img.src = src;
+	}, [src]);
+
+	return (
+		<canvas
+			ref={canvasRef}
+			width={110}
+			height={110}
+			className={styles.blurredImage}
+			role="img"
+			aria-label="Indice visuel"
+		/>
+	);
+}
 
 interface Props {
 	guessCount: number;
@@ -39,11 +76,7 @@ export default function HintPanel({
 					<div className={`${styles.slot} ${styles.slotRevealed}`}>
 						{targetImage ? (
 							<div className={styles.blurredContainer}>
-								<img
-									src={targetImage}
-									alt="Indice visuel"
-									className={styles.blurredImage}
-								/>
+								<BlurredImage src={targetImage} />
 							</div>
 						) : (
 							<span className={styles.slotLabel}>Aucune image</span>

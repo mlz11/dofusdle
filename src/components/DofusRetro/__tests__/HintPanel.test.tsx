@@ -142,7 +142,7 @@ describe("HintPanel", () => {
 				hint1Revealed: true,
 				targetImage: "/img/monsters/42.svg",
 			});
-			expect(screen.getByAltText("Indice visuel")).toBeVisible();
+			expect(screen.getByRole("img", { name: "Indice visuel" })).toBeVisible();
 			expect(screen.getByText("dans 5 essais")).toBeVisible();
 		});
 

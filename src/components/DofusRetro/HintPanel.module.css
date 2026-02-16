@@ -113,8 +113,6 @@
 .blurredImage {
 	width: 110px;
 	height: 110px;
-	object-fit: contain;
-	filter: blur(8px);
 }
 
 @keyframes fadeIn {
