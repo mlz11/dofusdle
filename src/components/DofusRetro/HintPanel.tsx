@@ -1,4 +1,4 @@
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import styles from "./HintPanel.module.css";
 
 function BlurredImage({ src }: { src: string }) {
@@ -50,6 +50,7 @@ interface Props {
 
 const HINT1_THRESHOLD = 5;
 const HINT2_THRESHOLD = 8;
+const FLIP_OUT_MS = 300;
 
 export default function HintPanel({
 	guessCount,
@@ -61,6 +62,11 @@ export default function HintPanel({
 	onRevealHint1,
 	onRevealHint2,
 }: Props) {
+	const [flipping1, setFlipping1] = useState(false);
+	const [flipping2, setFlipping2] = useState(false);
+	const [justRevealed1, setJustRevealed1] = useState(false);
+	const [justRevealed2, setJustRevealed2] = useState(false);
+
 	if (won) return null;
 
 	const hint1Unlocked = guessCount >= HINT1_THRESHOLD;
@@ -68,12 +74,33 @@ export default function HintPanel({
 	const hint1Remaining = HINT1_THRESHOLD - guessCount;
 	const hint2Remaining = HINT2_THRESHOLD - guessCount;
 
+	function handleFlipHint1() {
+		setFlipping1(true);
+		setTimeout(() => {
+			setFlipping1(false);
+			setJustRevealed1(true);
+			onRevealHint1();
+		}, FLIP_OUT_MS);
+	}
+
+	function handleFlipHint2() {
+		setFlipping2(true);
+		setTimeout(() => {
+			setFlipping2(false);
+			setJustRevealed2(true);
+			onRevealHint2();
+		}, FLIP_OUT_MS);
+	}
+
 	return (
 		<div className={styles.panel}>
 			<h3 className={styles.title}>Indices</h3>
 			<div className={styles.slots}>
-				{hint1Revealed ? (
-					<div className={`${styles.slot} ${styles.slotRevealed}`}>
+				{hint1Revealed || justRevealed1 ? (
+					<div
+						className={`${styles.slot} ${styles.slotRevealed} ${justRevealed1 ? styles.flipIn : ""}`}
+						onAnimationEnd={() => setJustRevealed1(false)}
+					>
 						{targetImage ? (
 							<div className={styles.blurredContainer}>
 								<BlurredImage src={targetImage} />
@@ -86,8 +113,9 @@ export default function HintPanel({
 				) : hint1Unlocked ? (
 					<button
 						type="button"
-						className={`${styles.slot} ${styles.slotUnlocked}`}
-						onClick={onRevealHint1}
+						className={`${styles.slot} ${styles.slotUnlocked} ${flipping1 ? styles.flipOut : ""}`}
+						onClick={handleFlipHint1}
+						disabled={flipping1}
 					>
 						<svg
 							aria-hidden="true"
@@ -132,16 +160,20 @@ export default function HintPanel({
 					</div>
 				)}
 
-				{hint2Revealed ? (
-					<div className={`${styles.slot} ${styles.slotRevealed}`}>
+				{hint2Revealed || justRevealed2 ? (
+					<div
+						className={`${styles.slot} ${styles.slotRevealed} ${justRevealed2 ? styles.flipIn : ""}`}
+						onAnimationEnd={() => setJustRevealed2(false)}
+					>
 						<span className={styles.slotValue}>{targetEcosystem}</span>
 						<span className={styles.slotLabel}>Ecosystème</span>
 					</div>
 				) : hint2Unlocked ? (
 					<button
 						type="button"
-						className={`${styles.slot} ${styles.slotUnlocked}`}
-						onClick={onRevealHint2}
+						className={`${styles.slot} ${styles.slotUnlocked} ${flipping2 ? styles.flipOut : ""}`}
+						onClick={handleFlipHint2}
+						disabled={flipping2}
 					>
 						<svg
 							aria-hidden="true"

@@ -69,13 +69,19 @@ describe("HintPanel", () => {
 
 	describe("hint 1 - revealed state", () => {
 		it("should reveal hint 1 blurred image when reveal button is clicked", async () => {
+			vi.useFakeTimers({ shouldAdvanceTime: true });
+			const user = userEvent.setup({
+				advanceTimers: (ms) => vi.advanceTimersByTime(ms),
+			});
 			const onRevealHint1 = vi.fn();
 			renderPanel({ guessCount: 5, onRevealHint1 });
 
 			const buttons = screen.getAllByText("Cliquer pour révéler");
-			await userEvent.click(buttons[0]);
+			await user.click(buttons[0]);
+			await vi.advanceTimersByTimeAsync(300);
 
 			expect(onRevealHint1).toHaveBeenCalledOnce();
+			vi.useRealTimers();
 		});
 
 		it('should show "Aucune image" when hint 1 is revealed but monster has no image', () => {
@@ -126,12 +132,18 @@ describe("HintPanel", () => {
 
 	describe("hint 2 - revealed state", () => {
 		it("should reveal hint 2 ecosystem text when reveal button is clicked", async () => {
+			vi.useFakeTimers({ shouldAdvanceTime: true });
+			const user = userEvent.setup({
+				advanceTimers: (ms) => vi.advanceTimersByTime(ms),
+			});
 			const onRevealHint2 = vi.fn();
 			renderPanel({ guessCount: 8, hint1Revealed: true, onRevealHint2 });
 
-			await userEvent.click(screen.getByText("Cliquer pour révéler"));
+			await user.click(screen.getByText("Cliquer pour révéler"));
+			await vi.advanceTimersByTimeAsync(300);
 
 			expect(onRevealHint2).toHaveBeenCalledOnce();
+			vi.useRealTimers();
 		});
 	});
 

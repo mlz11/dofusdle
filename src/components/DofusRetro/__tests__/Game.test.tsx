@@ -178,7 +178,7 @@ describe("Game", () => {
 				hint1Revealed: true,
 			});
 			render(<GameWrapper />);
-			expect(screen.getByAltText("Indice visuel")).toBeVisible();
+			expect(screen.getByRole("img", { name: "Indice visuel" })).toBeVisible();
 		});
 	});
 
