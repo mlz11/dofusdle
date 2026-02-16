@@ -1,4 +1,5 @@
 import type { ArrowDirection } from "../../types";
+import styles from "./ArrowIcon.module.css";
 
 interface Props {
 	direction: ArrowDirection;
@@ -17,7 +18,7 @@ export default function ArrowIcon({
 	if (decorative) {
 		return (
 			<svg
-				className="arrow-icon"
+				className={styles.icon}
 				width={size}
 				height={size}
 				viewBox="0 0 24 24"
@@ -31,7 +32,7 @@ export default function ArrowIcon({
 	}
 	return (
 		<svg
-			className="arrow-icon"
+			className={styles.icon}
 			width={size}
 			height={size}
 			viewBox="0 0 24 24"

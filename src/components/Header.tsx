@@ -1,7 +1,10 @@
 import { useCallback, useRef, useState } from "react";
 import { useCloseOnKey } from "../hooks/useCloseOnKey";
+import modalStyles from "../styles/Modal.module.css";
+import statsGridStyles from "../styles/StatsGrid.module.css";
 import type { GameStats } from "../types";
 import { getWinPercentage } from "../utils/storage";
+import styles from "./Header.module.css";
 
 const CLOSE_KEYS = ["Escape", "Enter"];
 
@@ -30,23 +33,23 @@ export default function Header({ stats }: Props) {
 	const winPct = getWinPercentage(stats);
 
 	return (
-		<header className="app-header">
-			<h1 className="header-title">
-				<a href="/" className="header-home-link">
-					<img src="/images/logo.webp" alt="" className="header-logo" />
+		<header className={styles.header}>
+			<h1 className={styles.title}>
+				<a href="/" className={styles.homeLink}>
+					<img src="/images/logo.webp" alt="" className={styles.logo} />
 					<span className="visually-hidden">
 						Dofusdle - Le Wordle des monstres Dofus Retro
 					</span>
 				</a>
 			</h1>
-			<p className="game-subtitle">
+			<p className={styles.subtitle}>
 				Dofus Retro 1.29 — Devine le monstre du jour
 			</p>
-			<nav className="toolbar">
+			<nav className={styles.toolbar}>
 				<button
 					ref={statsBtnRef}
 					type="button"
-					className="toolbar-btn"
+					className={styles.toolbarBtn}
 					onClick={() => setShowStats((v) => !v)}
 					aria-label="Statistiques"
 				>
@@ -83,7 +86,7 @@ export default function Header({ stats }: Props) {
 						/>
 					</svg>
 				</button>
-				<div className="toolbar-streak">
+				<div className={styles.streak}>
 					<svg
 						width="34"
 						height="34"
@@ -107,7 +110,7 @@ export default function Header({ stats }: Props) {
 				<button
 					ref={rulesBtnRef}
 					type="button"
-					className="toolbar-btn"
+					className={styles.toolbarBtn}
 					onClick={() => setShowRules((v) => !v)}
 					aria-label="Règles"
 				>
@@ -140,7 +143,7 @@ export default function Header({ stats }: Props) {
 			</nav>
 			{showStats && (
 				<div
-					className="rules-overlay"
+					className={modalStyles.overlay}
 					onClick={(e) => {
 						if (e.target === e.currentTarget) setShowStats(false);
 					}}
@@ -152,30 +155,34 @@ export default function Header({ stats }: Props) {
 						role="dialog"
 						aria-modal="true"
 						aria-label="Statistiques"
-						className="rules-modal stats-modal"
+						className={`${modalStyles.modal} ${styles.statsModal}`}
 					>
 						<h2>Statistiques</h2>
-						<div className="stats-grid">
-							<div className="stat">
-								<span className="stat-value">{stats.gamesPlayed}</span>
-								<span className="stat-label">Parties</span>
+						<div className={statsGridStyles.grid}>
+							<div className={statsGridStyles.stat}>
+								<span className={statsGridStyles.value}>
+									{stats.gamesPlayed}
+								</span>
+								<span className={statsGridStyles.label}>Parties</span>
 							</div>
-							<div className="stat">
-								<span className="stat-value">{winPct}%</span>
-								<span className="stat-label">Victoires</span>
+							<div className={statsGridStyles.stat}>
+								<span className={statsGridStyles.value}>{winPct}%</span>
+								<span className={statsGridStyles.label}>Victoires</span>
 							</div>
-							<div className="stat">
-								<span className="stat-value">{stats.currentStreak}</span>
-								<span className="stat-label">Série</span>
+							<div className={statsGridStyles.stat}>
+								<span className={statsGridStyles.value}>
+									{stats.currentStreak}
+								</span>
+								<span className={statsGridStyles.label}>Série</span>
 							</div>
-							<div className="stat">
-								<span className="stat-value">{stats.maxStreak}</span>
-								<span className="stat-label">Max série</span>
+							<div className={statsGridStyles.stat}>
+								<span className={statsGridStyles.value}>{stats.maxStreak}</span>
+								<span className={statsGridStyles.label}>Max série</span>
 							</div>
 						</div>
 						<button
 							type="button"
-							className="rules-close-btn"
+							className={modalStyles.closeBtn}
 							onClick={() => setShowStats(false)}
 						>
 							Fermer
@@ -185,7 +192,7 @@ export default function Header({ stats }: Props) {
 			)}
 			{showRules && (
 				<div
-					className="rules-overlay"
+					className={modalStyles.overlay}
 					onClick={(e) => {
 						if (e.target === e.currentTarget) setShowRules(false);
 					}}
@@ -197,7 +204,7 @@ export default function Header({ stats }: Props) {
 						role="dialog"
 						aria-modal="true"
 						aria-label="Comment jouer"
-						className="rules-modal"
+						className={modalStyles.modal}
 					>
 						<h2>Comment jouer</h2>
 						<p>
@@ -249,7 +256,7 @@ export default function Header({ stats }: Props) {
 						</p>
 						<button
 							type="button"
-							className="rules-close-btn"
+							className={modalStyles.closeBtn}
 							onClick={() => setShowRules(false)}
 						>
 							Compris !

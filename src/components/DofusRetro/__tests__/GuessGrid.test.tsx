@@ -79,7 +79,8 @@ describe("GuessGrid", () => {
 			<GuessGrid results={[first, second, third]} />,
 		);
 
-		const rows = container.querySelectorAll(".guess-row");
+		const grid = container.firstElementChild as HTMLElement;
+		const rows = Array.from(grid.children).slice(1);
 		expect(rows[0]).toHaveTextContent("Arakne");
 		expect(rows[1]).toHaveTextContent("Tofu");
 		expect(rows[2]).toHaveTextContent("Bouftou");

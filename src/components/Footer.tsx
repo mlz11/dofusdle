@@ -1,5 +1,7 @@
 import { useCallback, useRef, useState } from "react";
 import { useCloseOnKey } from "../hooks/useCloseOnKey";
+import modalStyles from "../styles/Modal.module.css";
+import styles from "./Footer.module.css";
 
 const CLOSE_KEYS = ["Escape", "Enter"];
 
@@ -15,18 +17,18 @@ export default function Footer() {
 	useCloseOnKey(showInfo, closeInfo, CLOSE_KEYS);
 
 	return (
-		<footer className="app-footer">
+		<footer className={styles.footer}>
 			<button
 				ref={btnRef}
 				type="button"
-				className="footer-info-btn"
+				className={styles.infoBtn}
 				onClick={() => setShowInfo((v) => !v)}
 			>
 				À propos / Mentions légales
 			</button>
 			{showInfo && (
 				<div
-					className="rules-overlay"
+					className={modalStyles.overlay}
 					onClick={(e) => {
 						if (e.target === e.currentTarget) setShowInfo(false);
 					}}
@@ -38,7 +40,7 @@ export default function Footer() {
 						role="dialog"
 						aria-modal="true"
 						aria-label="À propos"
-						className="rules-modal"
+						className={modalStyles.modal}
 					>
 						<h2>À propos</h2>
 						<p>
@@ -83,7 +85,7 @@ export default function Footer() {
 						</p>
 						<button
 							type="button"
-							className="rules-close-btn"
+							className={modalStyles.closeBtn}
 							onClick={() => setShowInfo(false)}
 						>
 							Fermer

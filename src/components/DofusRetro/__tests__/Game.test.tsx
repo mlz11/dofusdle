@@ -188,7 +188,7 @@ describe("Game", () => {
 			render(<GameWrapper />);
 			await guessMonster(user, "Tofu");
 			expect(
-				screen.getByText("Tofu", { selector: ".guess-row span" }),
+				screen.getByText("Tofu", { selector: "[class*='monsterName'] span" }),
 			).toBeVisible();
 		});
 
@@ -287,7 +287,7 @@ describe("Game", () => {
 			render(<GameWrapper />);
 			await guessMonster(user, "Tofu");
 			expect(
-				screen.getByText("Tofu", { selector: ".guess-row span" }),
+				screen.getByText("Tofu", { selector: "[class*='monsterName'] span" }),
 			).toBeVisible();
 
 			mockDaily.getTodayKey.mockReturnValue("2025-6-16");
@@ -297,7 +297,7 @@ describe("Game", () => {
 			});
 
 			expect(
-				screen.queryByText("Tofu", { selector: ".guess-row span" }),
+				screen.queryByText("Tofu", { selector: "[class*='monsterName'] span" }),
 			).not.toBeInTheDocument();
 		});
 
@@ -330,7 +330,7 @@ describe("Game", () => {
 			});
 
 			expect(
-				screen.getByText("Tofu", { selector: ".guess-row span" }),
+				screen.getByText("Tofu", { selector: "[class*='monsterName'] span" }),
 			).toBeVisible();
 		});
 
@@ -344,7 +344,7 @@ describe("Game", () => {
 			await guessMonster(user, "Tofu");
 
 			expect(
-				screen.queryByText("Tofu", { selector: ".guess-row span" }),
+				screen.queryByText("Tofu", { selector: "[class*='monsterName'] span" }),
 			).not.toBeInTheDocument();
 		});
 	});

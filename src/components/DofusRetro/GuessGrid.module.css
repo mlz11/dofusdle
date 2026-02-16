@@ -1,0 +1,55 @@
+.grid {
+	display: flex;
+	flex-direction: column;
+	gap: 6px;
+}
+
+.header {
+	display: flex;
+	align-items: center;
+	gap: 6px;
+}
+
+.label {
+	min-width: 110px;
+	max-width: 110px;
+	font-weight: 700;
+	font-size: 0.8rem;
+	color: var(--text-secondary);
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.headerCell {
+	flex: 1;
+	font-weight: 700;
+	font-size: 0.8rem;
+	color: var(--text-secondary);
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.cells {
+	display: flex;
+	flex: 1;
+	gap: 6px;
+}
+
+@media (max-width: 600px) {
+	.header {
+		gap: 4px;
+	}
+
+	.label {
+		min-width: 70px;
+		max-width: 70px;
+	}
+
+	.headerCell {
+		font-size: 0.65rem;
+	}
+
+	.cells {
+		gap: 4px;
+	}
+}

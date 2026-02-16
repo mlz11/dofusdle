@@ -1,0 +1,134 @@
+.searchBar {
+	position: relative;
+	width: 100%;
+	max-width: 400px;
+	margin-inline: auto;
+}
+
+.shake {
+	animation: shake 0.4s ease;
+}
+
+.inputWrapper {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+}
+
+.searchBar input {
+	flex: 1;
+	min-width: 0;
+	padding: 12px 16px;
+	font-size: 1rem;
+	background: var(--input-bg);
+	border: 2px solid var(--border);
+	border-radius: 8px;
+	color: var(--text-primary);
+	outline: none;
+	transition: border-color 0.2s;
+}
+
+.searchBar input::placeholder {
+	color: var(--text-secondary);
+}
+
+.searchBar input:focus {
+	border-color: var(--accent);
+}
+
+.searchBar input:disabled {
+	opacity: 0.5;
+	cursor: not-allowed;
+}
+
+.submitBtn {
+	width: 40px;
+	height: 40px;
+	flex-shrink: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: var(--accent);
+	color: white;
+	border: none;
+	border-radius: 50%;
+	cursor: pointer;
+	transition: opacity 0.2s;
+}
+
+.submitBtn:hover:not(:disabled) {
+	opacity: 0.85;
+}
+
+.submitBtn:disabled {
+	opacity: 0.3;
+	cursor: not-allowed;
+}
+
+.dropdown {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	right: 0;
+	background: var(--dropdown-bg);
+	border: 1px solid var(--border);
+	border-radius: 0 0 8px 8px;
+	list-style: none;
+	max-height: 240px;
+	overflow-y: auto;
+	z-index: 50;
+	padding: 4px;
+	scrollbar-width: thin;
+	scrollbar-color: var(--border) transparent;
+}
+
+.dropdown::-webkit-scrollbar {
+	width: 6px;
+}
+
+.dropdown::-webkit-scrollbar-track {
+	background: transparent;
+}
+
+.dropdown::-webkit-scrollbar-thumb {
+	background: var(--border);
+	border-radius: 3px;
+}
+
+.dropdown::-webkit-scrollbar-thumb:hover {
+	background: var(--text-secondary);
+}
+
+.dropdown li {
+	padding: 10px 12px;
+	cursor: pointer;
+	text-align: left;
+	transition: background 0.15s;
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	border-radius: 6px;
+}
+
+.dropdown li:hover,
+.dropdown li.highlighted {
+	background: var(--highlight);
+}
+
+.highlighted {
+	background: var(--highlight);
+}
+
+.dropdownImg {
+	width: 28px;
+	height: 28px;
+	object-fit: contain;
+	flex-shrink: 0;
+}
+
+@media (max-width: 600px) {
+	.dropdownImg {
+		width: 22px;
+		height: 22px;
+	}
+}

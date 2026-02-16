@@ -1,23 +1,24 @@
 import ArrowIcon from "./ArrowIcon";
+import styles from "./ColorLegend.module.css";
 
 export default function ColorLegend() {
 	return (
-		<div className="color-legend">
-			<div className="color-legend-items">
-				<span className="color-legend-item">
-					<span className="color-legend-swatch cell-correct" />
+		<div className={styles.legend}>
+			<div className={styles.items}>
+				<span className={styles.item}>
+					<span className={`${styles.swatch} cell-correct`} />
 					Exact
 				</span>
-				<span className="color-legend-item">
-					<span className="color-legend-swatch cell-partial" />
+				<span className={styles.item}>
+					<span className={`${styles.swatch} cell-partial`} />
 					Proche
 				</span>
-				<span className="color-legend-item">
-					<span className="color-legend-swatch cell-wrong" />
+				<span className={styles.item}>
+					<span className={`${styles.swatch} cell-wrong`} />
 					Mauvais
 				</span>
-				<span className="color-legend-item">
-					<span className="color-legend-arrows">
+				<span className={styles.item}>
+					<span className={styles.arrows}>
 						<ArrowIcon direction="up" size={12} decorative />
 						<ArrowIcon direction="down" size={12} decorative />
 					</span>

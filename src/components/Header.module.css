@@ -1,0 +1,93 @@
+.header {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+	text-align: center;
+	padding: 20px 0 0;
+	margin-bottom: 20px;
+}
+
+.title {
+	line-height: 0;
+}
+
+.homeLink {
+	display: inline-block;
+}
+
+.logo {
+	width: min(300px, 60vw);
+	height: auto;
+}
+
+.subtitle {
+	color: var(--text-primary);
+	font-size: 1.05rem;
+	font-weight: 600;
+	padding-bottom: 12px;
+	border-bottom: 2px solid rgba(212, 152, 60, 0.3);
+}
+
+.toolbar {
+	display: flex;
+	align-items: baseline;
+	justify-content: center;
+	gap: 16px;
+	width: 100%;
+	max-width: 220px;
+	margin-inline: auto;
+	padding: 8px 20px;
+	background: var(--bg-secondary);
+	border: 2px solid var(--border);
+	border-radius: 999px;
+}
+
+.toolbarBtn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 36px;
+	height: 36px;
+	border: none;
+	border-radius: 50%;
+	background: transparent;
+	color: var(--text-secondary);
+	cursor: pointer;
+	transition:
+		color 0.2s,
+		background 0.2s;
+}
+
+.toolbarBtn:hover {
+	color: var(--text-primary);
+	background: var(--highlight);
+}
+
+.streak {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 4px;
+	height: 36px;
+}
+
+.streakValue {
+	font-size: 1.1rem;
+	font-weight: 800;
+	color: var(--accent);
+	line-height: 1;
+}
+
+.statsModal {
+	text-align: center;
+}
+
+.statsModal h2 {
+	margin-bottom: 20px;
+}
+
+@media (max-width: 600px) {
+	.logo {
+		width: min(250px, 60vw);
+	}
+}

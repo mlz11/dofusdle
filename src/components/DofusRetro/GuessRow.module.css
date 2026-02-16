@@ -1,0 +1,83 @@
+.row {
+	display: flex;
+	align-items: stretch;
+	gap: 6px;
+}
+
+.animating .monsterName,
+.animating :global(.attribute-cell) {
+	animation: cellFlip 0.85s ease both;
+}
+
+.animating .monsterName {
+	animation-delay: 0ms;
+}
+
+.animating :global(.attribute-cell):nth-child(1) {
+	animation-delay: 200ms;
+}
+
+.animating :global(.attribute-cell):nth-child(2) {
+	animation-delay: 400ms;
+}
+
+.animating :global(.attribute-cell):nth-child(3) {
+	animation-delay: 600ms;
+}
+
+.animating :global(.attribute-cell):nth-child(4) {
+	animation-delay: 800ms;
+}
+
+.animating :global(.attribute-cell):nth-child(5) {
+	animation-delay: 1000ms;
+}
+
+.monsterName {
+	min-width: 110px;
+	max-width: 110px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-weight: 700;
+	font-size: 0.85rem;
+	background: var(--bg-card);
+	border-radius: 6px;
+	padding: 8px 6px;
+	gap: 4px;
+}
+
+.monsterImg {
+	width: 36px;
+	height: 36px;
+	object-fit: contain;
+	word-break: break-word;
+}
+
+.cells {
+	display: flex;
+	flex: 1;
+	gap: 6px;
+}
+
+@media (max-width: 600px) {
+	.row {
+		gap: 4px;
+	}
+
+	.monsterName {
+		min-width: 70px;
+		max-width: 70px;
+		font-size: 0.7rem;
+	}
+
+	.monsterImg {
+		width: 26px;
+		height: 26px;
+	}
+
+	.cells {
+		gap: 4px;
+	}
+}

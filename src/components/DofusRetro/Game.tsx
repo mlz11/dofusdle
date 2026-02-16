@@ -18,6 +18,7 @@ import {
 	saveTargetMonster,
 } from "../../utils/storage";
 import ColorLegend from "./ColorLegend";
+import styles from "./Game.module.css";
 import GuessGrid from "./GuessGrid";
 import HintPanel from "./HintPanel";
 import SearchBar from "./SearchBar";
@@ -198,9 +199,9 @@ export default function Game({ stats, onStatsChange }: Props) {
 	}
 
 	return (
-		<div className="game">
+		<div className={styles.game}>
 			{import.meta.env.DEV && (
-				<div className="dev-toolbar">
+				<div className={styles.devToolbar}>
 					<label>
 						<input
 							type="checkbox"
@@ -240,7 +241,7 @@ export default function Game({ stats, onStatsChange }: Props) {
 			{won && !showVictory && victoryShownOnce && (
 				<button
 					type="button"
-					className="reopen-victory-btn"
+					className={styles.reopenBtn}
 					onClick={() => setShowVictory(true)}
 				>
 					Voir résultats

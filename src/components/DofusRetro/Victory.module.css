@@ -1,0 +1,103 @@
+.overlay {
+	position: fixed;
+	inset: 0;
+	background: rgba(0, 0, 0, 0.75);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 100;
+	animation: fadeIn 0.5s ease;
+}
+
+.modal {
+	position: relative;
+	background: var(--bg-secondary);
+	border: 1px solid var(--border);
+	border-radius: 16px;
+	padding: 32px;
+	text-align: center;
+	max-width: 360px;
+	width: 90%;
+	animation: popIn 0.5s ease;
+}
+
+.closeBtn {
+	position: absolute;
+	top: 12px;
+	right: 12px;
+	width: 32px;
+	height: 32px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: transparent;
+	border: none;
+	color: var(--text-secondary);
+	font-size: 1.1rem;
+	cursor: pointer;
+	border-radius: 50%;
+	transition:
+		color 0.2s,
+		background 0.2s;
+}
+
+.closeBtn:hover {
+	color: var(--text-primary);
+	background: var(--highlight);
+}
+
+.modal h2 {
+	font-size: 1.6rem;
+	margin-bottom: 12px;
+	color: var(--correct);
+}
+
+.monsterImg {
+	width: 96px;
+	height: 96px;
+	object-fit: contain;
+	margin-bottom: 12px;
+}
+
+.modal p {
+	margin-bottom: 20px;
+	color: var(--text-secondary);
+	line-height: 1.5;
+}
+
+.countdown {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 4px;
+	margin-bottom: 20px;
+}
+
+.label {
+	font-size: 0.75rem;
+	color: var(--text-secondary);
+	text-transform: uppercase;
+}
+
+.timer {
+	font-size: 1.6rem;
+	font-weight: 800;
+	font-variant-numeric: tabular-nums;
+	color: var(--accent);
+}
+
+.shareBtn {
+	padding: 10px 32px;
+	background: var(--correct);
+	color: white;
+	border: none;
+	border-radius: 8px;
+	font-size: 1rem;
+	font-weight: 700;
+	cursor: pointer;
+	transition: opacity 0.2s;
+}
+
+.shareBtn:hover {
+	opacity: 0.85;
+}

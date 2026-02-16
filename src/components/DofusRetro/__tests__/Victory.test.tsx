@@ -195,10 +195,10 @@ describe("Victory", () => {
 	describe("close behavior", () => {
 		it("should close when clicking outside the modal", async () => {
 			const user = setupUser();
-			const { onClose } = renderVictory();
-			const overlay = screen.getByText("Bravo !").closest(".victory-overlay");
+			const { onClose, container } = renderVictory();
+			const overlay = container.firstElementChild as HTMLElement;
 			expect(overlay).toBeInTheDocument();
-			await user.click(overlay as HTMLElement);
+			await user.click(overlay);
 			expect(onClose).toHaveBeenCalled();
 		});
 
