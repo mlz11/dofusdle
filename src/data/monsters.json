@@ -3735,6 +3735,19 @@
 		"availableFrom": "2025-1-1"
 	},
 	{
+		"id": 807,
+		"name": "Tofuzmo",
+		"ecosystem": "Créatures des champs",
+		"race": "Tofus",
+		"niveau_min": 40,
+		"niveau_max": 48,
+		"pv_min": 300,
+		"pv_max": 420,
+		"image": "/img/monsters/1373.svg",
+		"couleur": "Noir",
+		"availableFrom": "2025-1-1"
+	},
+	{
 		"id": 808,
 		"name": "Tofu Ventripotent",
 		"ecosystem": "Créatures des champs",
