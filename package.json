@@ -5,8 +5,8 @@
 	"type": "module",
 	"scripts": {
 		"dev": "vite",
-		"build": "tsc -b && vite build --mode staging",
-		"build:production": "tsc -b && vite build --mode production",
+		"build": "tsc -b && vite build --mode production",
+		"build:development": "tsc -b && vite build --mode development",
 		"test": "vitest run",
 		"test:watch": "vitest",
 		"lint": "biome check .",
