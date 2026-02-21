@@ -22,9 +22,10 @@ function forceExitAfterBuild(): Plugin {
 }
 
 /**
- * Removes the prerender entry JS chunk and its modulepreload tag from the
- * final build output. The chunk is only needed at build time for
- * vite-prerender-plugin and should not be shipped to clients.
+ * Strips the prerender entry's modulepreload / script tags from the HTML
+ * and removes its sourcemap. The JS chunk itself is kept because Vite may
+ * code-split shared dependencies into it, and the main bundle imports from
+ * it at runtime.
  */
 function removePrerenderChunk(): Plugin {
 	return {
@@ -36,7 +37,6 @@ function removePrerenderChunk(): Plugin {
 			for (const key of Object.keys(bundle)) {
 				if (key.endsWith(".js") && key.includes("prerender")) {
 					prerenderAssets.push(key);
-					delete bundle[key];
 				}
 				if (key.endsWith(".js.map") && key.includes("prerender")) {
 					delete bundle[key];
@@ -50,6 +50,10 @@ function removePrerenderChunk(): Plugin {
 					const escaped = asset.replace(/\./g, "\\.");
 					source = source.replace(
 						new RegExp(`\\s*<link[^>]+href="/${escaped}"[^>]*>`),
+						"",
+					);
+					source = source.replace(
+						new RegExp(`\\s*<script[^>]+src="/${escaped}"[^>]*></script>`),
 						"",
 					);
 				}

@@ -93,7 +93,7 @@ export default function HintPanel({
 
 	return (
 		<div className={styles.panel}>
-			<h3 className={styles.title}>Indices</h3>
+			<h2 className={styles.title}>Indices</h2>
 			<div className={styles.slots}>
 				{hint1Revealed || justRevealed1 ? (
 					<div
