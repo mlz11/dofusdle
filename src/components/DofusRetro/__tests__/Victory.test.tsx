@@ -190,6 +190,79 @@ describe("Victory", () => {
 			const text = await navigator.clipboard.readText();
 			expect(text).toContain("https://dofusdle.fr");
 		});
+
+		it("should show full grid when guess count is at the threshold", async () => {
+			const user = setupUser();
+			const results = Array.from({ length: 12 }, () =>
+				makeResult(["wrong", "wrong", "wrong", "wrong", "wrong"]),
+			);
+			results[11] = makeResult([
+				"correct",
+				"correct",
+				"correct",
+				"correct",
+				"correct",
+			]);
+			renderVictory({ results });
+			await user.click(screen.getByText("Partager"));
+			await screen.findByText("Copié !");
+			const text = await navigator.clipboard.readText();
+			expect(text).not.toContain("⋮");
+			expect(text.match(/🟥🟥🟥🟥🟥/g)).toHaveLength(11);
+			expect(text).toContain("🟩🟩🟩🟩🟩");
+		});
+
+		it("should collapse middle rows when guess count exceeds the threshold", async () => {
+			const user = setupUser();
+			const results = Array.from({ length: 15 }, () =>
+				makeResult(["wrong", "wrong", "wrong", "wrong", "wrong"]),
+			);
+			results[14] = makeResult([
+				"correct",
+				"correct",
+				"correct",
+				"correct",
+				"correct",
+			]);
+			renderVictory({ results });
+			await user.click(screen.getByText("Partager"));
+			await screen.findByText("Copié !");
+			const text = await navigator.clipboard.readText();
+			expect(text).toContain("⋮ (9 de plus)");
+			expect(text).toContain("en 15 essais");
+		});
+
+		it("should show first 3 and last 3 rows when grid is collapsed", async () => {
+			const user = setupUser();
+			const results = Array.from({ length: 20 }, (_, i) =>
+				makeResult(
+					i < 10
+						? ["wrong", "wrong", "wrong", "wrong", "wrong"]
+						: ["partial", "partial", "partial", "partial", "partial"],
+				),
+			);
+			results[19] = makeResult([
+				"correct",
+				"correct",
+				"correct",
+				"correct",
+				"correct",
+			]);
+			renderVictory({ results });
+			await user.click(screen.getByText("Partager"));
+			await screen.findByText("Copié !");
+			const text = await navigator.clipboard.readText();
+			const lines = text.split("\n");
+			// header, 3 first rows, separator, 3 last rows, URL
+			expect(lines).toHaveLength(9);
+			expect(lines[1]).toBe("🟥🟥🟥🟥🟥");
+			expect(lines[2]).toBe("🟥🟥🟥🟥🟥");
+			expect(lines[3]).toBe("🟥🟥🟥🟥🟥");
+			expect(lines[4]).toContain("⋮ (14 de plus)");
+			expect(lines[5]).toBe("🟧🟧🟧🟧🟧");
+			expect(lines[6]).toBe("🟧🟧🟧🟧🟧");
+			expect(lines[7]).toBe("🟩🟩🟩🟩🟩");
+		});
 	});
 
 	describe("close behavior", () => {

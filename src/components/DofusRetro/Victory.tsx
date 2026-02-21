@@ -28,28 +28,42 @@ interface Props {
 	onClose: () => void;
 }
 
+const COLLAPSE_THRESHOLD = 12;
+const VISIBLE_ROWS = 3;
+
 function buildShareText(results: GuessResult[], hintsUsed: number): string {
 	const hintSuffix =
 		hintsUsed > 0 ? ` (+${hintsUsed} indice${hintsUsed > 1 ? "s" : ""})` : "";
 	const header = `Dofusdle - J'ai trouvé la réponse en ${results.length} essai${results.length > 1 ? "s" : ""}${hintSuffix}`;
-	const grid = results
-		.map((r) => {
-			const cells = [
-				r.feedback.ecosystem,
-				r.feedback.race,
-				r.feedback.couleur,
-				r.feedback.niveau,
-				r.feedback.pv,
-			];
-			return cells
-				.map((c) => {
-					if (c.status === "correct") return "🟩";
-					if (c.status === "partial") return "🟧";
-					return "🟥";
-				})
-				.join("");
-		})
-		.join("\n");
+	const rows = results.map((r) => {
+		const cells = [
+			r.feedback.ecosystem,
+			r.feedback.race,
+			r.feedback.couleur,
+			r.feedback.niveau,
+			r.feedback.pv,
+		];
+		return cells
+			.map((c) => {
+				if (c.status === "correct") return "🟩";
+				if (c.status === "partial") return "🟧";
+				return "🟥";
+			})
+			.join("");
+	});
+
+	let grid: string;
+	if (rows.length > COLLAPSE_THRESHOLD) {
+		const hidden = rows.length - VISIBLE_ROWS * 2;
+		grid = [
+			...rows.slice(0, VISIBLE_ROWS),
+			`   ⋮ (${hidden} de plus)`,
+			...rows.slice(-VISIBLE_ROWS),
+		].join("\n");
+	} else {
+		grid = rows.join("\n");
+	}
+
 	return `${header}\n${grid}\nhttps://dofusdle.fr`;
 }
 
