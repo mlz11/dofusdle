@@ -1644,7 +1644,8 @@
 		"niveau_max": 140,
 		"pv_min": 4200,
 		"pv_max": 5000,
-		"image": "/img/monsters/1164.svg"
+		"image": "/img/monsters/1164.svg",
+		"availableFrom": "2026-2-22"
 	},
 	{
 		"id": 259,
@@ -1668,7 +1669,8 @@
 		"niveau_max": 140,
 		"pv_min": 4200,
 		"pv_max": 5000,
-		"image": "/img/monsters/1163.svg"
+		"image": "/img/monsters/1163.svg",
+		"availableFrom": "2026-2-22"
 	},
 	{
 		"id": 261,
@@ -2527,6 +2529,18 @@
 		"image": "/img/monsters/1249.svg",
 		"couleur": "Orange",
 		"availableFrom": "2025-1-1"
+	},
+	{
+		"id": 464,
+		"name": "Brumen Tinctorias",
+		"ecosystem": "Créatures diverses",
+		"race": "Avis de recherche",
+		"niveau_min": 58,
+		"niveau_max": 58,
+		"pv_min": 280,
+		"pv_max": 280,
+		"image": "/img/monsters/464.png",
+		"availableFrom": "2026-2-22"
 	},
 	{
 		"id": 465,
@@ -5371,7 +5385,8 @@
 		"niveau_max": 181,
 		"pv_min": 2500,
 		"pv_max": 4900,
-		"image": "/img/monsters/1643.svg"
+		"image": "/img/monsters/1643.svg",
+		"availableFrom": "2026-2-22"
 	},
 	{
 		"id": 1154,
@@ -5382,7 +5397,8 @@
 		"niveau_max": 169,
 		"pv_min": 2000,
 		"pv_max": 4600,
-		"image": "/img/monsters/1644.svg"
+		"image": "/img/monsters/1644.svg",
+		"availableFrom": "2026-2-22"
 	},
 	{
 		"id": 1155,
@@ -5393,7 +5409,8 @@
 		"niveau_max": 190,
 		"pv_min": 3000,
 		"pv_max": 5600,
-		"image": "/img/monsters/1640.svg"
+		"image": "/img/monsters/1640.svg",
+		"availableFrom": "2026-2-22"
 	},
 	{
 		"id": 1156,
@@ -5404,7 +5421,8 @@
 		"niveau_max": 224,
 		"pv_min": 3600,
 		"pv_max": 8000,
-		"image": "/img/monsters/1642.svg"
+		"image": "/img/monsters/1642.svg",
+		"availableFrom": "2026-2-22"
 	},
 	{
 		"id": 1157,
@@ -5415,7 +5433,8 @@
 		"niveau_max": 204,
 		"pv_min": 3400,
 		"pv_max": 6400,
-		"image": "/img/monsters/1641.svg"
+		"image": "/img/monsters/1641.svg",
+		"availableFrom": "2026-2-22"
 	},
 	{
 		"id": 1158,
@@ -5426,7 +5445,8 @@
 		"niveau_max": 201,
 		"pv_min": 3600,
 		"pv_max": 6400,
-		"image": "/img/monsters/1639.svg"
+		"image": "/img/monsters/1639.svg",
+		"availableFrom": "2026-2-22"
 	},
 	{
 		"id": 1159,
