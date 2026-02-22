@@ -18,6 +18,7 @@ import {
 	saveTargetMonster,
 } from "../../utils/storage";
 import ColorLegend from "./ColorLegend";
+import FeedbackBanner from "./FeedbackBanner";
 import styles from "./Game.module.css";
 import GuessGrid from "./GuessGrid";
 import HintPanel from "./HintPanel";
@@ -59,6 +60,7 @@ export default function Game({ stats, onStatsChange }: Props) {
 	const [victoryShownOnce, setVictoryShownOnce] = useState(false);
 	const [animatingRowIndex, setAnimatingRowIndex] = useState(-1);
 	const [hints, setHints] = useState({ hint1: false, hint2: false });
+	const [showAllCorrectBanner, setShowAllCorrectBanner] = useState(false);
 
 	const resetForNewDay = useCallback((newKey: string) => {
 		setDateKey(newKey);
@@ -160,6 +162,13 @@ export default function Game({ stats, onStatsChange }: Props) {
 				setShowVictory(true);
 				setVictoryShownOnce(true);
 			}, VICTORY_MODAL_DELAY_MS);
+		} else {
+			const allCorrect = Object.values(result.feedback).every(
+				(attr) => attr.status === "correct",
+			);
+			if (allCorrect) {
+				setTimeout(() => setShowAllCorrectBanner(true), CONFETTI_FIRST_MS);
+			}
 		}
 
 		if (!devMode) {
@@ -237,6 +246,10 @@ export default function Game({ stats, onStatsChange }: Props) {
 				disabled={won}
 			/>
 			<GuessGrid results={results} animatingRowIndex={animatingRowIndex} />
+			<FeedbackBanner
+				visible={showAllCorrectBanner}
+				onDismiss={() => setShowAllCorrectBanner(false)}
+			/>
 			{results.length > 0 && !won && <ColorLegend />}
 			{won && !showVictory && victoryShownOnce && (
 				<button
