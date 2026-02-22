@@ -1636,6 +1636,18 @@
 		"availableFrom": "2025-1-1"
 	},
 	{
+		"id": 258,
+		"name": "Branche Invocatrice",
+		"ecosystem": "Créatures de la forêt",
+		"race": "Abraknydien",
+		"niveau_min": 100,
+		"niveau_max": 140,
+		"pv_min": 4200,
+		"pv_max": 5000,
+		"image": "/img/monsters/1164.svg",
+		"availableFrom": "2026-2-22"
+	},
+	{
 		"id": 259,
 		"name": "Arakne Majeure",
 		"ecosystem": "Créatures des villes",
@@ -1647,6 +1659,18 @@
 		"image": "/img/monsters/1161.svg",
 		"couleur": "Noir",
 		"availableFrom": "2025-1-1"
+	},
+	{
+		"id": 260,
+		"name": "Branche Soignante",
+		"ecosystem": "Créatures de la forêt",
+		"race": "Abraknydien",
+		"niveau_min": 100,
+		"niveau_max": 140,
+		"pv_min": 4200,
+		"pv_max": 5000,
+		"image": "/img/monsters/1163.svg",
+		"availableFrom": "2026-2-22"
 	},
 	{
 		"id": 261,
@@ -2507,6 +2531,18 @@
 		"availableFrom": "2025-1-1"
 	},
 	{
+		"id": 464,
+		"name": "Brumen Tinctorias",
+		"ecosystem": "Créatures diverses",
+		"race": "Avis de recherche",
+		"niveau_min": 58,
+		"niveau_max": 58,
+		"pv_min": 280,
+		"pv_max": 280,
+		"image": "/img/monsters/464.png",
+		"availableFrom": "2026-2-22"
+	},
+	{
 		"id": 465,
 		"name": "Rat d'Egoutant malade",
 		"ecosystem": "Créatures des villes",
@@ -2647,6 +2683,54 @@
 		"image": "/img/monsters/1248.svg",
 		"couleur": "Gris",
 		"availableFrom": "2025-1-1"
+	},
+	{
+		"id": 484,
+		"name": "Bwork Elémental de Feu",
+		"ecosystem": "Créatures de la montagne",
+		"race": "Bworks",
+		"niveau_min": 125,
+		"niveau_max": 133,
+		"pv_min": 3000,
+		"pv_max": 3400,
+		"image": "/img/monsters/484.png",
+		"availableFrom": "2026-2-22"
+	},
+	{
+		"id": 485,
+		"name": "Bwork Elémental d'Eau",
+		"ecosystem": "Créatures de la montagne",
+		"race": "Bworks",
+		"niveau_min": 125,
+		"niveau_max": 133,
+		"pv_min": 3000,
+		"pv_max": 3400,
+		"image": "/img/monsters/485.png",
+		"availableFrom": "2026-2-22"
+	},
+	{
+		"id": 486,
+		"name": "Bwork Elémental d'Air",
+		"ecosystem": "Créatures de la montagne",
+		"race": "Bworks",
+		"niveau_min": 125,
+		"niveau_max": 133,
+		"pv_min": 3000,
+		"pv_max": 3400,
+		"image": "/img/monsters/486.png",
+		"availableFrom": "2026-2-22"
+	},
+	{
+		"id": 487,
+		"name": "Bwork Elémental de Terre",
+		"ecosystem": "Créatures de la montagne",
+		"race": "Bworks",
+		"niveau_min": 125,
+		"niveau_max": 133,
+		"pv_min": 3000,
+		"pv_max": 3400,
+		"image": "/img/monsters/487.png",
+		"availableFrom": "2026-2-22"
 	},
 	{
 		"id": 488,
@@ -5339,6 +5423,78 @@
 		"image": "/img/monsters/1633.svg",
 		"couleur": "Noir / Marron",
 		"availableFrom": "2025-1-1"
+	},
+	{
+		"id": 1153,
+		"name": "Tromperelle",
+		"ecosystem": "Créatures des champs",
+		"race": "Champignons",
+		"niveau_min": 125,
+		"niveau_max": 181,
+		"pv_min": 2500,
+		"pv_max": 4900,
+		"image": "/img/monsters/1643.svg",
+		"availableFrom": "2026-2-22"
+	},
+	{
+		"id": 1154,
+		"name": "Champaknyde",
+		"ecosystem": "Créatures des champs",
+		"race": "Champignons",
+		"niveau_min": 113,
+		"niveau_max": 169,
+		"pv_min": 2000,
+		"pv_max": 4600,
+		"image": "/img/monsters/1644.svg",
+		"availableFrom": "2026-2-22"
+	},
+	{
+		"id": 1155,
+		"name": "Champodonte",
+		"ecosystem": "Créatures des champs",
+		"race": "Champignons",
+		"niveau_min": 134,
+		"niveau_max": 190,
+		"pv_min": 3000,
+		"pv_max": 5600,
+		"image": "/img/monsters/1640.svg",
+		"availableFrom": "2026-2-22"
+	},
+	{
+		"id": 1156,
+		"name": "Champmane",
+		"ecosystem": "Créatures des champs",
+		"race": "Champignons",
+		"niveau_min": 152,
+		"niveau_max": 224,
+		"pv_min": 3600,
+		"pv_max": 8000,
+		"image": "/img/monsters/1642.svg",
+		"availableFrom": "2026-2-22"
+	},
+	{
+		"id": 1157,
+		"name": "Champbis",
+		"ecosystem": "Créatures des champs",
+		"race": "Champignons",
+		"niveau_min": 144,
+		"niveau_max": 204,
+		"pv_min": 3400,
+		"pv_max": 6400,
+		"image": "/img/monsters/1641.svg",
+		"availableFrom": "2026-2-22"
+	},
+	{
+		"id": 1158,
+		"name": "Champ à Gnons",
+		"ecosystem": "Créatures des champs",
+		"race": "Champignons",
+		"niveau_min": 149,
+		"niveau_max": 201,
+		"pv_min": 3600,
+		"pv_max": 6400,
+		"image": "/img/monsters/1639.svg",
+		"availableFrom": "2026-2-22"
 	},
 	{
 		"id": 1159,

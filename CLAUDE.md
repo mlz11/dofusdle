@@ -58,7 +58,7 @@ Dofusdle is a client-side Wordle-style daily guessing game for Dofus Retro 1.29 
 
 ### Core Data Flow
 
-1. **Daily monster selection** (`src/utils/daily.ts`): Deterministic hash of today's date selects a monster from `src/data/monsters.json`. Same monster for all players each day.
+1. **Daily monster selection** (`src/utils/daily.ts`): Deterministic hash of today's date selects a monster from `src/data/monsters.json`. Same monster for all players each day. **Every monster must have an `availableFrom` field** (format `"YYYY-M-D"`). Monsters without it will crash the app. When adding new monsters, set `availableFrom` to today's date so they don't alter past daily selections.
 2. **Guess comparison** (`src/utils/compare.ts`): Each guess produces feedback on 5 attributes (ecosystem, race, niveau max, couleur, pv max) with statuses: correct/partial/wrong and directional arrows for numeric fields. Race comparison uses ecosystem grouping for partial matches. Only max values are displayed and compared for niveau and pv. Numeric thresholds for partial: niveau ±10, pv ±20%.
 3. **Persistence** (`src/utils/storage.ts`): Daily progress and cumulative stats stored in localStorage (`dofusdle-progress`, `dofusdle-stats`). Progress auto-clears when the date changes.
 
