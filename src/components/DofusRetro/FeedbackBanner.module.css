@@ -1,0 +1,56 @@
+.banner {
+	position: fixed;
+	bottom: 24px;
+	left: 50%;
+	transform: translateX(-50%);
+	background: var(--bg-secondary);
+	border: 1px solid var(--correct);
+	border-radius: 12px;
+	padding: 12px 40px 12px 16px;
+	max-width: 400px;
+	width: 90%;
+	z-index: 50;
+	animation: slideUp 0.3s ease;
+}
+
+.message {
+	font-size: 0.9rem;
+	color: var(--text-primary);
+	line-height: 1.4;
+}
+
+.closeBtn {
+	position: absolute;
+	top: 8px;
+	right: 8px;
+	width: 28px;
+	height: 28px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: transparent;
+	border: none;
+	color: var(--text-secondary);
+	font-size: 1rem;
+	cursor: pointer;
+	border-radius: 50%;
+	transition:
+		color 0.2s,
+		background 0.2s;
+}
+
+.closeBtn:hover {
+	color: var(--text-primary);
+	background: var(--highlight);
+}
+
+@keyframes slideUp {
+	from {
+		opacity: 0;
+		transform: translateX(-50%) translateY(16px);
+	}
+	to {
+		opacity: 1;
+		transform: translateX(-50%) translateY(0);
+	}
+}
