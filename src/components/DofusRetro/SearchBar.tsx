@@ -1,6 +1,10 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import type { Monster } from "../../types";
 import styles from "./SearchBar.module.css";
+
+function stripDiacritics(s: string): string {
+	return s.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+}
 
 interface Props {
 	monsters: Monster[];
@@ -40,10 +44,20 @@ export default function SearchBar({
 		.filter((m) => !usedIds.has(m.id))
 		.sort((a, b) => a.name.localeCompare(b.name));
 
+	const normalizedNames = useMemo(
+		() =>
+			new Map(
+				available.map((m) => [m.id, stripDiacritics(m.name.toLowerCase())]),
+			),
+		[available],
+	);
+
 	const filtered =
 		query.length > 0
 			? available.filter((m) =>
-					m.name.toLowerCase().startsWith(query.toLowerCase()),
+					(normalizedNames.get(m.id) ?? "").startsWith(
+						stripDiacritics(query.toLowerCase()),
+					),
 				)
 			: available;
 

@@ -62,6 +62,19 @@ const monsters: Monster[] = [
 		image: "/img/monsters/4.svg",
 		availableFrom: "2025-1-1",
 	},
+	{
+		id: 5,
+		name: "Gelée Bleue",
+		ecosystem: "Créatures de la forêt",
+		race: "Gelées",
+		niveau_min: 1,
+		niveau_max: 10,
+		pv_min: 10,
+		pv_max: 40,
+		couleur: "Bleu",
+		image: "/img/monsters/5.svg",
+		availableFrom: "2025-1-1",
+	},
 ];
 
 const defaults = {
@@ -114,6 +127,17 @@ describe("SearchBar", () => {
 			const items = screen.getAllByRole("listitem");
 			expect(items).toHaveLength(1);
 			expect(items[0]).toHaveTextContent("Tofu");
+		});
+
+		it("should match accented monster names when typing without accents", async () => {
+			renderSearchBar();
+			await userEvent.type(
+				screen.getByPlaceholderText("Devine le monstre..."),
+				"gelee",
+			);
+			const items = screen.getAllByRole("listitem");
+			expect(items).toHaveLength(1);
+			expect(items[0]).toHaveTextContent("Gelée Bleue");
 		});
 
 		it("should exclude already-guessed monsters from results", async () => {
