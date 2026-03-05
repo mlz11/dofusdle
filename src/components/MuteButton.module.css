@@ -1,0 +1,24 @@
+.floatingBtn {
+	position: fixed;
+	top: 16px;
+	right: 16px;
+	z-index: 10;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 36px;
+	height: 36px;
+	border: none;
+	border-radius: 50%;
+	background: transparent;
+	color: var(--text-secondary);
+	cursor: pointer;
+	transition:
+		color 0.2s,
+		background 0.2s;
+}
+
+.floatingBtn:hover {
+	color: var(--text-primary);
+	background: var(--highlight);
+}

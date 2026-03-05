@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useLayoutEffect, useState } from "react";
 import { Navigate, Route, Routes, useLocation } from "react-router-dom";
+import { useMusic } from "../hooks/useMusic";
 import type { GameMode, GameStats } from "../types";
 import { defaultStats, loadStats } from "../utils/storage";
 import styles from "./App.module.css";
@@ -37,6 +38,7 @@ function AppContent() {
 	const location = useLocation();
 	const path = normalizePath(location.pathname);
 	const activeMode = MODE_BY_PATH[path] ?? null;
+	const { isMuted, toggle: onMuteToggle } = useMusic();
 
 	useLayoutEffect(() => {
 		for (const [route, cls] of THEME_CLASSES) {
@@ -80,10 +82,15 @@ function AppContent() {
 			<Header
 				stats={activeMode ? statsByMode[activeMode] : statsByMode.classique}
 				gameMode={activeMode}
+				isMuted={isMuted}
+				onMuteToggle={onMuteToggle}
 			/>
 			<main>
 				<Routes>
-					<Route path="/" element={<HomePage />} />
+					<Route
+						path="/"
+						element={<HomePage isMuted={isMuted} onMuteToggle={onMuteToggle} />}
+					/>
 					<Route
 						path="/classique"
 						element={

@@ -1,8 +1,15 @@
 import { Link } from "react-router-dom";
 import { useDocumentMeta } from "../hooks/useDocumentMeta";
 import styles from "./HomePage.module.css";
+import MuteButton from "./MuteButton";
+import muteStyles from "./MuteButton.module.css";
 
-export default function HomePage() {
+interface Props {
+	isMuted: boolean;
+	onMuteToggle: () => void;
+}
+
+export default function HomePage({ isMuted, onMuteToggle }: Props) {
 	useDocumentMeta({
 		title: "Dofusdle - Le jeu de devinettes Dofus Retro",
 		description:
@@ -12,6 +19,11 @@ export default function HomePage() {
 
 	return (
 		<div className={styles.page}>
+			<MuteButton
+				isMuted={isMuted}
+				onToggle={onMuteToggle}
+				className={muteStyles.floatingBtn}
+			/>
 			<div className={styles.taglineBar}>
 				<p className={styles.tagline}>Choisis ton mode de jeu</p>
 			</div>
