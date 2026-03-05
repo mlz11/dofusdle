@@ -18,7 +18,9 @@
 		background 0.2s;
 }
 
-.floatingBtn:hover {
-	color: var(--text-primary);
-	background: var(--highlight);
+@media (hover: hover) {
+	.floatingBtn:hover {
+		color: var(--text-primary);
+		background: var(--highlight);
+	}
 }
