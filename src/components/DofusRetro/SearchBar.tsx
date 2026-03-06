@@ -54,11 +54,15 @@ export default function SearchBar({
 
 	const filtered =
 		query.length > 0
-			? available.filter((m) =>
-					(normalizedNames.get(m.id) ?? "").startsWith(
-						stripDiacritics(query.toLowerCase()),
-					),
-				)
+			? (() => {
+					const normalizedQuery = stripDiacritics(query.toLowerCase());
+					return available.filter((m) => {
+						const name = normalizedNames.get(m.id) ?? "";
+						if (name.startsWith(normalizedQuery)) return true;
+						const words = name.split(/[\s'-]+/);
+						return words.some((w) => w.startsWith(normalizedQuery));
+					});
+				})()
 			: available;
 
 	useEffect(() => {

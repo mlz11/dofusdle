@@ -140,6 +140,17 @@ describe("SearchBar", () => {
 			expect(items[0]).toHaveTextContent("Gelée Bleue");
 		});
 
+		it("should match monsters when typing the start of a non-first word", async () => {
+			renderSearchBar();
+			await userEvent.type(
+				screen.getByPlaceholderText("Devine le monstre..."),
+				"bleu",
+			);
+			const items = screen.getAllByRole("listitem");
+			expect(items).toHaveLength(1);
+			expect(items[0]).toHaveTextContent("Gelée Bleue");
+		});
+
 		it("should exclude already-guessed monsters from results", async () => {
 			renderSearchBar({ usedIds: new Set([2]) });
 			await userEvent.type(
