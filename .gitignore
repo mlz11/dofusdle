@@ -28,4 +28,3 @@ dist-ssr
 # Data pipeline scripts (allow validate-data.ts)
 scripts/*
 !scripts/validate-data.ts
-.env.local
