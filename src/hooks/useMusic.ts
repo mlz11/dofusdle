@@ -2,7 +2,7 @@ import { useCallback, useEffect, useRef, useState } from "react";
 
 const STORAGE_KEY = "dofusdle-music-muted";
 const TARGET_VOLUME = 0.05;
-const FADE_DURATION_MS = 2000;
+const FADE_DURATION_MS = 4000;
 const FADE_INTERVAL_MS = 50;
 
 function fadeIn(audio: HTMLAudioElement) {
