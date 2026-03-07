@@ -1,3 +1,4 @@
+import { usePostHog } from "@posthog/react";
 import { useCallback, useEffect, useMemo, useState } from "react";
 import monstersData from "../../data/monsters.json";
 import { useDocumentMeta } from "../../hooks/useDocumentMeta";
@@ -71,6 +72,7 @@ export default function Game({ gameMode, stats, onStatsChange }: Props) {
 		resetVictory,
 	} = useVictoryModal();
 	const { count: solveCount, reportSolve } = useSolveCount(dateKey, gameMode);
+	const posthog = usePostHog();
 
 	const persistProgress = useCallback(
 		(guessNames: string[], hasWon: boolean) => {
@@ -159,12 +161,26 @@ export default function Game({ gameMode, stats, onStatsChange }: Props) {
 		const isWin = monster.id === target.id;
 		const allGuessNames = [...wrongGuesses.map((m) => m.name), monster.name];
 
+		posthog?.capture("guess_submitted", {
+			game_mode: gameMode,
+			guess_number: totalGuesses + 1,
+			is_correct: isWin,
+			monster_guessed: monster.name,
+		});
+
 		if (isWin) {
 			setWon(true);
 			const newStats = recordWin(gameMode, totalGuesses + 1);
 			onStatsChange(newStats);
 			triggerWin();
-			if (!devMode) reportSolve();
+			if (!devMode) {
+				reportSolve();
+			}
+			posthog?.capture("game_won", {
+				game_mode: gameMode,
+				guess_count: totalGuesses + 1,
+				monster_name: target.name,
+			});
 		} else {
 			setWrongGuesses((prev) => [...prev, monster]);
 		}

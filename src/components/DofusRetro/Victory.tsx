@@ -1,3 +1,4 @@
+import { usePostHog } from "@posthog/react";
 import { useEffect, useState } from "react";
 import { useCloseOnKey } from "../../hooks/useCloseOnKey";
 import statsGridStyles from "../../styles/StatsGrid.module.css";
@@ -62,6 +63,7 @@ export default function Victory({
 	hintsUsed,
 	onClose,
 }: Props) {
+	const posthog = usePostHog();
 	const [copied, setCopied] = useState(false);
 	const [countdown, setCountdown] = useState(getTimeUntilMidnightParis);
 
@@ -80,6 +82,11 @@ export default function Victory({
 		navigator.clipboard.writeText(text).then(() => {
 			setCopied(true);
 			setTimeout(() => setCopied(false), 2000);
+		});
+		posthog?.capture("result_shared", {
+			game_mode: "classique",
+			guess_count: results.length,
+			hints_used: hintsUsed,
 		});
 	}
 

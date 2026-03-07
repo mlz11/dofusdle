@@ -7,7 +7,8 @@
 			"vars": {
 				"SENTRY_ORG": "mlz11",
 				"SENTRY_PROJECT": "dofusdle",
-				"VITE_SENTRY_DSN": "https://42681133ca4c6a57c3faa0b5772d9254@o4510897575362560.ingest.de.sentry.io/4510897576869968"
+				"VITE_SENTRY_DSN": "https://42681133ca4c6a57c3faa0b5772d9254@o4510897575362560.ingest.de.sentry.io/4510897576869968",
+				"VITE_PUBLIC_POSTHOG_HOST": "https://eu.i.posthog.com"
 			},
 			"kv_namespaces": [
 				{

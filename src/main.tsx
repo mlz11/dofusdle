@@ -1,17 +1,33 @@
+import { PostHogErrorBoundary, PostHogProvider } from "@posthog/react";
+import posthog from "posthog-js";
 import { StrictMode } from "react";
 import { createRoot, hydrateRoot } from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
 import "./styles/app.css";
 import App from "./components/App";
 
+const phKey = import.meta.env.VITE_PUBLIC_POSTHOG_KEY;
+if (phKey) {
+	posthog.init(phKey, {
+		api_host: import.meta.env.VITE_PUBLIC_POSTHOG_HOST,
+		defaults: "2026-01-30",
+	});
+} else {
+	console.warn("VITE_PUBLIC_POSTHOG_KEY is not set, PostHog disabled");
+}
+
 const root = document.getElementById("root");
 if (!root) throw new Error("Root element not found");
 
 const app = (
 	<StrictMode>
-		<BrowserRouter>
-			<App />
-		</BrowserRouter>
+		<PostHogProvider client={posthog}>
+			<PostHogErrorBoundary>
+				<BrowserRouter>
+					<App />
+				</BrowserRouter>
+			</PostHogErrorBoundary>
+		</PostHogProvider>
 	</StrictMode>
 );
 
