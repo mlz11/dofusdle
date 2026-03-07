@@ -1,3 +1,4 @@
+import { usePostHog } from "@posthog/react";
 import { Link } from "react-router-dom";
 import { useDocumentMeta } from "../hooks/useDocumentMeta";
 import styles from "./HomePage.module.css";
@@ -10,6 +11,8 @@ interface Props {
 }
 
 export default function HomePage({ isMuted, onMuteToggle }: Props) {
+	const posthog = usePostHog();
+
 	useDocumentMeta({
 		title: "Dofusdle - Le jeu de devinettes Dofus Retro",
 		description:
@@ -32,6 +35,9 @@ export default function HomePage({ isMuted, onMuteToggle }: Props) {
 					<Link
 						to="/classique"
 						className={`${styles.card} ${styles.cardGreen}`}
+						onClick={() =>
+							posthog?.capture("game_mode_selected", { mode: "classique" })
+						}
 					>
 						<div className={styles.cardImageContainer}>
 							<img
@@ -66,6 +72,9 @@ export default function HomePage({ isMuted, onMuteToggle }: Props) {
 					<Link
 						to="/silhouette"
 						className={`${styles.card} ${styles.cardOrange}`}
+						onClick={() =>
+							posthog?.capture("game_mode_selected", { mode: "silhouette" })
+						}
 					>
 						<div className={styles.cardImageContainer}>
 							<img

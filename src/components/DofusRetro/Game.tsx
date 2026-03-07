@@ -1,3 +1,4 @@
+import { usePostHog } from "@posthog/react";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import monstersData from "../../data/monsters.json";
 import { useDocumentMeta } from "../../hooks/useDocumentMeta";
@@ -84,6 +85,7 @@ export default function Game({ gameMode, stats, onStatsChange }: Props) {
 		resetVictory,
 	} = useVictoryModal();
 	const { count: solveCount, reportSolve } = useSolveCount(dateKey, gameMode);
+	const posthog = usePostHog();
 
 	// Persist progress to localStorage, consolidating all save calls.
 	// Accepts optional hint overrides for when a hint is being revealed
@@ -211,12 +213,28 @@ export default function Game({ gameMode, stats, onStatsChange }: Props) {
 		setAnimatingRowIndex(newResults.length - 1);
 
 		const isWin = monster.id === target.id;
+
+		posthog?.capture("guess_submitted", {
+			game_mode: gameMode,
+			guess_number: newResults.length,
+			is_correct: isWin,
+			monster_guessed: monster.name,
+		});
+
 		if (isWin) {
 			setWon(true);
 			const newStats = recordWin(gameMode, newResults.length);
 			onStatsChange(newStats);
 			triggerWin();
-			if (!devMode) reportSolve();
+			if (!devMode) {
+				reportSolve();
+			}
+			posthog?.capture("game_won", {
+				game_mode: gameMode,
+				guess_count: newResults.length,
+				hints_used: hintsUsed,
+				monster_name: target.name,
+			});
 		}
 
 		if (!isWin) {
@@ -236,11 +254,21 @@ export default function Game({ gameMode, stats, onStatsChange }: Props) {
 	function handleRevealHint1() {
 		revealHint1();
 		persistProgress(results, won, { hint1: true });
+		posthog?.capture("hint_revealed", {
+			game_mode: gameMode,
+			hint: "ecosystem",
+			guess_count: results.length,
+		});
 	}
 
 	function handleRevealHint2() {
 		revealHint2();
 		persistProgress(results, won, { hint2: true });
+		posthog?.capture("hint_revealed", {
+			game_mode: gameMode,
+			hint: "race",
+			guess_count: results.length,
+		});
 	}
 
 	return (
