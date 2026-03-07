@@ -6,23 +6,15 @@ import statsGridStyles from "../styles/StatsGrid.module.css";
 import type { GameMode, GameStats } from "../types";
 import { getWinPercentage } from "../utils/storage";
 import styles from "./Header.module.css";
-import MuteButton from "./MuteButton";
 
 const CLOSE_KEYS = ["Escape", "Enter"];
 
 interface Props {
 	stats: GameStats;
 	gameMode: GameMode | null;
-	isMuted: boolean;
-	onMuteToggle: () => void;
 }
 
-export default function Header({
-	stats,
-	gameMode,
-	isMuted,
-	onMuteToggle,
-}: Props) {
+export default function Header({ stats, gameMode }: Props) {
 	const isHome = useLocation().pathname === "/";
 	const [showRules, setShowRules] = useState(false);
 	const [showStats, setShowStats] = useState(false);
@@ -165,11 +157,6 @@ export default function Header({
 							</text>
 						</svg>
 					</button>
-					<MuteButton
-						isMuted={isMuted}
-						onToggle={onMuteToggle}
-						className={styles.toolbarBtn}
-					/>
 				</nav>
 			)}
 			{showStats && (

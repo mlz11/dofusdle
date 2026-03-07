@@ -9,6 +9,8 @@ import ErrorBoundary from "./ErrorBoundary";
 import Footer from "./Footer";
 import Header from "./Header";
 import HomePage from "./HomePage";
+import MuteButton from "./MuteButton";
+import muteStyles from "./MuteButton.module.css";
 import SilhouetteGame from "./Silhouette/Game";
 
 function FallbackUI() {
@@ -79,18 +81,18 @@ function AppContent() {
 
 	return (
 		<div className={styles.app}>
+			<MuteButton
+				isMuted={isMuted}
+				onToggle={onMuteToggle}
+				className={muteStyles.floatingBtn}
+			/>
 			<Header
 				stats={activeMode ? statsByMode[activeMode] : statsByMode.classique}
 				gameMode={activeMode}
-				isMuted={isMuted}
-				onMuteToggle={onMuteToggle}
 			/>
 			<main>
 				<Routes>
-					<Route
-						path="/"
-						element={<HomePage isMuted={isMuted} onMuteToggle={onMuteToggle} />}
-					/>
+					<Route path="/" element={<HomePage />} />
 					<Route
 						path="/classique"
 						element={

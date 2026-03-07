@@ -3,11 +3,9 @@ import "@testing-library/jest-dom/vitest";
 import { cleanup, render, screen, within } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import { MemoryRouter } from "react-router-dom";
-import { afterEach, describe, expect, it, vi } from "vitest";
+import { afterEach, describe, expect, it } from "vitest";
 import type { GameMode, GameStats } from "../../types";
 import Header from "../Header";
-
-const noopToggle = vi.fn();
 
 afterEach(cleanup);
 
@@ -29,12 +27,7 @@ function renderHeader(
 ) {
 	return render(
 		<MemoryRouter initialEntries={[route]}>
-			<Header
-				stats={{ ...defaultStats, ...stats }}
-				gameMode={gameMode}
-				isMuted={false}
-				onMuteToggle={noopToggle}
-			/>
+			<Header stats={{ ...defaultStats, ...stats }} gameMode={gameMode} />
 		</MemoryRouter>,
 	);
 }

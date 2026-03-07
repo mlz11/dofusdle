@@ -2,15 +2,8 @@ import { usePostHog } from "@posthog/react";
 import { Link } from "react-router-dom";
 import { useDocumentMeta } from "../hooks/useDocumentMeta";
 import styles from "./HomePage.module.css";
-import MuteButton from "./MuteButton";
-import muteStyles from "./MuteButton.module.css";
 
-interface Props {
-	isMuted: boolean;
-	onMuteToggle: () => void;
-}
-
-export default function HomePage({ isMuted, onMuteToggle }: Props) {
+export default function HomePage() {
 	const posthog = usePostHog();
 
 	useDocumentMeta({
@@ -22,11 +15,6 @@ export default function HomePage({ isMuted, onMuteToggle }: Props) {
 
 	return (
 		<div className={styles.page}>
-			<MuteButton
-				isMuted={isMuted}
-				onToggle={onMuteToggle}
-				className={muteStyles.floatingBtn}
-			/>
 			<div className={styles.taglineBar}>
 				<p className={styles.tagline}>Choisis ton mode de jeu</p>
 			</div>
