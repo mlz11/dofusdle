@@ -1,6 +1,26 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 
 const STORAGE_KEY = "dofusdle-music-muted";
+const TARGET_VOLUME = 0.05;
+const FADE_DURATION_MS = 2000;
+const FADE_INTERVAL_MS = 50;
+
+function fadeIn(audio: HTMLAudioElement) {
+	const steps = FADE_DURATION_MS / FADE_INTERVAL_MS;
+	const increment = TARGET_VOLUME / steps;
+	audio.volume = 0;
+	let current = 0;
+	const interval = setInterval(() => {
+		current += increment;
+		if (current >= TARGET_VOLUME) {
+			audio.volume = TARGET_VOLUME;
+			clearInterval(interval);
+		} else {
+			audio.volume = current;
+		}
+	}, FADE_INTERVAL_MS);
+	return interval;
+}
 
 function capturePlayError(error: unknown) {
 	if (error instanceof DOMException && error.name === "NotAllowedError") return;
@@ -13,7 +33,32 @@ function capturePlayError(error: unknown) {
 
 export function useMusic() {
 	const audioRef = useRef<HTMLAudioElement | null>(null);
+	const fadeIntervalRef = useRef<ReturnType<typeof setInterval> | null>(null);
 	const [isMuted, setIsMuted] = useState(false);
+
+	const stopFade = useCallback(() => {
+		if (fadeIntervalRef.current !== null) {
+			clearInterval(fadeIntervalRef.current);
+			fadeIntervalRef.current = null;
+		}
+	}, []);
+
+	const playWithFade = useCallback(
+		(audio: HTMLAudioElement) => {
+			stopFade();
+			fadeIntervalRef.current = fadeIn(audio);
+			return audio.play().catch(capturePlayError);
+		},
+		[stopFade],
+	);
+
+	const pauseWithStop = useCallback(
+		(audio: HTMLAudioElement) => {
+			stopFade();
+			audio.pause();
+		},
+		[stopFade],
+	);
 
 	useEffect(() => {
 		const muted = localStorage.getItem(STORAGE_KEY) === "true";
@@ -21,7 +66,7 @@ export function useMusic() {
 
 		const audio = new Audio("/audio/theme.mp3");
 		audio.loop = true;
-		audio.volume = 0.05;
+		audio.volume = 0;
 		audioRef.current = audio;
 		let wasPlayingBeforeBlur = false;
 
@@ -30,13 +75,13 @@ export function useMusic() {
 		};
 
 		if (!muted) {
-			audio.play().then(removeClickListener).catch(capturePlayError);
+			playWithFade(audio).then(removeClickListener);
 		}
 
 		const handleClick = () => {
 			if (!audio.paused || audioRef.current !== audio) return;
 			if (localStorage.getItem(STORAGE_KEY) !== "true") {
-				audio.play().catch(capturePlayError);
+				playWithFade(audio);
 			}
 			removeClickListener();
 		};
@@ -45,14 +90,14 @@ export function useMusic() {
 		const handleFocusLoss = () => {
 			if (audio.paused) return;
 			wasPlayingBeforeBlur = true;
-			audio.pause();
+			pauseWithStop(audio);
 		};
 
 		const handleFocusGain = () => {
 			if (!wasPlayingBeforeBlur) return;
 			wasPlayingBeforeBlur = false;
 			if (localStorage.getItem(STORAGE_KEY) !== "true") {
-				audio.play().catch(capturePlayError);
+				playWithFade(audio);
 			}
 		};
 
@@ -66,14 +111,14 @@ export function useMusic() {
 		window.addEventListener("focus", handleFocusGain);
 
 		return () => {
-			audio.pause();
+			pauseWithStop(audio);
 			audioRef.current = null;
 			removeClickListener();
 			document.removeEventListener("visibilitychange", handleVisibilityChange);
 			window.removeEventListener("blur", handleFocusLoss);
 			window.removeEventListener("focus", handleFocusGain);
 		};
-	}, []);
+	}, [playWithFade, pauseWithStop]);
 
 	const toggle = useCallback(() => {
 		setIsMuted((prev) => {
@@ -82,14 +127,14 @@ export function useMusic() {
 			const audio = audioRef.current;
 			if (audio) {
 				if (next) {
-					audio.pause();
+					pauseWithStop(audio);
 				} else {
-					audio.play().catch(capturePlayError);
+					playWithFade(audio);
 				}
 			}
 			return next;
 		});
-	}, []);
+	}, [playWithFade, pauseWithStop]);
 
 	return { isMuted, toggle };
 }
