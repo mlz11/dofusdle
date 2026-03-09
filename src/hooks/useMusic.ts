@@ -23,7 +23,7 @@ function fadeIn(audio: HTMLAudioElement) {
 }
 
 function capturePlayError(error: unknown) {
-	if (error instanceof DOMException && error.name === "NotAllowedError") return;
+	if (error instanceof DOMException && (error.name === "NotAllowedError" || error.name === "AbortError")) return;
 	import("@sentry/react").then((Sentry) => {
 		Sentry.captureException(error, {
 			tags: { feature: "theme-music" },
